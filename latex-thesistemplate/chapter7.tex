@@ -1,0 +1,51 @@
+% chap7.tex (Bogus chapter)
+
+\chapter{Extra Chapter}
+
+This is an extra chapter added into Patrick's thesis to illustrate
+the use of figures and tables and the inclusion of a pdf file.
+
+First the tables are shown as Table~\ref{smalltable} and
+Table~\ref{smalltable2}. Then the
+figure is shown in Figure~\ref{autom}.
+
+\begin{table}
+\begin{center}
+\caption[A long caption]{A long caption.
+In this table example, we have a very
+long caption that does not fit on one line. The text of the
+caption should line up on the left. The text inside the square
+brackets will be included in the List of Tables.}
+\label{smalltable}
+\vspace{0.2in}
+\begin{tabular}{|c|c|c|}\hline
+2 & 3 & 300 \\ \hline
+3 & 4 & 400 \\ \hline
+4 & 5 & 500 \\ \hline
+5 & 6 & 600 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}
+\begin{center}
+\caption{Example of a table}
+\label{smalltable2}
+\vspace{0.2in}
+\begin{tabular}{|c|c|c|}\hline
+2 & 3 & 300 \\ \hline
+3 & 4 & 400 \\ \hline
+4 & 5 & 500 \\ \hline
+5 & 6 & 600 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{figure}
+\begin{center}
+\resizebox{\textwidth}{!}
+  {\includegraphics{automin1.pdf}}
+\end{center}
+\caption{A simple finite automaton}
+\label{autom}
+\end{figure}
