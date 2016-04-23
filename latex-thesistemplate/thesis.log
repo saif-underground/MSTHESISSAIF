@@ -1,0 +1,157 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  23 APR 2016 17:36
+entering extended mode
+**C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
+(C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9n> and hyphenation patterns for 69 languages loaded.
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\base\report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\base\size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(utepcsthesis.sty
+\c@definition=\count88
+\c@theorem=\count89
+\c@corollary=\count90
+)
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\graphics\graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(C:\Users\Saif\Desktop\software\miktex\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(C:\Users\Saif\Desktop\software\miktex\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
+))
+(thesis.aux (null.aux) (chapter3.aux) (ref.aux))
+\openout1 = `thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+
+(C:\Users\Saif\Desktop\software\miktex\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count92
+\scratchdimen=\dimen103
+\scratchbox=\box26
+\nofMPsegments=\count93
+\nofMParguments=\count94
+\everyMPshowfont=\toks14
+\MPscratchCnt=\count95
+\MPscratchDim=\dimen104
+\MPnumerator=\count96
+\makeMPintoPDFobject=\count97
+\everyMPtoPDFconversion=\toks15
+)
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 49.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 49.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 49.
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+
+ []
+
+[1
+
+{C:/Users/Saif/Desktop/software/miktex/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 53.
+
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\base\omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 53.
+ [2] [3]
+\openout2 = `null.aux'.
+
+
+(C:\Users\Saif\Desktop\software\miktex\tex\generic\misc\null.tex)
+\openout2 = `chapter3.aux'.
+
+ (chapter3.tex
+Chapter 1.
+) [1
+
+
+
+
+]
+\openout2 = `ref.aux'.
+
+ (ref.tex) [2
+
+
+
+] [3] (thesis.aux (null.aux) (chapter3.aux) (ref.aux)) ) 
+Here is how much of TeX's memory you used:
+ 1164 strings out of 493634
+ 15224 string characters out of 3139732
+ 74179 words of memory out of 3000000
+ 4571 multiletter control sequences out of 15000+200000
+ 7329 words of font info for 26 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 22i,5n,19p,1246b,153s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Saif/Desktop/
+software/miktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Saif/Deskto
+p/software/miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Saif/Deskt
+op/software/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Saif/Des
+ktop/software/miktex/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on thesis.pdf (6 pages, 66221 bytes).
+PDF statistics:
+ 37 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
