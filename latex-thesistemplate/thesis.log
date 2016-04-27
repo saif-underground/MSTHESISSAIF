@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  23 APR 2016 17:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  27 APR 2016 05:40
 entering extended mode
 **C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
 (C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
@@ -49,7 +49,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count91
 ))
-(thesis.aux (null.aux) (chapter3.aux) (ref.aux))
+(thesis.aux (null.aux) (chapter3.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -123,33 +123,41 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 
  (chapter3.tex
 Chapter 1.
-) [1
+[1
 
 
 
 
 ]
-\openout2 = `ref.aux'.
 
- (ref.tex) [2
-
+LaTeX Warning: Citation `chen2004load' on page 2 undefined on input line 24.
 
 
-] [3] (thesis.aux (null.aux) (chapter3.aux) (ref.aux)) ) 
+LaTeX Warning: Citation `hart2004weather' on page 2 undefined on input line 24.
+
+
+) [2] (thesis.bbl) [3
+
+
+] (thesis.aux (null.aux) (chapter3.aux))
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1164 strings out of 493634
- 15224 string characters out of 3139732
- 74179 words of memory out of 3000000
- 4571 multiletter control sequences out of 15000+200000
- 7329 words of font info for 26 fonts, out of 3000000 for 9000
+ 1145 strings out of 493634
+ 15036 string characters out of 3139732
+ 72794 words of memory out of 3000000
+ 4555 multiletter control sequences out of 15000+200000
+ 7636 words of font info for 27 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 22i,5n,19p,1246b,153s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Saif/Desktop/
-software/miktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Saif/Deskto
-p/software/miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Saif/Deskt
-op/software/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Saif/Des
-ktop/software/miktex/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (6 pages, 66221 bytes).
+ 22i,5n,23p,1669b,153s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmbx12.
+pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmr12
+.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cm
+ti12.pfb>
+Output written on thesis.pdf (6 pages, 64578 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
