@@ -1,5 +1,11 @@
 \begin{thebibliography}{1}
 
+\bibitem{chen2004load}
+Bo-Juen Chen, Ming-Wei Chang, and Chih-Jen Lin.
+\newblock Load forecasting using support vector machines: A study on eunite
+  competition 2001.
+\newblock {\em Power Systems, IEEE Transactions on}, 19(4):1821--1830, 2004.
+
 \bibitem{cho1995customer}
 MY~Cho, JC~Hwang, and CS~Chen.
 \newblock Customer short term load forecasting by using arima transfer function
@@ -7,5 +13,22 @@ MY~Cho, JC~Hwang, and CS~Chen.
 \newblock In {\em Energy Management and Power Delivery, 1995. Proceedings of
   EMPD'95., 1995 International Conference on}, volume~1, pages 317--322. IEEE,
   1995.
+
+\bibitem{hart2004weather}
+Melissa Hart and Richard de~Dear.
+\newblock Weather sensitivity in household appliance energy end-use.
+\newblock {\em Energy and Buildings}, 36(2):161--174, 2004.
+
+\bibitem{hsu2003regional}
+Che-Chiang Hsu and Chia-Yon Chen.
+\newblock Regional load forecasting in taiwan----applications of artificial
+  neural networks.
+\newblock {\em Energy conversion and Management}, 44(12):1941--1949, 2003.
+
+\bibitem{mcloughlin2015clustering}
+Fintan McLoughlin, Aidan Duffy, and Michael Conlon.
+\newblock A clustering approach to domestic electricity load profile
+  characterisation using smart metering data.
+\newblock {\em Applied energy}, 141:190--199, 2015.
 
 \end{thebibliography}

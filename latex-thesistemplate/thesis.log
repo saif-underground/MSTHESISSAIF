@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  27 APR 2016 05:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  28 APR 2016 07:13
 entering extended mode
 **C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
 (C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
@@ -128,36 +128,30 @@ Chapter 1.
 
 
 
-]
+]) [2] (thesis.bbl
+Underfull \hbox (badness 1163) in paragraph at lines 23--27
+[]\OT1/cmr/m/n/12 Che-Chiang Hsu and Chia-Yon Chen.  Re-gional load fore-cast-i
+ng in taiwan----
+ []
 
-LaTeX Warning: Citation `chen2004load' on page 2 undefined on input line 24.
-
-
-LaTeX Warning: Citation `hart2004weather' on page 2 undefined on input line 24.
-
-
-) [2] (thesis.bbl) [3
+) [3
 
 
-] (thesis.aux (null.aux) (chapter3.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
+] (thesis.aux (null.aux) (chapter3.aux)) ) 
 Here is how much of TeX's memory you used:
- 1145 strings out of 493634
- 15036 string characters out of 3139732
- 72794 words of memory out of 3000000
- 4555 multiletter control sequences out of 15000+200000
- 7636 words of font info for 27 fonts, out of 3000000 for 9000
+ 1146 strings out of 493634
+ 15064 string characters out of 3139732
+ 73806 words of memory out of 3000000
+ 4556 multiletter control sequences out of 15000+200000
+ 7329 words of font info for 26 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 22i,5n,23p,1669b,153s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmbx12.
-pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmr12
-.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cm
-ti12.pfb>
-Output written on thesis.pdf (6 pages, 64578 bytes).
+ 22i,5n,19p,1669b,153s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Saif/Desktop/software/mikte
+x/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Saif/Desktop/software/mik
+tex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Saif/Desktop/software/mi
+ktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Saif/Desktop/software/
+miktex/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on thesis.pdf (6 pages, 66499 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

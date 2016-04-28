@@ -6,10 +6,11 @@
 
 In this chapter I will describe what other works has so far been done to predict customer's future energy demand.
 
-Predicting customer's energy demand is important becasue failure to predict the demand accurately can cause monetary and environmental loss. 
+%motivation for good prediction
+Predicting customer's energy demand is important becasue failure to predict the demand accurately can cause monetary and environmental loss. Customer's with shifting load can use the energy produced by the renewable energy. Those customers can shift their load to a time where there is a high probablity of renewable energy production.
 
-For a single customer's energy demand prediction, some work  have been done. Several machine learning algorithms have been applied to predict the future demand and to figure out which attributes have the most predictive power. In thid methodology if we are to make prediciton about n customers, we will have to have n different type of models which may be infeasible for a large value of n. But they don't tell what happens if there are different types of customers instead of a single type customer. Some works on demand prediction based on the aggreagated population of an area has been done. In a wide area my types of customers may reside and their power demand may vary widely. This method fails to fine grain the customer according to their behavior. Some researchers have used prediction as a mean to cluster customer based on their energy usage behavior. The uses a long history of the customer's energy usage and try to cluster customers based on the huge amount of dimensions. As we know using a lot of dimensions or attributes in machine learning may lead to to curse of dimensionality problem. Which is undesirable.
-
+%Why are we using the powerTAC
+Acting directly on the real environment can be risky. The powerTAC simulation system gives a low risk platform where the researcher's can build and test their works before deploying to real world. 
 
 %types of load forecasting
 There are different types of load forecasting namely short term load forecasting and long term load forecasting. Short term load forecasting deals with forecasting the customer's demand has the range of time couple of weeks. Long term load forecasting may forecast customer's demand over month or year \cite{cho1995customer}.
@@ -23,11 +24,10 @@ The ARIMA model uses both moving average and auto regression to forecast the dem
 %talk about influence of temperature
 Intuitively weather variables such as temperature seem to have some effect on how much energy people use. Researchers have found that weather effect relies on the time duration the training data has. \cite{chen2004load} trained a SVM energy demand predictor that would predict energy demand of customers for the month January. The training data consited of every half hour's electricity demand from 1997 to 1998, average temperature from 1995 to 1998. They trained the predictor with only the portion of data that are related to the month January. They have found that within the month of January the temperature does not vary much and excluding the temperature from the feature set actually gives better prediction. Again, if energy demand is long term which means the window of prediciton is about a year, the temperature seems to have effect on the energy demand of the customers. \cite{hart2004weather} collected data of 18 months from households of a region of Australia. They collected the weather data from weather office and from self transplanted devices. They observed how the household customers use appliances based on the temperature. They came into conclusion that for that region, equilibrium point for energy is usage at temperature 0.25 degree celcius. If the temperature increases or decreases from this temperature, the electricity usage increases. They explained the behavior by stating as the temperature decreases, houses customers tend to use heaters and if the temperature rises they tend to use coolers more.
 
- //
+%talk about regional load forecasting
+Regional load forecasting will enable us to know which regions need more energy. If we know which regions need more energy, we will know most suitable places to place electricity generator plants. \cite{hsu2003regional} worked on load forecasting based on region. They diivided electricity usage of Taiwan in 4 areas. For each region, they collected GDP,  population, highest temperature and aggregated load. After that, they trained Artificial Neural Network model for each region. For baseline, they trained linear regression model for each region. The result showed that, the ANN based load forecasting methods performed better than the linear regression  methods. 
 
+%talk about clustering for load forecasting
+\cite{mcloughlin2015clustering} have used clustering method to forecast customer's future electricity demand. They collected data from more than 4000 household customers in Ireland for about 6 months. Collected data included electrecticity usage at 30 minutes interval, appliances used in the home and different socio-economic information about the people living in a particular house. They clustered each days usage which they call load profiles. A customer's daily usage then can be assigned to one of those load profiles. The customer is then charactersized by the the mostly used load profile. The authors then train a linear regression classifier that was built upon the socio-economic information of a the customers, types of appliances used in the house and the description of the house to figure out the common load profile of the given household. The predicted load profile of the customer received from the linear regression model will be used to predict the demand of the customer for a given day.
+ 
 
-% talk about some motivation
-Customer's with shifting load can use the energy produced by the renewable energy. Those customers can shift their load to a time where there is a high probablity of renewable energy production. 
-
-%Why are we using the powerTAC
-Acting directly on the real environment can be risky. The powerTAC simulation system gives a low risk platform where the researcher's can build and test their works before deploying to real world. 
