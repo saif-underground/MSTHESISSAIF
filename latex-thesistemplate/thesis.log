@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  28 APR 2016 07:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  7 MAY 2016 11:11
 entering extended mode
 **C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
 (C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
@@ -49,7 +49,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count91
 ))
-(thesis.aux (null.aux) (chapter3.aux))
+(thesis.aux (null.aux) (chapter2.aux) (chapter3.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -119,41 +119,53 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 
 
 (C:\Users\Saif\Desktop\software\miktex\tex\generic\misc\null.tex)
-\openout2 = `chapter3.aux'.
+\openout2 = `chapter2.aux'.
 
- (chapter3.tex
+ (chapter2.tex
 Chapter 1.
+
+Overfull \hbox (1.70813pt too wide) in paragraph at lines 7--7
+[]\OT1/cmr/bx/n/17.28 Traditional En-ergy Dis-tri-bu-tion and Con-sump-tion
+ []
+
 [1
 
 
 
 
-]) [2] (thesis.bbl
-Underfull \hbox (badness 1163) in paragraph at lines 23--27
-[]\OT1/cmr/m/n/12 Che-Chiang Hsu and Chia-Yon Chen.  Re-gional load fore-cast-i
-ng in taiwan----
- []
+]) [2]
+\openout2 = `chapter3.aux'.
 
-) [3
+ (chapter3.tex
+Chapter 2.
+[3
 
 
-] (thesis.aux (null.aux) (chapter3.aux)) ) 
+
+]) [4] (thesis.bbl
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ” in font cmr12!
+) [5
+
+
+] (thesis.aux (null.aux) (chapter2.aux) (chapter3.aux)) ) 
 Here is how much of TeX's memory you used:
- 1146 strings out of 493634
- 15064 string characters out of 3139732
- 73806 words of memory out of 3000000
- 4556 multiletter control sequences out of 15000+200000
- 7329 words of font info for 26 fonts, out of 3000000 for 9000
+ 1161 strings out of 493634
+ 15297 string characters out of 3139732
+ 74118 words of memory out of 3000000
+ 4564 multiletter control sequences out of 15000+200000
+ 7935 words of font info for 28 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  22i,5n,19p,1669b,153s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Saif/Desktop/software/mikte
-x/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Saif/Desktop/software/mik
-tex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Saif/Desktop/software/mi
-ktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Saif/Desktop/software/
-miktex/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (6 pages, 66499 bytes).
+<C:/Users/Saif/Desktop
+/software/miktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Saif/Deskt
+op/software/miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Saif/Desk
+top/software/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Saif/De
+sktop/software/miktex/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on thesis.pdf (8 pages, 78715 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
+ 45 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

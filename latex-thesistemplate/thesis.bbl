@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{chen2004load}
 Bo-Juen Chen, Ming-Wei Chang, and Chih-Jen Lin.
@@ -14,6 +14,12 @@ MY~Cho, JC~Hwang, and CS~Chen.
   EMPD'95., 1995 International Conference on}, volume~1, pages 317--322. IEEE,
   1995.
 
+\bibitem{fang2012smart}
+Xi~Fang, Satyajayant Misra, Guoliang Xue, and Dejun Yang.
+\newblock Smart grid—the new and improved power grid: A survey.
+\newblock {\em Communications Surveys \& Tutorials, IEEE}, 14(4):944--980,
+  2012.
+
 \bibitem{hart2004weather}
 Melissa Hart and Richard de~Dear.
 \newblock Weather sensitivity in household appliance energy end-use.
@@ -25,10 +31,39 @@ Che-Chiang Hsu and Chia-Yon Chen.
   neural networks.
 \newblock {\em Energy conversion and Management}, 44(12):1941--1949, 2003.
 
+\bibitem{lampropoulos2010methodology}
+Ioannis Lampropoulos, Greet Vanalme, and Wil~L Kling.
+\newblock A methodology for modeling the behavior of electricity prosumers
+  within the smart grid.
+\newblock In {\em Innovative Smart Grid Technologies Conference Europe (ISGT
+  Europe), 2010 IEEE PES}, pages 1--8. IEEE, 2010.
+
+\bibitem{liu2006accurate}
+Fang Liu, Qiang Song, and Raymond~D Findlay.
+\newblock Accurate 24-hour-ahead load forecasting using similar hourly loads.
+\newblock In {\em Computational Intelligence for Modelling, Control and
+  Automation, 2006 and International Conference on Intelligent Agents, Web
+  Technologies and Internet Commerce, International Conference on}, pages
+  249--249. IEEE, 2006.
+
 \bibitem{mcloughlin2015clustering}
 Fintan McLoughlin, Aidan Duffy, and Michael Conlon.
 \newblock A clustering approach to domestic electricity load profile
   characterisation using smart metering data.
 \newblock {\em Applied energy}, 141:190--199, 2015.
+
+\bibitem{potter2009building}
+Cameron~W Potter, Allison Archambault, and Kenneth Westrick.
+\newblock Building a smarter smart grid through better renewable energy
+  information.
+\newblock In {\em Power Systems Conference and Exposition, 2009. PSCE'09.
+  IEEE/PES}, pages 1--5. IEEE, 2009.
+
+\bibitem{richter2012transitioning}
+Andre Richter, Erwin van~der Laan, Wolfgang Ketter, and Konstantina Valogianni.
+\newblock Transitioning from the traditional to the smart grid: Lessons learned
+  from closed-loop supply chains.
+\newblock In {\em Smart Grid Technology, Economics and Policies (SG-TEP), 2012
+  International Conference on}, pages 1--7. IEEE, 2012.
 
 \end{thebibliography}
