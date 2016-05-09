@@ -52,12 +52,24 @@ Fintan McLoughlin, Aidan Duffy, and Michael Conlon.
   characterisation using smart metering data.
 \newblock {\em Applied energy}, 141:190--199, 2015.
 
+\bibitem{parra2013initial}
+Jaime Parra~Jr and Christopher Kiekintveld.
+\newblock Initial exploration of machine learning to predict customer demand in
+  an energy market simulation.
+\newblock In {\em Workshops at the Twenty-Seventh AAAI Conference on Artificial
+  Intelligence}, 2013.
+
 \bibitem{potter2009building}
 Cameron~W Potter, Allison Archambault, and Kenneth Westrick.
 \newblock Building a smarter smart grid through better renewable energy
   information.
 \newblock In {\em Power Systems Conference and Exposition, 2009. PSCE'09.
   IEEE/PES}, pages 1--5. IEEE, 2009.
+
+\bibitem{rahman1988expert}
+Saifur Rahman and Rahul Bhatnagar.
+\newblock An expert system based algorithm for short term load forecast.
+\newblock {\em Power Systems, IEEE Transactions on}, 3(2):392--399, 1988.
 
 \bibitem{richter2012transitioning}
 Andre Richter, Erwin van~der Laan, Wolfgang Ketter, and Konstantina Valogianni.
