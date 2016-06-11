@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{al2004short}
+HM~Al-Hamadi and SA~Soliman.
+\newblock Short-term electric load forecasting based on kalman filtering
+  algorithm with moving window weather and load model.
+\newblock {\em Electric power systems research}, 68(1):47--59, 2004.
+
 \bibitem{chen2004load}
 Bo-Juen Chen, Ming-Wei Chang, and Chih-Jen Lin.
 \newblock Load forecasting using support vector machines: A study on eunite
@@ -83,5 +89,12 @@ Andre Richter, Erwin van~der Laan, Wolfgang Ketter, and Konstantina Valogianni.
   from closed-loop supply chains.
 \newblock In {\em Smart Grid Technology, Economics and Policies (SG-TEP), 2012
   International Conference on}, pages 1--7. IEEE, 2012.
+
+\bibitem{wang2015gongbroker}
+Xishun Wang, Minjie Zhang, Fenghui Ren, and Takayuki Ito.
+\newblock Gongbroker: A broker model for power trading in smart grid markets.
+\newblock In {\em 2015 IEEE/WIC/ACM International Conference on Web
+  Intelligence and Intelligent Agent Technology (WI-IAT)}, volume~2, pages
+  21--24. IEEE, 2015.
 
 \end{thebibliography}

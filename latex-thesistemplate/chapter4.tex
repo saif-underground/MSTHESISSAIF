@@ -1,120 +1,111 @@
-% chap4.tex (Definitions and Theorem)
+% chap4.tex (Customer Description)
 
-\chapter{Solving Most Narrow-Interval Linear Systems Is Easy: Known
-Result} \label{MostNarrowEasy}
+\chapter{Customer Description} 
 
-In this chapter we will define what we mean by {\em narrow intervals\/} and
-present a positive result concerning systems of interval linear equations
-having such narrow intervals.  This result was first discovered by Lakeyev
-and Kreinovich in the mid 1990's.
+In this chapter I will describe the customers present in the PowerTAC simulation system, some statistics about them and their attributes.
 
-\section{Definitions}
+\section{Customers}
 
-\begin{definition}
-{\rm We say that the number $\tilde x$ represents a number $x$ with
-{\em absolute accuracy\/} $\Delta>0$ if $|x-\tilde x|\leq\Delta$.}
-\end{definition}
+In PowerTAC simulation system the customers are the entities that buys and sells energy. A customer subscribes to one of the tariffs of the brokers and it pays or sells energy according the tariff plan. A customer can represent a population size of one to several thousands. For example, customers that represent a Electric Vehicle represent only one person and the customers that represent a village usually have several thousand population. In PowerTAC environment there are 168 customers.
 
-\begin{definition}
-{\rm By {\em absolute half-width\/} of the interval ${\bf x}=[x^-,x^+]$, we
-mean the smallest number $\Delta>0$ for which every number in ${\bf x}$ is
-represented with an absolute accuracy~$\Delta$ by $\tilde x=\displaystyle{
-\frac{x^-+x^+}{2}}$.\\[0.5pc]
-{\bf Proposition} It can be seen that the absolute half-width of ${\bf x}$ is
-$$
-  \max_{x\in [x^-,x^+]} |x-\tilde x| = \frac{x^+-x^-}{2}.
-$$}
-\end{definition}
+\section {PowerTypes}
+A customer can have among powertype among some possibility. Powertype determines the behaviour of the customers. A customer that has powertype related to production produces energy. A customer that has a power type related to energy consumption usually consumes energy. In the following subsections I describe powertypes of the customer.
 
-\begin{definition}
-{\rm By {\em absolute width\/} $W$ of an interval ${\bf x}=[x^-,x^+]$, we mean
-twice the absolute half-width of ${\bf x}$, i.e.,
-$$
-  W([x^-,x^+])=x^+-x^-.
-$$}
-\end{definition}
+\subsection{consumption}
 
-\begin{definition}
-{\rm We say that an interval ${\bf x}$ is {\em $\Delta$-narrow in the sense
-of absolute accuracy\/} if $W({\bf x})\leq\Delta$.}
-\end{definition}
+A customer with powertype consumption are the most common customers. They use the energy when they need it. They cannot shift their demand to a future timeslot. Usually they have a regular pattern in their energy usage. Usually they show similar pattern for weekdays. They have similar kind of usage pattern for the weekends. 
 
-\begin{definition}
-{\rm Let $\varepsilon>0$ be a real number, let $D\subseteq R^N$ be a closed
-and bounded set of positive $N$-dimension volume $V(D)>0$, and let
-$P(x)$ be a property that is true for some points $x\in D$.  We say that $P(x)$
-is true for {\em $(D,\varepsilon)$-almost all\/} $x$ if}
-$$
-  \frac{V(\{x\in D|\neg P(x)\})}{V(D)}\leq \varepsilon.
-$$
-\end{definition}
+The figure  \ref{fig:2daysbrook} shows 2 days electricity usage of the BrookSideHomes customer. The pattern shows in a day, around at 10 am there is a growing need for electricity. During night after 10 pm the electricity consumption starts decreasing.
+\begin{figure}[h!]
+  \includegraphics[width=\linewidth]{BrooksideHomes-2days.png}
+  \caption{Two days energy usage for the customer Brooksidehomes.}
+  \label{fig:2daysbrook}
+\end{figure}
 
-\begin{definition}
-{\rm Let $\eta>0$ be a real number.  We say that intervals
-$$
-  [r_1-d_1,r_1+d_1],\ldots,[r_n-d_n,r_n+d_n]
-$$
-are {$\eta$-close} to intervals
-$$
-  [\tilde x_1-\Delta_1,\tilde x_1+\Delta_1],\ldots,[\tilde x_n-\Delta_n,
-   \tilde x_n+\Delta_n]
-$$
-if $|r_i-\tilde x_i|\leq\eta$ and 
-$|d_i-\Delta_i|\leq\eta$ for all $i$.}
-\end{definition}
+The figure \ref{fig:2weekOffice} shows two weeks consumption of the downtown customer. The customer shows similar pattern for all weekdays. It also distinguishable energy usage during the weekends.
 
-\begin{definition}
-{\rm Let $\cal U$ be an algorithm that solves some systems of interval linear
-equations, and let $\eta>0$ be a real number.  We say that an algorithm 
-$\cal U$ is {\em $\eta$-exact\/} for the interval matrices ${\bf a}_{ij}$ and
-${\bf b}_i$ if for every interval matrix ${\bf a}_{ij}^\prime$ and 
-${\bf b}_i^\prime$ that are $\eta$-close to ${\bf a}_{ij}$ and ${\bf b}_i$,
-the algorithm $\cal U$ returns the exact solution to the system}
-$$
-  \sum_{j=1}^n {\bf a}_{ij}^\prime x_j = {\bf b}_i^\prime.
-$$
-\end{definition}
+\begin{figure}[h!]
+  \includegraphics[width=\linewidth]{downtown-offc-2-weeks.png}
+  \caption{Two weeks energys usage of the downtown office customer.}
+  \label{fig:2weekOffice}
+\end{figure}
 
-\begin{definition}
-{\rm We say that an algorithm $\cal U$ is {\em almost always exact for narrow 
-input intervals\/} if for every closed and bounded set $D\subseteq R^N
-(N=n\cdot m+n)$ there exist $\varepsilon>0$, $\Delta>0$ and $\eta>0$ such
-that, for $(D,\varepsilon)$-almost all $\tilde a_{ij}$ and $\tilde b_i$, if
-all input intervals ${\bf a}_{ij}$ and ${\bf b}_i$
-(containing $\tilde a_{ij}$ and $\tilde b_i$ respectively)
-are $\Delta$-narrow (in the sense of absolute accuracy), then the
-algorithm $\cal U$ is $\eta$-exact for ${\bf a}_{ij}$ and ${\bf b}_i$.}
-\end{definition}
+\subsection{Interruptible Consumption}
+Interruptible customers are smart enough to shift their energy demand in a timeslot where they can buy electricity in a reduced price. Because of this shifting capability, they don't show the regular usage pattern as the consumption customers do. Figure \ref{fig:2weekOffice} shows a controlloable customer's 2 days usage.
 
-\section{Theorem}
+\begin{figure}[h!]
+  \includegraphics[width=\linewidth]{village2nsControllable.png}
+  \caption{Two days energys usage of the village 2 ns controllable customer.}
+  \label{fig:2weekOffice}
+\end{figure}
 
-\begin{theorem} \label{almost-all-theorem}
-There exists a feasible (polynomial-time) algorithm $\cal U$ that is almost 
-always exact for narrow input intervals.
-\end{theorem}
+\subsection{Thermal Storage}
+Thermal storage customers shows weekly pattern in their energy usage. Their energy usage in a day depends very much on the energy they used in the last timeslot. Figure \ref{fig:day-thermal} and \ref{fig:thermal-week} shows a day and two week's energy usage of the thermal storage customer sf2.
 
-\medskip
+\begin{figure}[h!]
+  \includegraphics[width=\linewidth]{sf2-thermal-daily.png}
+  \caption{A day's energys usage of the sf2 thermal storage customer.}
+  \label{fig:day-thermal}
+\end{figure}
 
-\noindent
-This theorem was proven in 1995 by Lakeyev and Kreinovich
-(see~\cite{Lakeyev1995}).
+\begin{figure}[h!]
+  \includegraphics[width=\linewidth]{sf2-thermal-week.png}
+  \caption{Two week's energys usage of the sf2 thermal storage customer.}
+  \label{fig:thermal-week}
+\end{figure}
 
-\section{Open Problem}
-Theorem \ref{almost-all-theorem} says that we can have a feasible algorithm 
-that solves {\em almost all\/} narrow-interval linear equation systems, but 
-it does not say whether we can solve {\em all\/} of them in reasonable time.  
-Thus, there still remains an open question:
+sf2-thermal-week
 
-\begin{quote}
-{\it Can a feasible algorithm be developed for the general problem of
-solving systems of linear equations with narrow-interval coefficients?}
-\end{quote}
+\subsection{Solar Production}
+Figure \ref{fig:solar-twoday} shows two day's and  figure \ref{{fig:solar-oneweek}} shows a week's energy produciton of the Solar Production customer of the customer SunnyHill solar production customer.
 
-\noindent
-The answer to this open question is the main concern of this thesis.
+\begin{figure}[h!]
+  \includegraphics[width=\linewidth]{sunnyhill-twoday.png}
+  \caption{Two days energys usage of the SunnyHill solar production.}
+  \label{fig:solar-twoday}
+\end{figure}
 
-We will show that the problem of solving all narrow-interval linear equation
-systems is NP-hard; moreover, we will show that the problem is NP-hard not
-only for intervals that are narrow in the sense of absolute accuracy, but
-also in the sense of relative accuracy.
+
+\begin{figure}[h!]
+  \includegraphics[width=\linewidth]{sunnyhill-oneweek.png}
+  \caption{One week's energys usage of the SunnyHill solar production.}
+  \label{fig:solar-oneweek}
+\end{figure}
+
+\subsection{Wind Production}
+
+\subsection {Electric Vehicle}
+
+
+\section{Statistics}
+In this section I present some statistics on the customers available in the system. 
+
+\subsection {Customer Vs PowerType}
+
+In the figure \ref{fig:cust-pt} we can see the system has more customer with the power type electric vehicle than any other powertypes. This is because, the electric vehicle represents a population of size 1.
+
+\begin{figure}[h!]
+  \includegraphics[width=\linewidth]{4-customer-vs-powertype.jpg}
+  \caption{Number of customers vs Powertype.}
+  \label{fig:cust-pt}
+\end{figure}
+
+
+\subsection {Population Vs PowerType}
+From figure \ref{fig:pop-pt} by far the powertype of consumption has the most number of people in them.
+\begin{figure}[h!]
+  \includegraphics[width=\linewidth]{2-population-vs-powertype.jpg}
+  \caption{Population vs Powertype}
+  \label{fig:pop-pt}
+\end{figure}
+
+
+\subsection {Total Energy Consumed Vs PowerType}
+From figure \ref{fig:energy-pt} we can see that the consumption type customers uses the most amount of the electricity.
+From figure \ref{fig:energy-pt} 
+\begin{figure}[h!]
+  \includegraphics[width=\linewidth]{3-energy-vs-powertype.png}
+  \caption{Energy vs PowerType.}
+  \label{fig:energy-pt}
+\end{figure}
 

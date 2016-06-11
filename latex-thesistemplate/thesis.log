@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  10 MAY 2016 12:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  10 JUN 2016 22:23
 entering extended mode
 **C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
 (C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
@@ -49,71 +49,84 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count91
 ))
-(thesis.aux (null.aux) (chapter2.aux) (chapter3.aux))
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\graphics\graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(thesis.aux (null.aux) (chapter2.aux) (chapter3.aux) (chapter4.aux
+
+LaTeX Warning: Label `fig:2weekOffice' multiply defined.
+
+))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-
-(C:\Users\Saif\Desktop\software\miktex\tex\context\base\supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+ (C:\Users\Saif\Desktop\software\miktex\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count92
-\scratchdimen=\dimen103
+\scratchdimen=\dimen105
 \scratchbox=\box26
 \nofMPsegments=\count93
 \nofMParguments=\count94
-\everyMPshowfont=\toks14
+\everyMPshowfont=\toks15
 \MPscratchCnt=\count95
-\MPscratchDim=\dimen104
+\MPscratchDim=\dimen106
 \MPnumerator=\count96
 \makeMPintoPDFobject=\count97
-\everyMPtoPDFconversion=\toks15
+\everyMPtoPDFconversion=\toks16
 )
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 49.
+(Font)              <12> on input line 50.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 49.
+(Font)              <8> on input line 50.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 49.
+(Font)              <6> on input line 50.
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 
  []
 
 [1
 
 {C:/Users/Saif/Desktop/software/miktex/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 53.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 54.
 
 (C:\Users\Saif\Desktop\software\miktex\tex\latex\base\omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 53.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 54.
  [2] [3]
 \openout2 = `null.aux'.
 
@@ -142,31 +155,153 @@ Chapter 2.
 
 
 
-] [4]) [5] (thesis.bbl
+] [4] [5]) [6]
+\openout2 = `chapter4.aux'.
+
+ (chapter4.tex
+Chapter 3.
+<BrooksideHomes-2days.png, id=34, 1204.5pt x 1244.65pt>
+File: BrooksideHomes-2days.png Graphic file (type png)
+
+<use BrooksideHomes-2days.png>
+Package pdftex.def Info: BrooksideHomes-2days.png used on input line 20.
+(pdftex.def)             Requested size: 462.52756pt x 477.94777pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<downtown-offc-2-weeks.png, id=36, 1204.5pt x 1244.65pt>
+File: downtown-offc-2-weeks.png Graphic file (type png)
+
+<use downtown-offc-2-weeks.png>
+Package pdftex.def Info: downtown-offc-2-weeks.png used on input line 28.
+(pdftex.def)             Requested size: 462.52756pt x 477.94777pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7
+
+
+
+] <village2nsControllable.png, id=40, 1204.5pt x 1244.65pt>
+File: village2nsControllable.png Graphic file (type png)
+
+<use village2nsControllable.png>
+Package pdftex.def Info: village2nsControllable.png used on input line 37.
+(pdftex.def)             Requested size: 462.52756pt x 477.94777pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<sf2-thermal-daily.png, id=41, 1204.5pt x 1244.65pt>
+File: sf2-thermal-daily.png Graphic file (type png)
+
+<use sf2-thermal-daily.png>
+Package pdftex.def Info: sf2-thermal-daily.png used on input line 46.
+(pdftex.def)             Requested size: 462.52756pt x 477.94777pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<sf2-thermal-week.png, id=42, 1204.5pt x 1244.65pt>
+File: sf2-thermal-week.png Graphic file (type png)
+ <use sf2-thermal-week.png>
+Package pdftex.def Info: sf2-thermal-week.png used on input line 52.
+(pdftex.def)             Requested size: 462.52756pt x 477.94777pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8 <./BrooksideHomes-2days.png>]
+
+LaTeX Warning: Reference `{fig:solar-oneweek}' on page 9 undefined on input lin
+e 60.
+
+<sunnyhill-twoday.png, id=47, 1204.5pt x 1244.65pt>
+File: sunnyhill-twoday.png Graphic file (type png)
+ <use sunnyhill-twoday.png>
+Package pdftex.def Info: sunnyhill-twoday.png used on input line 63.
+(pdftex.def)             Requested size: 462.52756pt x 477.94777pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<sunnyhill-oneweek.png, id=48, 1204.5pt x 1244.65pt>
+File: sunnyhill-oneweek.png Graphic file (type png)
+
+<use sunnyhill-oneweek.png>
+Package pdftex.def Info: sunnyhill-oneweek.png used on input line 70.
+(pdftex.def)             Requested size: 462.52756pt x 477.94777pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[9 <./downtown-offc-2-weeks.png>] [10 <./village2nsControllable.png>]
+<4-customer-vs-powertype.jpg, id=58, 490.83376pt x 304.13625pt>
+File: 4-customer-vs-powertype.jpg Graphic file (type jpg)
+
+<use 4-customer-vs-powertype.jpg>
+Package pdftex.def Info: 4-customer-vs-powertype.jpg used on input line 88.
+(pdftex.def)             Requested size: 462.52756pt x 286.60742pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<2-population-vs-powertype.jpg, id=59, 513.41812pt x 451.6875pt>
+File: 2-population-vs-powertype.jpg Graphic file (type jpg)
+
+<use 2-population-vs-powertype.jpg>
+Package pdftex.def Info: 2-population-vs-powertype.jpg used on input line 97.
+(pdftex.def)             Requested size: 462.52756pt x 406.92162pt.
+ [11 <./sf2-thermal-daily.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<3-energy-vs-powertype.png, id=64, 573.64313pt x 483.30562pt>
+File: 3-energy-vs-powertype.png Graphic file (type png)
+
+<use 3-energy-vs-powertype.png>
+Package pdftex.def Info: 3-energy-vs-powertype.png used on input line 107.
+(pdftex.def)             Requested size: 462.52756pt x 389.69812pt.
+ [12 <./sf2-thermal-week.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [13 <./sunnyhill-twoday.png>] [14 <./sunnyhill-oneweek.png>] [15 <./4-custome
+r-vs-powertype.jpg>] [16 <./2-population-vs-powertype.jpg>] [17 <./3-energy-vs-
+powertype.png>] (thesis.bbl
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
- [6
+ [18
 
 
-]) [7] (thesis.aux (null.aux) (chapter2.aux)
-(chapter3.aux)) ) 
+]) [19] (thesis.aux (null.aux) (chapter2.aux)
+(chapter3.aux) (chapter4.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1164 strings out of 493634
- 15351 string characters out of 3139732
- 74130 words of memory out of 3000000
- 4567 multiletter control sequences out of 15000+200000
- 7935 words of font info for 28 fonts, out of 3000000 for 9000
+ 1336 strings out of 493634
+ 18563 string characters out of 3139732
+ 77080 words of memory out of 3000000
+ 4714 multiletter control sequences out of 15000+200000
+ 8847 words of font info for 31 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 22i,5n,19p,1669b,201s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsf
-onts/cm/cmbx12.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/am
-sfonts/cm/cmr12.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public
-/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (10 pages, 82967 bytes).
+ 23i,6n,19p,1669b,215s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmbx12.
+pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmr12
+.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cm
+ti12.pfb>
+Output written on thesis.pdf (22 pages, 1020129 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
+ 107 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
