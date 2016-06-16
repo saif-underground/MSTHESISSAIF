@@ -1,18 +1,18 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  11 JUN 2016 11:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  15 JUN 2016 18:43
 entering extended mode
-**C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/chapter4.te
+**C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/chapter5.te
 x
 
-(C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/chapter4.tex
+(C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/chapter5.tex
 LaTeX2e <2015/10/01> patch level 2
 Babel <3.9n> and hyphenation patterns for 69 languages loaded.
 ! Undefined control sequence.
 l.3 \chapter
-            {Customer Description}
+            {Methodology and Result}
 ? 
 ! Emergency stop.
 l.3 \chapter
-            {Customer Description}
+            {Methodology and Result}
 End of file on the terminal!
 
  
@@ -23,5 +23,5 @@ Here is how much of TeX's memory you used:
  3491 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 5i,0n,1p,116b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 5i,0n,1p,118b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
