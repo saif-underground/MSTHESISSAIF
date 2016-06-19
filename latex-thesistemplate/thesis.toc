@@ -2,7 +2,7 @@
 \contentsline {chapter}{Acknowledgements}{iv}
 \contentsline {chapter}{Abstract}{vi}
 \contentsline {chapter}{Table of Contents}{vii}
-\contentsline {chapter}{List of Figures}{viii}
+\contentsline {chapter}{List of Figures}{ix}
 \noindent {\bf Chapter}
 \contentsline {chapter}{\numberline {1}Smart Grid and PowerTAC Competition}{1}
 \contentsline {section}{\numberline {1.1}Traditional Energy Distribution and Consumption System}{1}
@@ -12,10 +12,18 @@
 \contentsline {section}{\numberline {1.5}PowerTAC System}{2}
 \contentsline {subsection}{\numberline {1.5.1}Broker}{2}
 \contentsline {subsection}{\numberline {1.5.2}Wholesale Market}{2}
-\contentsline {subsection}{\numberline {1.5.3}Customers}{2}
+\contentsline {subsection}{\numberline {1.5.3}Customers}{3}
 \contentsline {subsection}{\numberline {1.5.4}Balancing Market}{3}
 \contentsline {subsection}{\numberline {1.5.5}Weather Service}{3}
 \contentsline {chapter}{\numberline {2}Related Works}{4}
+\contentsline {section}{\numberline {2.1}types of load forecasting}{4}
+\contentsline {section}{\numberline {2.2}variables in energy demand}{4}
+\contentsline {section}{\numberline {2.3}load prediction using statistical method}{5}
+\contentsline {section}{\numberline {2.4}load prediction using machine learning}{5}
+\contentsline {section}{\numberline {2.5}load prediction for specific region}{5}
+\contentsline {section}{\numberline {2.6}load prediction using clustering}{6}
+\contentsline {section}{\numberline {2.7}engineerign methods to lead forecasting}{6}
+\contentsline {section}{\numberline {2.8}expert system based load forecasting}{6}
 \contentsline {chapter}{\numberline {3}Customer Description}{8}
 \contentsline {section}{\numberline {3.1}Customers}{8}
 \contentsline {section}{\numberline {3.2}PowerTypes}{8}
@@ -36,3 +44,6 @@
 \contentsline {section}{\numberline {4.3}Result}{16}
 \contentsline {subsection}{\numberline {4.3.1}Finding number of clusters}{16}
 \contentsline {subsection}{\numberline {4.3.2}Finding best predictor for each cluster}{16}
+\noindent {\bf Appendix}
+\contentsline {chapter}{\numberline {A}Some more stuff}{26}
+\contentsline {chapter}{Curriculum Vitae}{27}

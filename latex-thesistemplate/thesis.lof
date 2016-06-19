@@ -21,3 +21,4 @@
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Performance of differenc predictors for cluster 3}}{21}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Performance of the best predictors for each customer type. Customer Medical center was excluded as it was showing huge error. }}{22}
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Performance of the three prediction mechanisms. Cluster based predictor performs as good as the individual predictor for each customers and performs better than the moving average predictor. }}{23}
+\addvspace {10\p@ }
