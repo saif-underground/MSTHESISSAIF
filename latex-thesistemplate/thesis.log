@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  15 JUN 2016 20:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  19 JUN 2016 09:50
 entering extended mode
 **C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
 (C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
@@ -86,7 +86,8 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \ALC@tlm=\skip43
 \algorithmicindent=\skip44
 )
-(thesis.aux (null.aux) (chapter2.aux) (chapter3.aux) (chapter4.aux
+(thesis.aux (acknowl.aux) (abstract.aux) (null.aux) (chapter2.aux)
+(chapter3.aux) (chapter4.aux
 
 LaTeX Warning: Label `fig:2weekOffice' multiply defined.
 
@@ -156,6 +157,33 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 55.
  [2] [3]
+\openout2 = `acknowl.aux'.
+
+
+(acknowl.tex [4
+
+
+]) [5]
+\openout2 = `abstract.aux'.
+
+ (abstract.tex) [6
+
+
+
+] (thesis.toc)
+\tf@toc=\write3
+\openout3 = `thesis.toc'.
+
+ [7
+
+
+] (thesis.lof)
+\tf@lof=\write4
+\openout4 = `thesis.lof'.
+
+ [8
+
+]
 \openout2 = `null.aux'.
 
 
@@ -174,140 +202,148 @@ Overfull \hbox (1.70813pt too wide) in paragraph at lines 7--7
 
 
 
-]) [2]
+] [2] <simulation-environment.png, id=37, 682.04813pt x 253.69781pt>
+File: simulation-environment.png Graphic file (type png)
+
+<use simulation-environment.png>
+Package pdftex.def Info: simulation-environment.png used on input line 47.
+(pdftex.def)             Requested size: 462.52756pt x 172.04768pt.
+) [3 <./simulation-environment.png>]
 \openout2 = `chapter3.aux'.
 
- (chapter3.tex
+
+(chapter3.tex
 Chapter 2.
-[3
+[4
 
 
 
-] [4] [5]) [6]
+] [5] [6]) [7]
 \openout2 = `chapter4.aux'.
 
  (chapter4.tex
 Chapter 3.
-<BrooksideHomes-2days.png, id=34, 1204.5pt x 1244.65pt>
+<BrooksideHomes-2days.png, id=56, 881.54344pt x 324.46219pt>
 File: BrooksideHomes-2days.png Graphic file (type png)
 
 <use BrooksideHomes-2days.png>
 Package pdftex.def Info: BrooksideHomes-2days.png used on input line 20.
-(pdftex.def)             Requested size: 462.52756pt x 477.94777pt.
+(pdftex.def)             Requested size: 462.52756pt x 170.23627pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<downtown-offc-2-weeks.png, id=36, 1204.5pt x 1244.65pt>
+<downtown-offc-2-weeks.png, id=57, 871.00406pt x 324.46219pt>
 File: downtown-offc-2-weeks.png Graphic file (type png)
 
 <use downtown-offc-2-weeks.png>
 Package pdftex.def Info: downtown-offc-2-weeks.png used on input line 28.
-(pdftex.def)             Requested size: 462.52756pt x 477.94777pt.
+(pdftex.def)             Requested size: 462.52756pt x 172.29584pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7
+[8
 
 
 
-] <village2nsControllable.png, id=40, 1204.5pt x 1244.65pt>
+] <village2nsControllable.png, id=61, 871.00406pt x 333.49594pt>
 File: village2nsControllable.png Graphic file (type png)
 
 <use village2nsControllable.png>
 Package pdftex.def Info: village2nsControllable.png used on input line 37.
-(pdftex.def)             Requested size: 462.52756pt x 477.94777pt.
+(pdftex.def)             Requested size: 462.52756pt x 177.09294pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<sf2-thermal-daily.png, id=41, 1204.5pt x 1244.65pt>
+<sf2-thermal-daily.png, id=62, 880.03781pt x 325.96782pt>
 File: sf2-thermal-daily.png Graphic file (type png)
 
 <use sf2-thermal-daily.png>
 Package pdftex.def Info: sf2-thermal-daily.png used on input line 46.
-(pdftex.def)             Requested size: 462.52756pt x 477.94777pt.
+(pdftex.def)             Requested size: 462.52756pt x 171.31969pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<sf2-thermal-week.png, id=42, 1204.5pt x 1244.65pt>
+<sf2-thermal-week.png, id=63, 867.99281pt x 342.5297pt>
 File: sf2-thermal-week.png Graphic file (type png)
- <use sf2-thermal-week.png>
+
+<use sf2-thermal-week.png>
 Package pdftex.def Info: sf2-thermal-week.png used on input line 52.
-(pdftex.def)             Requested size: 462.52756pt x 477.94777pt.
+(pdftex.def)             Requested size: 462.52756pt x 182.5277pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8 <./BrooksideHomes-2days.png>]
 
 LaTeX Warning: Reference `{fig:solar-oneweek}' on page 9 undefined on input lin
-e 60.
+e 59.
 
-<sunnyhill-twoday.png, id=47, 1204.5pt x 1244.65pt>
+<sunnyhill-twoday.png, id=64, 877.02657pt x 335.00156pt>
 File: sunnyhill-twoday.png Graphic file (type png)
- <use sunnyhill-twoday.png>
-Package pdftex.def Info: sunnyhill-twoday.png used on input line 63.
-(pdftex.def)             Requested size: 462.52756pt x 477.94777pt.
+
+<use sunnyhill-twoday.png>
+Package pdftex.def Info: sunnyhill-twoday.png used on input line 62.
+(pdftex.def)             Requested size: 462.52756pt x 176.67587pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<sunnyhill-oneweek.png, id=48, 1204.5pt x 1244.65pt>
+<sunnyhill-oneweek.png, id=65, 872.50969pt x 328.97906pt>
 File: sunnyhill-oneweek.png Graphic file (type png)
 
 <use sunnyhill-oneweek.png>
-Package pdftex.def Info: sunnyhill-oneweek.png used on input line 70.
-(pdftex.def)             Requested size: 462.52756pt x 477.94777pt.
+Package pdftex.def Info: sunnyhill-oneweek.png used on input line 69.
+(pdftex.def)             Requested size: 462.52756pt x 174.3932pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9 <./downtown-offc-2-weeks.png>] [10 <./village2nsControllable.png>]
-<4-customer-vs-powertype.jpg, id=58, 490.83376pt x 304.13625pt>
+[9 <./BrooksideHomes-2days.png> <./downtown-offc-2-weeks.png>] [10 <./village2n
+sControllable.png> <./sf2-thermal-daily.png>]
+<4-customer-vs-powertype.jpg, id=76, 490.83376pt x 304.13625pt>
 File: 4-customer-vs-powertype.jpg Graphic file (type jpg)
 
 <use 4-customer-vs-powertype.jpg>
-Package pdftex.def Info: 4-customer-vs-powertype.jpg used on input line 88.
+Package pdftex.def Info: 4-customer-vs-powertype.jpg used on input line 87.
 (pdftex.def)             Requested size: 462.52756pt x 286.60742pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<2-population-vs-powertype.jpg, id=59, 513.41812pt x 451.6875pt>
+<2-population-vs-powertype.jpg, id=77, 513.41812pt x 451.6875pt>
 File: 2-population-vs-powertype.jpg Graphic file (type jpg)
 
 <use 2-population-vs-powertype.jpg>
-Package pdftex.def Info: 2-population-vs-powertype.jpg used on input line 97.
+Package pdftex.def Info: 2-population-vs-powertype.jpg used on input line 96.
 (pdftex.def)             Requested size: 462.52756pt x 406.92162pt.
- [11 <./sf2-thermal-daily.png>]
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<3-energy-vs-powertype.png, id=64, 573.64313pt x 483.30562pt>
+<3-energy-vs-powertype.png, id=78, 573.64313pt x 483.30562pt>
 File: 3-energy-vs-powertype.png Graphic file (type png)
 
 <use 3-energy-vs-powertype.png>
-Package pdftex.def Info: 3-energy-vs-powertype.png used on input line 107.
+Package pdftex.def Info: 3-energy-vs-powertype.png used on input line 106.
 (pdftex.def)             Requested size: 462.52756pt x 389.69812pt.
- [12 <./sf2-thermal-week.png>]
+ [11 <./sf2-thermal-week.png> <./sunnyhill-twoday.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [13 <./sunnyhill-twoday.png>] [14 <./sunnyhill-oneweek.png>] [15 <./4-custome
-r-vs-powertype.jpg>] [16 <./2-population-vs-powertype.jpg>] [17 <./3-energy-vs-
-powertype.png>]
+) [12 <./sunnyhill-oneweek.png> <./4-customer-vs-powertype.jpg>] [13 <./2-popul
+ation-vs-powertype.jpg>] [14 <./3-energy-vs-powertype.png>]
 \openout2 = `chapter5.aux'.
 
  (chapter5.tex
 Chapter 4.
-[18
+[15
 
 
 
-] <cluster-types-vs-error.png, id=91, 432.11438pt x 271.0125pt>
+] <cluster-types-vs-error.png, id=99, 432.11438pt x 271.0125pt>
 File: cluster-types-vs-error.png Graphic file (type png)
 
 <use cluster-types-vs-error.png>
@@ -317,11 +353,7 @@ Package pdftex.def Info: cluster-types-vs-error.png used on input line 50.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `fig:4-cluster-with-10-files' on page 19 undefined on 
-input line 55.
-
-<4-cluster-with-10-files.png, id=92, 402.00188pt x 254.45062pt>
+<4-cluster-with-10-files.png, id=100, 402.00188pt x 254.45062pt>
 File: 4-cluster-with-10-files.png Graphic file (type png)
 
 <use 4-cluster-with-10-files.png>
@@ -331,41 +363,41 @@ Package pdftex.def Info: 4-cluster-with-10-files.png used on input line 58.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<cluster-0-predictors.png, id=93, 436.63126pt x 266.49562pt>
+[16] <cluster-0-predictors.png, id=104, 436.63126pt x 266.49562pt>
 File: cluster-0-predictors.png Graphic file (type png)
 
 <use cluster-0-predictors.png>
-Package pdftex.def Info: cluster-0-predictors.png used on input line 68.
+Package pdftex.def Info: cluster-0-predictors.png used on input line 78.
 (pdftex.def)             Requested size: 462.52756pt x 282.30101pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<cluster-1-predictors.png, id=94, 398.99063pt x 284.56313pt>
+<cluster-1-predictors.png, id=105, 398.99063pt x 284.56313pt>
 File: cluster-1-predictors.png Graphic file (type png)
 
 <use cluster-1-predictors.png>
-Package pdftex.def Info: cluster-1-predictors.png used on input line 74.
+Package pdftex.def Info: cluster-1-predictors.png used on input line 84.
 (pdftex.def)             Requested size: 462.52756pt x 329.8937pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<cluster-2-predictors.png, id=95, 383.18156pt x 250.68657pt>
+<cluster-2-predictors.png, id=106, 383.18156pt x 250.68657pt>
 File: cluster-2-predictors.png Graphic file (type png)
 
 <use cluster-2-predictors.png>
-Package pdftex.def Info: cluster-2-predictors.png used on input line 81.
+Package pdftex.def Info: cluster-2-predictors.png used on input line 91.
 (pdftex.def)             Requested size: 462.52756pt x 302.61253pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<cluster-3-predictors.png, id=96, 418.56375pt x 275.52937pt>
+<cluster-3-predictors.png, id=107, 418.56375pt x 275.52937pt>
 File: cluster-3-predictors.png Graphic file (type png)
 
 <use cluster-3-predictors.png>
-Package pdftex.def Info: cluster-3-predictors.png used on input line 88.
+Package pdftex.def Info: cluster-3-predictors.png used on input line 98.
 (pdftex.def)             Requested size: 462.52756pt x 304.46642pt.
 
 
@@ -374,49 +406,41 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[19]
-
-LaTeX Warning: Text page 20 contains only floats.
-
-
-Overfull \vbox (1.34338pt too high) has occurred while \output is active []
-
-
-[20 <./cluster-types-vs-error.png>]
-<indiv-cutomer-best-predictor-error.png, id=103, 486.31688pt x 361.35pt>
+<indiv-cutomer-best-predictor-error.png, id=108, 486.31688pt x 361.35pt>
 File: indiv-cutomer-best-predictor-error.png Graphic file (type png)
 
 <use indiv-cutomer-best-predictor-error.png>
 Package pdftex.def Info: indiv-cutomer-best-predictor-error.png used on input l
-ine 127.
+ine 137.
 (pdftex.def)             Requested size: 462.52756pt x 343.67203pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<prediction-scheme-vs-error.png, id=104, 377.15906pt x 237.13594pt>
+<prediction-scheme-vs-error.png, id=109, 377.15906pt x 237.13594pt>
 File: prediction-scheme-vs-error.png Graphic file (type png)
 
 <use prediction-scheme-vs-error.png>
-Package pdftex.def Info: prediction-scheme-vs-error.png used on input line 135.
+Package pdftex.def Info: prediction-scheme-vs-error.png used on input line 145.
 
 (pdftex.def)             Requested size: 462.52756pt x 290.81065pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [21 <./4-cluster-with-10-files.png>] [22 <./cluster-0-predictors.png>]
-[23 <./cluster-1-predictors.png>] [24 <./cluster-2-predictors.png>] [25 <./clus
-ter-3-predictors.png>] [26 <./indiv-cutomer-best-predictor-error.png>] [27 <./p
-rediction-scheme-vs-error.png>] (thesis.bbl
+) [17 <./cluster-types-vs-error.png>] [18 <./4-cluster-with-10-files.png> <./cl
+uster-0-predictors.png>] [19 <./cluster-1-predictors.png>] [20 <./cluster-2-pre
+dictors.png>] [21 <./cluster-3-predictors.png>] [22 <./indiv-cutomer-best-predi
+ctor-error.png>] [23 <./prediction-scheme-vs-error.png>] (thesis.bbl
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
- [28
+ [24
 
 
-]) [29] (thesis.aux (null.aux)
-(chapter2.aux) (chapter3.aux) (chapter4.aux) (chapter5.aux))
+])
+[25] (thesis.aux (acknowl.aux) (abstract.aux) (null.aux) (chapter2.aux)
+(chapter3.aux) (chapter4.aux) (chapter5.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -425,10 +449,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1674 strings out of 493634
- 23682 string characters out of 3139732
- 86380 words of memory out of 3000000
- 5023 multiletter control sequences out of 15000+200000
+ 1703 strings out of 493634
+ 24095 string characters out of 3139732
+ 86183 words of memory out of 3000000
+ 5032 multiletter control sequences out of 15000+200000
  8847 words of font info for 31 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  23i,7n,19p,1669b,326s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -438,9 +462,9 @@ pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmmi1
 12.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/
 cmti12.pfb>
-Output written on thesis.pdf (32 pages, 1092651 bytes).
+Output written on thesis.pdf (33 pages, 588631 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
+ 157 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

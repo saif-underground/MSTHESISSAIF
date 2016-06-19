@@ -1,0 +1,50 @@
+CustomerName & 	BestClasifier \\
+BrooksideHomes &	M5P \\
+CentervilleHomes &	M5P \\
+DowntownOffices &	M5P \\
+EastsideOffices &	M5P \\
+OfficeComplex 1 NS Base &	LinearRegression \\
+OfficeComplex 1 SS Base &	LinearRegression \\
+OfficeComplex 2 NS Base &	LinearRegression \\
+OfficeComplex 2 SS Base &	LinearRegression \\
+Village 1 NS Base &	M5P \\
+Village 1 RaS Base &	LinearRegression \\
+Village 1 ReS Base &	M5P \\
+Village 1 SS Base &	M5P \\
+Village 2 NS Base &	LinearRegression \\
+Village 2 RaS Base &	M5P \\
+Village 2 ReS Base &	M5P \\
+Village 2 SS Base &	M5P \\
+	
+MedicalCenter@1	M5P
+
+/////////
+\begin{table}[h!]
+\centering
+\begin{tabular}{||c c||} 
+ \hline
+ Customer Name & Predictor Type \\ [0.5ex] 
+ \hline
+ 1 & 6 & 87837 & 787 \\ 
+ 2 & 7 & 78 & 5415 \\
+ 3 & 545 & 778 & 7507 \\
+ 4 & 545 & 18744 & 7560 \\
+ 5 & 88 & 788 & 6344 \\ [1ex] 
+ \hline
+\end{tabular}
+\caption{Table to test captions and labels}
+\label{table:1}
+\end{table}
+
+////////////////
+\begin{center}
+\begin{tabular}{ |c|c|c|c| } 
+\hline
+col1 & col2 & col3 \\
+\hline
+\multirow{3}{4em}{Multiple row} & cell2 & cell3 \\ 
+& cell5 & cell6 \\ 
+& cell8 & cell9 \\ 
+\hline
+\end{tabular}
+\end{center}

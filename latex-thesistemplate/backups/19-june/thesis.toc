@@ -1,0 +1,39 @@
+\hfill {\bf Page}
+\contentsline {chapter}{Acknowledgements}{iv}
+\contentsline {chapter}{Abstract}{vi}
+\contentsline {chapter}{Table of Contents}{vii}
+\contentsline {chapter}{List of Tables}{viii}
+\contentsline {chapter}{List of Figures}{ix}
+\noindent {\bf Chapter}
+\contentsline {chapter}{\numberline {1}Smart Grid and PowerTAC Competition}{1}
+\contentsline {section}{\numberline {1.1}Traditional Energy Distribution and Consumption System}{1}
+\contentsline {section}{\numberline {1.2}Smart Grid}{1}
+\contentsline {section}{\numberline {1.3}Smart Grid and Renewable Energy}{2}
+\contentsline {section}{\numberline {1.4}Importance of accurate load forecasting}{2}
+\contentsline {section}{\numberline {1.5}PowerTAC System}{2}
+\contentsline {subsection}{\numberline {1.5.1}Broker}{2}
+\contentsline {subsection}{\numberline {1.5.2}Wholesale Market}{2}
+\contentsline {subsection}{\numberline {1.5.3}Customers}{2}
+\contentsline {subsection}{\numberline {1.5.4}Balancing Market}{3}
+\contentsline {subsection}{\numberline {1.5.5}Weather Service}{3}
+\contentsline {chapter}{\numberline {2}Related Works}{4}
+\contentsline {chapter}{\numberline {3}Customer Description}{8}
+\contentsline {section}{\numberline {3.1}Customers}{8}
+\contentsline {section}{\numberline {3.2}PowerTypes}{8}
+\contentsline {subsection}{\numberline {3.2.1}consumption}{8}
+\contentsline {subsection}{\numberline {3.2.2}Interruptible Consumption}{8}
+\contentsline {subsection}{\numberline {3.2.3}Thermal Storage}{9}
+\contentsline {subsection}{\numberline {3.2.4}Solar Production}{10}
+\contentsline {subsection}{\numberline {3.2.5}Wind Production}{10}
+\contentsline {subsection}{\numberline {3.2.6}Electric Vehicle}{11}
+\contentsline {section}{\numberline {3.3}Statistics}{11}
+\contentsline {subsection}{\numberline {3.3.1}Customer Vs PowerType}{12}
+\contentsline {subsection}{\numberline {3.3.2}Population Vs PowerType}{13}
+\contentsline {subsection}{\numberline {3.3.3}Total Energy Consumed Vs PowerType}{14}
+\contentsline {chapter}{\numberline {4}Methodology and Result}{19}
+\contentsline {section}{\numberline {4.1}Baseline Predictor}{19}
+\contentsline {section}{\numberline {4.2}Prediction Mechanism}{19}
+\contentsline {subsection}{\numberline {4.2.1}Consumption Type Customer}{19}
+\contentsline {section}{\numberline {4.3}Result}{20}
+\contentsline {subsection}{\numberline {4.3.1}Finding number of clusters}{20}
+\contentsline {subsection}{\numberline {4.3.2}Finding best predictor for each cluster}{20}

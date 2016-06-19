@@ -1,0 +1,23 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Energy vs PowerType.}}{3}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Two days energy usage for the customer Brooksidehomes.}}{9}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Two weeks energys usage of the downtown office customer.}}{10}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Two days energys usage of the village 2 ns controllable customer.}}{11}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces A day's energys usage of the sf2 thermal storage customer.}}{12}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Two week's energys usage of the sf2 thermal storage customer.}}{13}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Two days energys usage of the SunnyHill solar production.}}{14}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces One week's energys usage of the SunnyHill solar production.}}{15}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Number of customers vs Powertype.}}{16}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Population vs Powertype}}{17}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Energy vs PowerType.}}{18}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Cluster type vs Error.}}{21}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Cluster assignments.}}{22}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Performance of differenc predictors for cluster 0}}{22}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Performance of differenc predictors for cluster 1}}{23}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Performance of differenc predictors for cluster 2}}{24}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Performance of differenc predictors for cluster 3}}{25}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Performance of the best predictors for each customer type. Customer Medical center was excluded as it was showing huge error. }}{26}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Performance of the three prediction mechanisms. Cluster based predictor performs as good as the individual predictor for each customers and performs better than the moving average predictor. }}{27}

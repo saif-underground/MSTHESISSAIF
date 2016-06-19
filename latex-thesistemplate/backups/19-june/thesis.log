@@ -1,0 +1,476 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  19 JUN 2016 08:55
+entering extended mode
+**C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
+(C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9n> and hyphenation patterns for 69 languages loaded.
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\base\report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\base\size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(utepcsthesis.sty
+\c@definition=\count88
+\c@theorem=\count89
+\c@corollary=\count90
+)
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\graphics\graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(C:\Users\Saif\Desktop\software\miktex\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(C:\Users\Saif\Desktop\software\miktex\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
+))
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\graphics\graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\algorithms\algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count92
+\float@exts=\toks15
+\float@box=\box26
+\@float@everytoks=\toks16
+\@floatcapt=\box27
+)
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks17
+\c@algorithm=\count93
+)
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\algorithms\algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count94
+\c@ALC@line=\count95
+\c@ALC@rem=\count96
+\c@ALC@depth=\count97
+\ALC@tlm=\skip43
+\algorithmicindent=\skip44
+)
+(thesis.aux (acknowl.aux) (abstract.aux) (null.aux) (chapter2.aux)
+(chapter3.aux) (chapter4.aux
+
+LaTeX Warning: Label `fig:2weekOffice' multiply defined.
+
+) (chapter5.aux))
+\openout1 = `thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+
+(C:\Users\Saif\Desktop\software\miktex\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count98
+\scratchdimen=\dimen105
+\scratchbox=\box28
+\nofMPsegments=\count99
+\nofMParguments=\count100
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count101
+\MPscratchDim=\dimen106
+\MPnumerator=\count102
+\makeMPintoPDFobject=\count103
+\everyMPtoPDFconversion=\toks19
+)
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 51.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 51.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 51.
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+
+ []
+
+[1
+
+{C:/Users/Saif/Desktop/software/miktex/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 55.
+
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\base\omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 55.
+ [2] [3]
+\openout2 = `acknowl.aux'.
+
+
+(acknowl.tex [4
+
+
+]) [5]
+\openout2 = `abstract.aux'.
+
+ (abstract.tex) [6
+
+
+
+] (thesis.toc)
+\tf@toc=\write3
+\openout3 = `thesis.toc'.
+
+ [7
+
+
+] (thesis.lot)
+\tf@lot=\write4
+\openout4 = `thesis.lot'.
+
+ [8
+
+]
+(thesis.lof)
+\tf@lof=\write5
+\openout5 = `thesis.lof'.
+
+ [9
+
+]
+\openout2 = `null.aux'.
+
+
+(C:\Users\Saif\Desktop\software\miktex\tex\generic\misc\null.tex)
+\openout2 = `chapter2.aux'.
+
+ (chapter2.tex
+Chapter 1.
+
+Overfull \hbox (1.70813pt too wide) in paragraph at lines 7--7
+[]\OT1/cmr/bx/n/17.28 Traditional En-ergy Dis-tri-bu-tion and Con-sump-tion
+ []
+
+[1
+
+
+
+
+] [2] <simulation-environment.png, id=40, 682.04813pt x 253.69781pt>
+File: simulation-environment.png Graphic file (type png)
+
+<use simulation-environment.png>
+Package pdftex.def Info: simulation-environment.png used on input line 47.
+(pdftex.def)             Requested size: 462.52756pt x 172.04768pt.
+) [3 <./simulation-environment.png>]
+\openout2 = `chapter3.aux'.
+
+
+(chapter3.tex
+Chapter 2.
+[4
+
+
+
+] [5] [6]) [7]
+\openout2 = `chapter4.aux'.
+
+ (chapter4.tex
+Chapter 3.
+<BrooksideHomes-2days.png, id=59, 1204.5pt x 1244.65pt>
+File: BrooksideHomes-2days.png Graphic file (type png)
+
+<use BrooksideHomes-2days.png>
+Package pdftex.def Info: BrooksideHomes-2days.png used on input line 20.
+(pdftex.def)             Requested size: 462.52756pt x 477.94777pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<downtown-offc-2-weeks.png, id=60, 1204.5pt x 1244.65pt>
+File: downtown-offc-2-weeks.png Graphic file (type png)
+
+<use downtown-offc-2-weeks.png>
+Package pdftex.def Info: downtown-offc-2-weeks.png used on input line 28.
+(pdftex.def)             Requested size: 462.52756pt x 477.94777pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8
+
+
+
+] <village2nsControllable.png, id=64, 1204.5pt x 1244.65pt>
+File: village2nsControllable.png Graphic file (type png)
+
+<use village2nsControllable.png>
+Package pdftex.def Info: village2nsControllable.png used on input line 37.
+(pdftex.def)             Requested size: 462.52756pt x 477.94777pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<sf2-thermal-daily.png, id=65, 1204.5pt x 1244.65pt>
+File: sf2-thermal-daily.png Graphic file (type png)
+
+<use sf2-thermal-daily.png>
+Package pdftex.def Info: sf2-thermal-daily.png used on input line 46.
+(pdftex.def)             Requested size: 462.52756pt x 477.94777pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<sf2-thermal-week.png, id=66, 1204.5pt x 1244.65pt>
+File: sf2-thermal-week.png Graphic file (type png)
+ <use sf2-thermal-week.png>
+Package pdftex.def Info: sf2-thermal-week.png used on input line 52.
+(pdftex.def)             Requested size: 462.52756pt x 477.94777pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `{fig:solar-oneweek}' on page 9 undefined on input lin
+e 59.
+
+<sunnyhill-twoday.png, id=67, 1204.5pt x 1244.65pt>
+File: sunnyhill-twoday.png Graphic file (type png)
+ <use sunnyhill-twoday.png>
+Package pdftex.def Info: sunnyhill-twoday.png used on input line 62.
+(pdftex.def)             Requested size: 462.52756pt x 477.94777pt.
+
+[9 <./BrooksideHomes-2days.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<sunnyhill-oneweek.png, id=72, 1204.5pt x 1244.65pt>
+File: sunnyhill-oneweek.png Graphic file (type png)
+
+<use sunnyhill-oneweek.png>
+Package pdftex.def Info: sunnyhill-oneweek.png used on input line 69.
+(pdftex.def)             Requested size: 462.52756pt x 477.94777pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10 <./downtown-offc-2-weeks.png>] [11 <./village2nsControllable.png>]
+<4-customer-vs-powertype.jpg, id=82, 490.83376pt x 304.13625pt>
+File: 4-customer-vs-powertype.jpg Graphic file (type jpg)
+
+<use 4-customer-vs-powertype.jpg>
+Package pdftex.def Info: 4-customer-vs-powertype.jpg used on input line 87.
+(pdftex.def)             Requested size: 462.52756pt x 286.60742pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<2-population-vs-powertype.jpg, id=83, 513.41812pt x 451.6875pt>
+File: 2-population-vs-powertype.jpg Graphic file (type jpg)
+
+<use 2-population-vs-powertype.jpg>
+Package pdftex.def Info: 2-population-vs-powertype.jpg used on input line 96.
+(pdftex.def)             Requested size: 462.52756pt x 406.92162pt.
+ [12 <./sf2-thermal-daily.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<3-energy-vs-powertype.png, id=88, 573.64313pt x 483.30562pt>
+File: 3-energy-vs-powertype.png Graphic file (type png)
+
+<use 3-energy-vs-powertype.png>
+Package pdftex.def Info: 3-energy-vs-powertype.png used on input line 106.
+(pdftex.def)             Requested size: 462.52756pt x 389.69812pt.
+ [13 <./sf2-thermal-week.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [14 <./sunnyhill-twoday.png>] [15 <./sunnyhill-oneweek.png>] [16 <./4-custome
+r-vs-powertype.jpg>] [17 <./2-population-vs-powertype.jpg>] [18 <./3-energy-vs-
+powertype.png>]
+\openout2 = `chapter5.aux'.
+
+ (chapter5.tex
+Chapter 4.
+[19
+
+
+
+] <cluster-types-vs-error.png, id=115, 432.11438pt x 271.0125pt>
+File: cluster-types-vs-error.png Graphic file (type png)
+
+<use cluster-types-vs-error.png>
+Package pdftex.def Info: cluster-types-vs-error.png used on input line 50.
+(pdftex.def)             Requested size: 462.52756pt x 290.09628pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<4-cluster-with-10-files.png, id=116, 402.00188pt x 254.45062pt>
+File: 4-cluster-with-10-files.png Graphic file (type png)
+
+<use 4-cluster-with-10-files.png>
+Package pdftex.def Info: 4-cluster-with-10-files.png used on input line 58.
+(pdftex.def)             Requested size: 462.52756pt x 292.7596pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[20] <cluster-0-predictors.png, id=120, 436.63126pt x 266.49562pt>
+File: cluster-0-predictors.png Graphic file (type png)
+
+<use cluster-0-predictors.png>
+Package pdftex.def Info: cluster-0-predictors.png used on input line 78.
+(pdftex.def)             Requested size: 462.52756pt x 282.30101pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<cluster-1-predictors.png, id=121, 398.99063pt x 284.56313pt>
+File: cluster-1-predictors.png Graphic file (type png)
+
+<use cluster-1-predictors.png>
+Package pdftex.def Info: cluster-1-predictors.png used on input line 84.
+(pdftex.def)             Requested size: 462.52756pt x 329.8937pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<cluster-2-predictors.png, id=122, 383.18156pt x 250.68657pt>
+File: cluster-2-predictors.png Graphic file (type png)
+
+<use cluster-2-predictors.png>
+Package pdftex.def Info: cluster-2-predictors.png used on input line 91.
+(pdftex.def)             Requested size: 462.52756pt x 302.61253pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<cluster-3-predictors.png, id=123, 418.56375pt x 275.52937pt>
+File: cluster-3-predictors.png Graphic file (type png)
+
+<use cluster-3-predictors.png>
+Package pdftex.def Info: cluster-3-predictors.png used on input line 98.
+(pdftex.def)             Requested size: 462.52756pt x 304.46642pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<indiv-cutomer-best-predictor-error.png, id=124, 486.31688pt x 361.35pt>
+File: indiv-cutomer-best-predictor-error.png Graphic file (type png)
+
+<use indiv-cutomer-best-predictor-error.png>
+Package pdftex.def Info: indiv-cutomer-best-predictor-error.png used on input l
+ine 137.
+(pdftex.def)             Requested size: 462.52756pt x 343.67203pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<prediction-scheme-vs-error.png, id=125, 377.15906pt x 237.13594pt>
+File: prediction-scheme-vs-error.png Graphic file (type png)
+
+<use prediction-scheme-vs-error.png>
+Package pdftex.def Info: prediction-scheme-vs-error.png used on input line 145.
+
+(pdftex.def)             Requested size: 462.52756pt x 290.81065pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [21 <./cluster-types-vs-error.png>] [22 <./4-cluster-with-10-files.png> <./cl
+uster-0-predictors.png>] [23 <./cluster-1-predictors.png>] [24 <./cluster-2-pre
+dictors.png>] [25 <./cluster-3-predictors.png>] [26 <./indiv-cutomer-best-predi
+ctor-error.png>] [27 <./prediction-scheme-vs-error.png>] (thesis.bbl
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ” in font cmr12!
+ [28
+
+
+])
+[29] (thesis.aux (acknowl.aux) (abstract.aux) (null.aux) (chapter2.aux)
+(chapter3.aux) (chapter4.aux) (chapter5.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1706 strings out of 493634
+ 24119 string characters out of 3139732
+ 86184 words of memory out of 3000000
+ 5032 multiletter control sequences out of 15000+200000
+ 8847 words of font info for 31 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 23i,7n,19p,1669b,326s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmbx12.
+pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmmi1
+2.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmr
+12.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/
+cmti12.pfb>
+Output written on thesis.pdf (38 pages, 1126175 bytes).
+PDF statistics:
+ 175 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+

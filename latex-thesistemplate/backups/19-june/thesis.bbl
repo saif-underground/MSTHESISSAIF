@@ -1,0 +1,100 @@
+\begin{thebibliography}{10}
+
+\bibitem{al2004short}
+HM~Al-Hamadi and SA~Soliman.
+\newblock Short-term electric load forecasting based on kalman filtering
+  algorithm with moving window weather and load model.
+\newblock {\em Electric power systems research}, 68(1):47--59, 2004.
+
+\bibitem{chen2004load}
+Bo-Juen Chen, Ming-Wei Chang, and Chih-Jen Lin.
+\newblock Load forecasting using support vector machines: A study on eunite
+  competition 2001.
+\newblock {\em Power Systems, IEEE Transactions on}, 19(4):1821--1830, 2004.
+
+\bibitem{cho1995customer}
+MY~Cho, JC~Hwang, and CS~Chen.
+\newblock Customer short term load forecasting by using arima transfer function
+  model.
+\newblock In {\em Energy Management and Power Delivery, 1995. Proceedings of
+  EMPD'95., 1995 International Conference on}, volume~1, pages 317--322. IEEE,
+  1995.
+
+\bibitem{fang2012smart}
+Xi~Fang, Satyajayant Misra, Guoliang Xue, and Dejun Yang.
+\newblock Smart grid—the new and improved power grid: A survey.
+\newblock {\em Communications Surveys \& Tutorials, IEEE}, 14(4):944--980,
+  2012.
+
+\bibitem{hahn2009electric}
+Heiko Hahn, Silja Meyer-Nieberg, and Stefan Pickl.
+\newblock Electric load forecasting methods: Tools for decision making.
+\newblock {\em European Journal of Operational Research}, 199(3):902--907,
+  2009.
+
+\bibitem{hart2004weather}
+Melissa Hart and Richard de~Dear.
+\newblock Weather sensitivity in household appliance energy end-use.
+\newblock {\em Energy and Buildings}, 36(2):161--174, 2004.
+
+\bibitem{hsu2003regional}
+Che-Chiang Hsu and Chia-Yon Chen.
+\newblock Regional load forecasting in taiwan----applications of artificial
+  neural networks.
+\newblock {\em Energy conversion and Management}, 44(12):1941--1949, 2003.
+
+\bibitem{lampropoulos2010methodology}
+Ioannis Lampropoulos, Greet Vanalme, and Wil~L Kling.
+\newblock A methodology for modeling the behavior of electricity prosumers
+  within the smart grid.
+\newblock In {\em Innovative Smart Grid Technologies Conference Europe (ISGT
+  Europe), 2010 IEEE PES}, pages 1--8. IEEE, 2010.
+
+\bibitem{liu2006accurate}
+Fang Liu, Qiang Song, and Raymond~D Findlay.
+\newblock Accurate 24-hour-ahead load forecasting using similar hourly loads.
+\newblock In {\em Computational Intelligence for Modelling, Control and
+  Automation, 2006 and International Conference on Intelligent Agents, Web
+  Technologies and Internet Commerce, International Conference on}, pages
+  249--249. IEEE, 2006.
+
+\bibitem{mcloughlin2015clustering}
+Fintan McLoughlin, Aidan Duffy, and Michael Conlon.
+\newblock A clustering approach to domestic electricity load profile
+  characterisation using smart metering data.
+\newblock {\em Applied energy}, 141:190--199, 2015.
+
+\bibitem{parra2013initial}
+Jaime Parra~Jr and Christopher Kiekintveld.
+\newblock Initial exploration of machine learning to predict customer demand in
+  an energy market simulation.
+\newblock In {\em Workshops at the Twenty-Seventh AAAI Conference on Artificial
+  Intelligence}, 2013.
+
+\bibitem{potter2009building}
+Cameron~W Potter, Allison Archambault, and Kenneth Westrick.
+\newblock Building a smarter smart grid through better renewable energy
+  information.
+\newblock In {\em Power Systems Conference and Exposition, 2009. PSCE'09.
+  IEEE/PES}, pages 1--5. IEEE, 2009.
+
+\bibitem{rahman1988expert}
+Saifur Rahman and Rahul Bhatnagar.
+\newblock An expert system based algorithm for short term load forecast.
+\newblock {\em Power Systems, IEEE Transactions on}, 3(2):392--399, 1988.
+
+\bibitem{richter2012transitioning}
+Andre Richter, Erwin van~der Laan, Wolfgang Ketter, and Konstantina Valogianni.
+\newblock Transitioning from the traditional to the smart grid: Lessons learned
+  from closed-loop supply chains.
+\newblock In {\em Smart Grid Technology, Economics and Policies (SG-TEP), 2012
+  International Conference on}, pages 1--7. IEEE, 2012.
+
+\bibitem{wang2015gongbroker}
+Xishun Wang, Minjie Zhang, Fenghui Ren, and Takayuki Ito.
+\newblock Gongbroker: A broker model for power trading in smart grid markets.
+\newblock In {\em 2015 IEEE/WIC/ACM International Conference on Web
+  Intelligence and Intelligent Agent Technology (WI-IAT)}, volume~2, pages
+  21--24. IEEE, 2015.
+
+\end{thebibliography}
