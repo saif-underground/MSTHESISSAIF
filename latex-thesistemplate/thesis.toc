@@ -43,7 +43,7 @@
 \contentsline {subsection}{\numberline {4.2.1}Consumption Type Customer}{15}
 \contentsline {section}{\numberline {4.3}Result}{16}
 \contentsline {subsection}{\numberline {4.3.1}Finding number of clusters}{16}
-\contentsline {subsection}{\numberline {4.3.2}Finding best predictor for each cluster}{16}
+\contentsline {subsection}{\numberline {4.3.2}Finding best predictor for each cluster}{19}
 \noindent {\bf Appendix}
-\contentsline {chapter}{\numberline {A}Some more stuff}{26}
-\contentsline {chapter}{Curriculum Vitae}{27}
+\contentsline {chapter}{\numberline {A}Some more stuff}{29}
+\contentsline {chapter}{Curriculum Vitae}{30}

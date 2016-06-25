@@ -13,12 +13,12 @@
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Population vs Powertype}}{13}
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Energy vs PowerType.}}{14}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Cluster type vs Error.}}{17}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Cluster assignments.}}{18}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Performance of differenc predictors for cluster 0}}{18}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Performance of differenc predictors for cluster 1}}{19}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Performance of differenc predictors for cluster 2}}{20}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Performance of differenc predictors for cluster 3}}{21}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Performance of the best predictors for each customer type. Customer Medical center was excluded as it was showing huge error. }}{22}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Performance of the three prediction mechanisms. Cluster based predictor performs as good as the individual predictor for each customers and performs better than the moving average predictor. }}{23}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Cluster type vs Error.}}{19}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Cluster assignments.}}{20}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Performance of differenc predictors for cluster 0}}{21}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Performance of differenc predictors for cluster 1}}{22}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Performance of differenc predictors for cluster 2}}{23}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Performance of differenc predictors for cluster 3}}{24}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Performance of the best predictors for each customer type. Customer Medical center was excluded as it was showing huge error. }}{25}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Performance of the three prediction mechanisms. Cluster based predictor performs as good as the individual predictor for each customers and performs better than the moving average predictor. }}{26}
 \addvspace {10\p@ }

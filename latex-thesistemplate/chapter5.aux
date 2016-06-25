@@ -7,29 +7,38 @@
 \@writefile{toc}{\contentsline {section}{\numberline {4.2}Prediction Mechanism}{15}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Consumption Type Customer}{15}}
 \@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces Make prediction for consumption type customer}}{16}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {3}{\ignorespaces extract information from transactionReport sent to broker after each time slot through TariffTransactionHandler call back method}}{16}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.3}Result}{16}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Finding number of clusters}{16}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Finding best predictor for each cluster}{16}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Cluster type vs Error.}}{17}}
-\newlabel{fig:cluster-type-vs-error}{{4.1}{17}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Cluster assignments.}}{18}}
-\newlabel{fig:4-cluster-with-10-files}{{4.2}{18}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Performance of differenc predictors for cluster 0}}{18}}
-\newlabel{fig:cluster-0-predictors}{{4.3}{18}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Performance of differenc predictors for cluster 1}}{19}}
-\newlabel{fig:cluster-1-predictors}{{4.4}{19}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Performance of differenc predictors for cluster 2}}{20}}
-\newlabel{fig:cluster-2-predictors}{{4.5}{20}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Best individual predictor for each customer}}{20}}
-\newlabel{table:1}{{4.1}{20}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Performance of differenc predictors for cluster 3}}{21}}
-\newlabel{fig:cluster-3-predictors}{{4.6}{21}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Performance of the best predictors for each customer type. Customer Medical center was excluded as it was showing huge error. }}{22}}
-\newlabel{fig:indiv-cutomer-best-predictor-error}{{4.7}{22}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces Performance of the three prediction mechanisms. Cluster based predictor performs as good as the individual predictor for each customers and performs better than the moving average predictor. }}{23}}
-\newlabel{fig:prediction-scheme-vs-error}{{4.8}{23}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {4}{\ignorespaces write extracted data after timeSlot update message received from TimeSlotUpdateHandler call back method}}{17}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {5}{\ignorespaces write average usage of customer of each hour of the week}}{17}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {6}{\ignorespaces create kmeans cluster of size k from weekly usage training instance file}}{17}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {7}{\ignorespaces find error of kmeans clusters of different size}}{17}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {8}{\ignorespaces calculate error from predictedValue and trueValue}}{18}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {9}{\ignorespaces find best classifiers of each cluster of kmeans cluster of size k}}{18}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {10}{\ignorespaces find best classifiers created for each individual customer}}{18}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {11}{\ignorespaces performance evalulation of each method}}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Cluster type vs Error.}}{19}}
+\newlabel{fig:cluster-type-vs-error}{{4.1}{19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Finding best predictor for each cluster}{19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Cluster assignments.}}{20}}
+\newlabel{fig:4-cluster-with-10-files}{{4.2}{20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Performance of differenc predictors for cluster 0}}{21}}
+\newlabel{fig:cluster-0-predictors}{{4.3}{21}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Best individual predictor for each customer}}{21}}
+\newlabel{table:1}{{4.1}{21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Performance of differenc predictors for cluster 1}}{22}}
+\newlabel{fig:cluster-1-predictors}{{4.4}{22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Performance of differenc predictors for cluster 2}}{23}}
+\newlabel{fig:cluster-2-predictors}{{4.5}{23}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Performance of differenc predictors for cluster 3}}{24}}
+\newlabel{fig:cluster-3-predictors}{{4.6}{24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Performance of the best predictors for each customer type. Customer Medical center was excluded as it was showing huge error. }}{25}}
+\newlabel{fig:indiv-cutomer-best-predictor-error}{{4.7}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces Performance of the three prediction mechanisms. Cluster based predictor performs as good as the individual predictor for each customers and performs better than the moving average predictor. }}{26}}
+\newlabel{fig:prediction-scheme-vs-error}{{4.8}{26}}
 \@setckpt{chapter5}{
-\setcounter{page}{24}
+\setcounter{page}{27}
 \setcounter{equation}{0}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
@@ -50,9 +59,9 @@
 \setcounter{theorem}{0}
 \setcounter{corollary}{0}
 \setcounter{float@type}{8}
-\setcounter{algorithm}{2}
-\setcounter{ALC@unique}{10}
-\setcounter{ALC@line}{4}
-\setcounter{ALC@rem}{4}
+\setcounter{algorithm}{11}
+\setcounter{ALC@unique}{71}
+\setcounter{ALC@line}{7}
+\setcounter{ALC@rem}{7}
 \setcounter{ALC@depth}{0}
 }

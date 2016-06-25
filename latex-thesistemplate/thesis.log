@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  19 JUN 2016 14:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  25 JUN 2016 10:37
 entering extended mode
 **C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
 (C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
@@ -344,61 +344,59 @@ Chapter 4.
 
 
 
-] <cluster-types-vs-error.png, id=102, 432.11438pt x 271.0125pt>
+] [16] [17] [18]
+<cluster-types-vs-error.png, id=112, 432.11438pt x 271.0125pt>
 File: cluster-types-vs-error.png Graphic file (type png)
 
 <use cluster-types-vs-error.png>
-Package pdftex.def Info: cluster-types-vs-error.png used on input line 50.
+Package pdftex.def Info: cluster-types-vs-error.png used on input line 185.
 (pdftex.def)             Requested size: 462.52756pt x 290.09628pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<4-cluster-with-10-files.png, id=103, 402.00188pt x 254.45062pt>
+<4-cluster-with-10-files.png, id=113, 402.00188pt x 254.45062pt>
 File: 4-cluster-with-10-files.png Graphic file (type png)
 
 <use 4-cluster-with-10-files.png>
-Package pdftex.def Info: 4-cluster-with-10-files.png used on input line 58.
+Package pdftex.def Info: 4-cluster-with-10-files.png used on input line 193.
 (pdftex.def)             Requested size: 462.52756pt x 292.7596pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[16] <cluster-0-predictors.png, id=108, 436.63126pt x 266.49562pt>
+<cluster-0-predictors.png, id=114, 436.63126pt x 266.49562pt>
 File: cluster-0-predictors.png Graphic file (type png)
 
 <use cluster-0-predictors.png>
-Package pdftex.def Info: cluster-0-predictors.png used on input line 78.
+Package pdftex.def Info: cluster-0-predictors.png used on input line 213.
 (pdftex.def)             Requested size: 462.52756pt x 282.30101pt.
-
+ [19 <./cluster-types-vs-error.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<cluster-1-predictors.png, id=109, 398.99063pt x 284.56313pt>
+<cluster-1-predictors.png, id=118, 398.99063pt x 284.56313pt>
 File: cluster-1-predictors.png Graphic file (type png)
 
 <use cluster-1-predictors.png>
-Package pdftex.def Info: cluster-1-predictors.png used on input line 84.
+Package pdftex.def Info: cluster-1-predictors.png used on input line 219.
 (pdftex.def)             Requested size: 462.52756pt x 329.8937pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<cluster-2-predictors.png, id=110, 383.18156pt x 250.68657pt>
+<cluster-2-predictors.png, id=119, 383.18156pt x 250.68657pt>
 File: cluster-2-predictors.png Graphic file (type png)
 
 <use cluster-2-predictors.png>
-Package pdftex.def Info: cluster-2-predictors.png used on input line 91.
+Package pdftex.def Info: cluster-2-predictors.png used on input line 226.
 (pdftex.def)             Requested size: 462.52756pt x 302.61253pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<cluster-3-predictors.png, id=111, 418.56375pt x 275.52937pt>
+<cluster-3-predictors.png, id=120, 418.56375pt x 275.52937pt>
 File: cluster-3-predictors.png Graphic file (type png)
 
 <use cluster-3-predictors.png>
-Package pdftex.def Info: cluster-3-predictors.png used on input line 98.
+Package pdftex.def Info: cluster-3-predictors.png used on input line 233.
 (pdftex.def)             Requested size: 462.52756pt x 304.46642pt.
 
 
@@ -407,51 +405,54 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<indiv-cutomer-best-predictor-error.png, id=112, 486.31688pt x 361.35pt>
+<indiv-cutomer-best-predictor-error.png, id=121, 486.31688pt x 361.35pt>
 File: indiv-cutomer-best-predictor-error.png Graphic file (type png)
 
 <use indiv-cutomer-best-predictor-error.png>
 Package pdftex.def Info: indiv-cutomer-best-predictor-error.png used on input l
-ine 137.
+ine 272.
 (pdftex.def)             Requested size: 462.52756pt x 343.67203pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<prediction-scheme-vs-error.png, id=113, 377.15906pt x 237.13594pt>
+<prediction-scheme-vs-error.png, id=122, 377.15906pt x 237.13594pt>
 File: prediction-scheme-vs-error.png Graphic file (type png)
 
 <use prediction-scheme-vs-error.png>
-Package pdftex.def Info: prediction-scheme-vs-error.png used on input line 145.
+Package pdftex.def Info: prediction-scheme-vs-error.png used on input line 280.
 
 (pdftex.def)             Requested size: 462.52756pt x 290.81065pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [17 <./cluster-types-vs-error.png>] [18 <./4-cluster-with-10-files.png> <./cl
-uster-0-predictors.png>] [19 <./cluster-1-predictors.png>] [20 <./cluster-2-pre
-dictors.png>] [21 <./cluster-3-predictors.png>] [22 <./indiv-cutomer-best-predi
-ctor-error.png>] [23 <./prediction-scheme-vs-error.png>] (thesis.bbl
+) [20 <./4-cluster-with-10-files.png>]
+
+LaTeX Warning: Text page 21 contains only floats.
+
+[21 <./cluster-0-predictors.png>] [22 <./cluster-1-predictors.png>] [23 <./clus
+ter-2-predictors.png>] [24 <./cluster-3-predictors.png>] [25 <./indiv-cutomer-b
+est-predictor-error.png>] [26 <./prediction-scheme-vs-error.png>] (thesis.bbl
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
- [24
+
+[27
 
 
-])
-[25]
+]) [28]
 \openout2 = `AppendixA.aux'.
 
  (AppendixA.tex
 Appendix A.
-) [26
+) [29
 
 
 ]
 \openout2 = `vitae.aux'.
 
- (vitae.tex) [27
+ (vitae.tex) [30
 
 
 
@@ -466,22 +467,22 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1719 strings out of 493634
- 24261 string characters out of 3139732
- 86972 words of memory out of 3000000
- 5034 multiletter control sequences out of 15000+200000
+ 1718 strings out of 493634
+ 24232 string characters out of 3139732
+ 93971 words of memory out of 3000000
+ 5033 multiletter control sequences out of 15000+200000
  8847 words of font info for 31 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 23i,7n,19p,2033b,326s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 23i,7n,19p,2033b,548s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmmi1
 2.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmr
 12.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/
 cmti12.pfb>
-Output written on thesis.pdf (36 pages, 592622 bytes).
+Output written on thesis.pdf (39 pages, 597406 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
+ 178 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

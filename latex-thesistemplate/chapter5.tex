@@ -2,7 +2,7 @@
 
 \chapter{Methodology and Result}
 
-Traditioanlly, a single predictor served to predict the energy demand of all powertype customers. Since each powertype customers acts differently, I have attempted to attack each type of customer separately to make a prediction mechanism that perfroms better than the baseline predictor.
+Traditioanlly, a single type of predictor served to predict the energy demand of all powertype customers. Since each powertype customers acts differently, I have attempted to attack each type of customer separately to make a prediction mechanism that perfroms better than the baseline predictor.
 
 \section{Baseline Predictor}
 Baseline predictor is the default prediction mechanism provided by the PowerTAC system. It exploits the fact that usage of a timeslot of a customer in a specific date is highly correlated with the day of the week and the time slot. To make prediction it stores the average energy usage of an hour of a week. So, for each customer it uses $24*7 = 168$ memory to remember average usages. As soon as it learns about a new usage information of an hour of a week, it updates old average using the following algorithm.
@@ -31,14 +31,149 @@ For the consumption type customers, the following algorithm is used to make pred
 \begin{algorithm}
 \caption{Make prediction for consumption type customer}
 \begin{algorithmic} 
-\STATE Cluster the consumption customers based on their average weekly usage.
-\STATE For each cluster, find the best performing predictor.
-\STATE To predict about a new customer, see which cluster it falls into.
-\STATE Use that cluster's predictor to predict about the customer.
+\STATE Extract features for each time slot for each customer
+\STATE Train kmeans cluster for different sizes of k
+\STATE pick suitable value for k
+\STATE For each cluster out of k clusters, find the best performing predictor.
+\STATE train individual classifer for each customer
+\STATE evaluate performance using test data
 \end{algorithmic}
 \end{algorithm}
 
 To make the cluster, the extractor program extracts consumption customer's information from 30 game logs. In the first phase, it collects the weekly usages. So from each log file and for each customer, the program extracts 24 * 7 values, each of the value represent average usage of an hour in a weekday. In the second phase, the clustering algorithm clusters based on the extracted weekly average usages. Once the cluster is made, the second extractor programs extracts slot based information of all the customers in a given slot and makes a training set out of it. In the next phase, a program creates creates several machine learning predictors such as linear regression, decision trees etc and figures out which performs best for the cluster. The best performing predictor is used to make prediction about the cluster. In the runtime, a customer will be grouped in a cluster based on its weekly usage. Once the program knows the cluster assigned for a customer, the program loads the corresponding predictor to predict about the new customer. 
+
+%feature extraction
+
+For the consumption type customers, the following algorithm is used to extract feature
+\begin{algorithm}
+\caption{extract information from transactionReport sent to broker after each time slot through TariffTransactionHandler call back method}
+\begin{algorithmic} 
+\STATE timeSlot = get time slot from transactionReport
+\STATE customerName = get customer name from transactionReport
+\STATE energyUsed = get energy used from trom transactionReport
+\STATE addUsage(customerName, timeSlot, energyUsed)
+\end{algorithmic}
+\end{algorithm}
+
+%write extracted features
+For the consumption type customers, the following algorithm is used to write the extracted features after all information is received from a timeslot
+\begin{algorithm}
+\caption{write extracted data after timeSlot update message received from TimeSlotUpdateHandler call back method}
+\begin{algorithmic} 
+\STATE knownTimeSlot = timeSlot - 1
+\FOR{each customer}
+\STATE day = get day of knownTimeSlot
+\STATE hour = get hour of knownTimeSlot
+\STATE statisticalData = get statistics of the customer of day and hour
+\STATE weatherData = get weather data of knownTimeSlot
+\STATE trueUsage = get true usage of customer in knownTimeSlot
+\STATE trainingInstance = create training instance by combining statisticalData, WeaterData and trueUsage 
+\STATE writeToFile(trainingInstance)
+\ENDFOR
+\end{algorithmic}
+\end{algorithm}
+
+%write weekly avg of each customer
+For the consumption type customers, the following algorithm is used to write the average usage of each slot of week
+\begin{algorithm}
+\caption{write average usage of customer of each hour of the week}
+\begin{algorithmic} 
+\REQUIRE information of all timeslots have been received
+\FOR{each customer}
+	\STATE trainingInstance = create empty training instance
+	\FOR{each day of week}
+		\FOR{each hour of day}
+			\STATE averageUsage = get average usage of day and hour of customer
+			\STATE append averageUsage to the trainingInstance
+		\ENDFOR
+	\ENDFOR
+	\STATE writeToAvgUsageFile(trainingInstance)
+\ENDFOR
+\end{algorithmic}
+\end{algorithm}
+
+%make cluster
+
+\begin{algorithm}
+\caption{create kmeans cluster of size k from weekly usage training instance file}
+\begin{algorithmic} 
+\STATE data = load weekly average usage file
+\STATE kmeansCluster = build kmeans cluster of size k
+\STATE save kmeansCluster
+\end{algorithmic}
+\end{algorithm}
+
+
+%observe error of each cluster
+
+%find size of k
+\begin{algorithm}
+\caption{find error of kmeans clusters of different size}
+\begin{algorithmic} 
+
+\FOR{each cluster size k}
+	\STATE get the kMeansCluster of size k
+	\FOR{cluster in KMeansCluster}
+		\STATE combine slot based training instances of that cluster
+		\STATE train linear regression classifier based on the combined data
+		\STATE save the classifier for cluster
+	\ENDFOR
+\ENDFOR
+
+\FOR{each training instance}
+	\STATE compute error of the instance using each kMeansCluster
+\ENDFOR
+\end{algorithmic}
+\end{algorithm}
+
+%calculate error
+\begin{algorithm}
+\caption{calculate error from predictedValue and trueValue}
+\begin{algorithmic} 
+\STATE absoluteError = abs(predictedValue - trueValue)
+\STATE relativeAbsoluteError = (absoluteError / trueValue ) * 100 \%
+\end{algorithmic}
+\end{algorithm}
+
+%find best classifier for cluster of size k
+\begin{algorithm}
+\caption{find best classifiers of each cluster of kmeans cluster of size k}
+\begin{algorithmic}
+\FOR{each cluster in kMeansCluster}
+	\STATE combine slot based data of the all the customers in cluster
+	\STATE train available classifiers on the combined data using 10 fold cross validation
+	\STATE choose the classifier with minimum error
+	\STATE save the classifier for making prediction for cluster
+\ENDFOR 
+\end{algorithmic}
+\end{algorithm}
+
+%find best classifier for individual customers
+\begin{algorithm}
+\caption{find best classifiers created for each individual customer}
+\begin{algorithmic}
+\FOR{each customer}
+	\STATE combine all slot based training instance of the customer
+	\STATE train available classifiers on the combined data using 10 fold cross validation
+	\STATE choose the classifier with minimum error
+	\STATE save the classifier for making prediction about the customer
+\ENDFOR 
+\end{algorithmic}
+\end{algorithm}
+
+%Testing
+\begin{algorithm}
+\caption{performance evalulation of each method}
+\begin{algorithmic}
+\FOR{each training instance}
+	\STATE classify using moving average usage
+	\STATE classify using individual prediction mechanism
+	\STATE classify using cluster based predictor
+	\STATE find and accumulate errors of each mechanism
+\ENDFOR 
+\STATE find averageError from the accumulated errors
+\end{algorithmic}
+\end{algorithm}
 
 
 \section{Result}
