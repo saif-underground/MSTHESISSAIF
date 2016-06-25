@@ -37,13 +37,13 @@
 \contentsline {subsection}{\numberline {3.3.1}Customer Vs PowerType}{11}
 \contentsline {subsection}{\numberline {3.3.2}Population Vs PowerType}{11}
 \contentsline {subsection}{\numberline {3.3.3}Total Energy Consumed Vs PowerType}{12}
-\contentsline {chapter}{\numberline {4}Methodology and Result}{15}
-\contentsline {section}{\numberline {4.1}Baseline Predictor}{15}
-\contentsline {section}{\numberline {4.2}Prediction Mechanism}{15}
-\contentsline {subsection}{\numberline {4.2.1}Consumption Type Customer}{15}
-\contentsline {section}{\numberline {4.3}Result}{16}
-\contentsline {subsection}{\numberline {4.3.1}Finding number of clusters}{16}
-\contentsline {subsection}{\numberline {4.3.2}Finding best predictor for each cluster}{19}
+\contentsline {chapter}{\numberline {4}Methodology and Result}{14}
+\contentsline {section}{\numberline {4.1}Baseline Predictor}{14}
+\contentsline {section}{\numberline {4.2}Prediction Mechanism}{14}
+\contentsline {subsection}{\numberline {4.2.1}Consumption Type Customer}{14}
+\contentsline {section}{\numberline {4.3}Result}{15}
+\contentsline {subsection}{\numberline {4.3.1}Finding number of clusters}{15}
+\contentsline {subsection}{\numberline {4.3.2}Finding best predictor for each cluster}{18}
 \noindent {\bf Appendix}
-\contentsline {chapter}{\numberline {A}Some more stuff}{29}
-\contentsline {chapter}{Curriculum Vitae}{30}
+\contentsline {chapter}{\numberline {A}Some more stuff}{28}
+\contentsline {chapter}{Curriculum Vitae}{29}
