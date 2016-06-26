@@ -3,34 +3,47 @@
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {section}{\numberline {4.1}Baseline Predictor}{14}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Calculate average usage for day d and timeslot t, $avgUsage$}}{14}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Update average usage for $customer_i$ for day d and timeslot t, $newUsage$}}{14}}
+\newlabel{alg:updateAvgMovingAvg}{{1}{14}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces predict usage for day d and timeslot t for $customer_i$}}{14}}
+\newlabel{alg:predictAvgMovingAvg}{{2}{14}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.2}Prediction Mechanism}{14}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Consumption Type Customer}{14}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces Make prediction for consumption type customer}}{15}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {3}{\ignorespaces extract information from transactionReport sent to broker after each time slot through TariffTransactionHandler call back method}}{15}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Result}{15}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Finding number of clusters}{15}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {4}{\ignorespaces write extracted data after timeSlot update message received from TimeSlotUpdateHandler call back method}}{16}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {5}{\ignorespaces write average usage of customer of each hour of the week}}{16}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {6}{\ignorespaces create kmeans cluster of size k from weekly usage training instance file}}{16}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {7}{\ignorespaces find error of kmeans clusters of different size}}{16}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {8}{\ignorespaces calculate error from predictedValue and trueValue}}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Consumption Type Customer}{15}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {3}{\ignorespaces Make prediction for consumption type customer}}{15}}
+\newlabel{alg:wholeAlgo}{{3}{15}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {4}{\ignorespaces extract information from transactionReport sent to broker after each time slot through TariffTransactionHandler call back method}}{15}}
+\newlabel{alg:ttxHandle}{{4}{15}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {5}{\ignorespaces write extracted data after timeSlot update message received from TimeSlotUpdateHandler call back method}}{16}}
+\newlabel{alg:writeSlotInfo}{{5}{16}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {6}{\ignorespaces write average usage of customer of each hour of the week}}{16}}
+\newlabel{alg:writeWeeklyAvg}{{6}{16}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {7}{\ignorespaces create kmeans cluster of size k from weekly usage training instance file}}{16}}
+\newlabel{alg:makeCluster}{{7}{16}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {8}{\ignorespaces find error of kmeans clusters of different size}}{17}}
+\newlabel{alg:errorOfCluster}{{8}{17}}
 \@writefile{loa}{\contentsline {algorithm}{\numberline {9}{\ignorespaces find best classifiers of each cluster of kmeans cluster of size k}}{17}}
+\newlabel{alg:bestClassifierForCluster}{{9}{17}}
 \@writefile{loa}{\contentsline {algorithm}{\numberline {10}{\ignorespaces find best classifiers created for each individual customer}}{17}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {11}{\ignorespaces performance evalulation of each method}}{17}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Cluster type vs Error.}}{18}}
-\newlabel{fig:cluster-type-vs-error}{{4.1}{18}}
+\newlabel{alg:bestClassifierIndiv}{{10}{17}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {11}{\ignorespaces performance evalulation of each method}}{18}}
+\newlabel{alg:performanceEval}{{11}{18}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {12}{\ignorespaces calculate error from predictedValue and trueValue}}{18}}
+\newlabel{alg:errorCalculation}{{12}{18}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Result}{18}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Finding number of clusters}{18}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Finding best predictor for each cluster}{18}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Cluster assignments.}}{19}}
-\newlabel{fig:4-cluster-with-10-files}{{4.2}{19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Cluster type vs Error.}}{19}}
+\newlabel{fig:cluster-type-vs-error}{{4.1}{19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Cluster assignments.}}{20}}
+\newlabel{fig:4-cluster-with-10-files}{{4.2}{20}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Performance of differenc predictors for cluster 0}}{20}}
 \newlabel{fig:cluster-0-predictors}{{4.3}{20}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Best individual predictor for each customer}}{20}}
-\newlabel{table:1}{{4.1}{20}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Performance of differenc predictors for cluster 1}}{21}}
 \newlabel{fig:cluster-1-predictors}{{4.4}{21}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Performance of differenc predictors for cluster 2}}{22}}
 \newlabel{fig:cluster-2-predictors}{{4.5}{22}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Best individual predictor for each customer}}{22}}
+\newlabel{table:1}{{4.1}{22}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Performance of differenc predictors for cluster 3}}{23}}
 \newlabel{fig:cluster-3-predictors}{{4.6}{23}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Performance of the best predictors for each customer type. Customer Medical center was excluded as it was showing huge error. }}{24}}
@@ -59,9 +72,9 @@
 \setcounter{theorem}{0}
 \setcounter{corollary}{0}
 \setcounter{float@type}{8}
-\setcounter{algorithm}{11}
+\setcounter{algorithm}{12}
 \setcounter{ALC@unique}{71}
-\setcounter{ALC@line}{7}
-\setcounter{ALC@rem}{7}
+\setcounter{ALC@line}{2}
+\setcounter{ALC@rem}{0}
 \setcounter{ALC@depth}{0}
 }

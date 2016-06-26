@@ -40,9 +40,9 @@
 \contentsline {chapter}{\numberline {4}Methodology and Result}{14}
 \contentsline {section}{\numberline {4.1}Baseline Predictor}{14}
 \contentsline {section}{\numberline {4.2}Prediction Mechanism}{14}
-\contentsline {subsection}{\numberline {4.2.1}Consumption Type Customer}{14}
-\contentsline {section}{\numberline {4.3}Result}{15}
-\contentsline {subsection}{\numberline {4.3.1}Finding number of clusters}{15}
+\contentsline {subsection}{\numberline {4.2.1}Consumption Type Customer}{15}
+\contentsline {section}{\numberline {4.3}Result}{18}
+\contentsline {subsection}{\numberline {4.3.1}Finding number of clusters}{18}
 \contentsline {subsection}{\numberline {4.3.2}Finding best predictor for each cluster}{18}
 \noindent {\bf Appendix}
 \contentsline {chapter}{\numberline {A}Some more stuff}{28}
