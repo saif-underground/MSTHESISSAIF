@@ -3,41 +3,5 @@
 \addcontentsline{toc}{chapter}{Abstract}
 
 \chapter*{Abstract}
-Solving systems of linear equations is a common computational problem well
-known to mathematicians, scientists and engineers.  Several algorithms exist 
-for solving this problem.  However, when the equations contain {\it interval 
-coefficients\/} (i.e., intervals in which the desired coefficient values are 
-known to lie), the problem may not be solvable in any reasonable sense.  In 
-fact, it has been shown that the general problem of solving systems of linear 
-equations with interval coefficients is NP-{\it hard}, i.e., extremely difficult
-and (it is believed) unsolvable; thus, no feasible algorithm can ever be 
-developed that will solve all particular cases of this problem.
 
-It turns out, though, that the widths of the interval coefficients are quite 
-small in a large number of the linear systems having interval coefficients.  
-This becomes readily apparent when we learn that the intervals typically come 
-from measurements.
-
-Any measurement of a physical quantity is limited
-by the precision and accuracy of the measuring device.  To be of practical
-use, the measuring devices used in science and industry must be
-reasonably accurate.  This implies that, for the most part, the actual values
-associated with measurements lie within relatively narrow intervals.  Indeed,
-manufacturers often guarantee the error of their instruments to be very small.
-
-Thus, we desire to look only at {\it narrow-interval\/} coefficients when 
-considering the development of an algorithm for solving linear systems with 
-interval coefficients.  As there already exists an algorithm that solves 
-most such systems, developing such an algorithm seems indeed promising.
-Therefore, the goal of this thesis is to answer the following question:
-
-\begin{quote}
-{\it Can a feasible algorithm be developed for the general problem of
-solving systems of linear equations with narrow-interval coefficients?}
-\end{quote}
-
-\noindent
-We show here that this problem, that of solving systems of linear 
-equations with narrow-interval coefficients, is NP-hard; thus, we do not
-consider it possible to develop a feasible algorithm that will solve all 
-particular cases of this problem.
+Accurate electricity demand forecasting is an important problem as the failure to do so may be costly for both economic and environmental reasons. Power TAC simulation system provides a non-risky platform to do research on smart grid based energy generation and distribution system. Brokers are important components of the system. The brokers work as self-interested entities that want to maximize their profits by buying energy in a lower cost and selling it to a higher cost. To be successful, a broker has to make forecast of the electricity demand about its customers as accurately as possible otherwise it will be unbale to make profit. The proposed forecasting method uses a combination of cluster and classifiers. At first, the customers are clustered based on their weekly average usage. After that, energy usage history and related weather related information of the customers in the same cluster are combined together to train classifier for the cluster. To forecast about an unseen customer, the proposed method needs at least a week's energy usage history of the customer. The system assigns the  unseen customer to one of the clusters based on its energy usage history. The classifier for that cluster will be used to make forecast about the customer. This approach produced 13 \% error compared to 31\% relative absolute error observed from the moving average baseline predictor. Again, Power TAC system has six different types of customer such as customers with demand shifting capability, customer with no demand shifting capability, electric vehicle, thermal storage, wind production and solar production. Previous approaches to demand forecasting treated all types of customers equally. This work shows that a good forecasting system should treat customers of different type differently otherwise the system will experience more error.

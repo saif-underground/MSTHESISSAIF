@@ -6,15 +6,15 @@
 \noindent {\bf Chapter}
 \contentsline {chapter}{\numberline {1}Smart Grid and PowerTAC Competition}{1}
 \contentsline {section}{\numberline {1.1}Traditional Energy Distribution and Consumption System}{1}
-\contentsline {section}{\numberline {1.2}Smart Grid}{1}
-\contentsline {section}{\numberline {1.3}Smart Grid and Renewable Energy}{2}
-\contentsline {section}{\numberline {1.4}Importance of accurate load forecasting}{2}
-\contentsline {section}{\numberline {1.5}PowerTAC System}{2}
-\contentsline {subsection}{\numberline {1.5.1}Broker}{2}
-\contentsline {subsection}{\numberline {1.5.2}Wholesale Market}{2}
-\contentsline {subsection}{\numberline {1.5.3}Customers}{3}
-\contentsline {subsection}{\numberline {1.5.4}Balancing Market}{3}
-\contentsline {subsection}{\numberline {1.5.5}Weather Service}{3}
+\contentsline {section}{\numberline {1.2}Smart Grid and Renewable Energy}{1}
+\contentsline {section}{\numberline {1.3}Importance of accurate load forecasting}{2}
+\contentsline {section}{\numberline {1.4}Power TAC System}{2}
+\contentsline {subsection}{\numberline {1.4.1}Broker}{2}
+\contentsline {subsection}{\numberline {1.4.2}Wholesale Market}{2}
+\contentsline {subsection}{\numberline {1.4.3}Customers}{2}
+\contentsline {subsection}{\numberline {1.4.4}Balancing Market}{3}
+\contentsline {subsection}{\numberline {1.4.5}Weather Service}{3}
+\contentsline {subsection}{\numberline {1.4.6}Tariff Market}{3}
 \contentsline {chapter}{\numberline {2}Related Works}{4}
 \contentsline {section}{\numberline {2.1}types of load forecasting}{4}
 \contentsline {section}{\numberline {2.2}variables in energy demand}{4}
@@ -45,5 +45,5 @@
 \contentsline {subsection}{\numberline {4.3.1}Finding number of clusters}{18}
 \contentsline {subsection}{\numberline {4.3.2}Finding best predictor for each cluster}{18}
 \noindent {\bf Appendix}
-\contentsline {chapter}{\numberline {A}Some more stuff}{28}
-\contentsline {chapter}{Curriculum Vitae}{29}
+\contentsline {chapter}{\numberline {A}Some more stuff}{25}
+\contentsline {chapter}{Curriculum Vitae}{26}

@@ -213,10 +213,21 @@ Next phase is testing the performance of the proposed and baseline methods. For 
 
 At first, I have segmented the customer using KMeans clustering algorithm with cluster sizes = 4, 5, 6, 7, 8, 9, 10 and 11. For KMeans with size k, we will have k clusters. For each of the k clusters I had a linear regression predictor. I observed the relative percentage error and absolute average the above cluster sizes. Figure \ref{fig:cluster-type-vs-error} shows the result. From, the figure it is clear that the size of the cluster does not have a big impact on the prediction performance.
 
-\begin{figure}[h!]
-  \includegraphics[width=\linewidth]{cluster-types-vs-error.png}
-  \caption{Cluster type vs Error.}
+
+%place here
+\begin{figure}
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{diff-szied-kmeansAbsErroPercent.png}
+  \caption{cluster type vs average absolute error.}
   \label{fig:cluster-type-vs-error}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{diff-szied-kmeansRelativeAbsErroPercent.png}
+  \caption{cluster type vs percent relative absolute error}
+\end{minipage}
 \end{figure}
 
 To keep things simple, I have decided to choose Kmeans cluster of size 4. The figure \ref{fig:4-cluster-with-10-files} shows the assignments of customers in different clusters. From the figure, cluster-0 holds most of the offices, cluster 2 holds most of the village types, cluster 3 holds the medical center, cluster 1 holds large housing such as brooksidehomes, centerville homes etc.
@@ -240,32 +251,62 @@ I have used the following features for a given timeslot to train prediction mode
 
 Next, I have tried out  M5Tree, Linear Regression, M5P rules and REP tree machine learning algorithms to see which one performs best for each of the 4 clusters. Figure \ref{fig:cluster-0-predictors}, \ref{fig:cluster-1-predictors}, \ref{fig:cluster-2-predictors}, \ref{fig:cluster-3-predictors} show that M5P, M5P, REPTree and M5RULES are the best predictors for cluster 0, 1, 2 and 3 respectively.
 
-
-\begin{figure}[h!]
-  \includegraphics[width=\linewidth]{cluster-0-predictors.png}
-  \caption{Performance of differenc predictors for cluster 0}
+%% begin
+\begin{figure}
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{cluster-0-diff-classifier-avg-abs.png}
+  \caption{cluster 0 average absolute error of 4 classifiers}
   \label{fig:cluster-0-predictors}
-\end{figure}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{cluster-0-diff-classifier-relative-abs.png}
+  \caption{cluster 0 average relative absolute error of 4 classifiers}
+\end{minipage}
 
-\begin{figure}[h!]
-  \includegraphics[width=\linewidth]{cluster-1-predictors.png}
-  \caption{Performance of differenc predictors for cluster 1}
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{cluster-1-diff-classifier-avg-abs.png}
+  \caption{cluster 1 average absolute error of 4 classifiers}
   \label{fig:cluster-1-predictors}
-\end{figure}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{cluster-1-diff-classifier-relative-abs.png}
+  \caption{cluster 1 average relative absolute error of 4 classifiers}
+\end{minipage}
 
-
-\begin{figure}[h!]
-  \includegraphics[width=\linewidth]{cluster-2-predictors.png}
-  \caption{Performance of differenc predictors for cluster 2}
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{cluster-2-diff-classifier-avg-abs.png}
+  \caption{cluster 2 average absolute error of 4 classifiers}
   \label{fig:cluster-2-predictors}
-\end{figure}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{cluster-2-diff-classifier-relative-abs.png}
+  \caption{cluster 2 average relative absolute error of 4 classifiers}
+\end{minipage}
 
-
-\begin{figure}[h!]
-  \includegraphics[width=\linewidth]{cluster-3-predictors.png}
-  \caption{Performance of differenc predictors for cluster 3}
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{cluster-3-diff-classifier-avg-abs.png}
+  \caption{cluster 3 average absolute error of 4 classifiers}
   \label{fig:cluster-3-predictors}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{cluster-3-diff-classifier-relative-abs.png}
+  \caption{cluster 3 average relative absolute error of 4 classifiers}
+\end{minipage}
+
 \end{figure}
+%end figure
 
 The next step is to find the best predictors for each of the customers. Based on the data from each of the customers, the above four types of predictors were tried out. For each customer, the following predictors performed the best. 
 
@@ -301,15 +342,28 @@ MedicalCenter@1	& M5P \\ [1ex]
 The figure \ref{fig:indiv-cutomer-best-predictor-error} shows error percentage of each of the predictors type for each of the customer types.
 
 \begin{figure}[h!]
-  \includegraphics[width=\linewidth]{indiv-cutomer-best-predictor-error.png}
+  \includegraphics[width=\linewidth]{relativeErrorIndivPredictor.png}
   \caption{Performance of the best predictors for each customer type. Customer Medical center was excluded as it was showing huge error. }
   \label{fig:indiv-cutomer-best-predictor-error}
 \end{figure}
 
 Finally, the cluster based prediction and the two baselines were tested with data extracted from 5 test files that were not used for training. From Figure \ref{fig:prediction-scheme-vs-error} we can see that cluster based prediction mechanism performed almost as well as the mechanism where n predictors are needed for n customers. And it did well than the moving average prediction scheme.
 
+
+
 \begin{figure}[h!]
-  \includegraphics[width=\linewidth]{prediction-scheme-vs-error.png}
-  \caption{Performance of the three prediction mechanisms. Cluster based predictor performs as good as the individual predictor for each customers and performs better than the moving average predictor. }
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{final-avg-abs-error.png}
+  \caption{average absolute error}
   \label{fig:prediction-scheme-vs-error}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{final-relative-abs-error.png}
+  \caption{average percent relative absolute error}
+\end{minipage}
+
+  
 \end{figure}
