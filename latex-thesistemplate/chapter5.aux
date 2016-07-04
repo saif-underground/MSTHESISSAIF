@@ -2,20 +2,20 @@
 \@writefile{toc}{\contentsline {chapter}{\numberline {4}Methodology and Result}{14}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Baseline Predictor}{14}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}The Baseline Electricity Forecasting Mechanisms}{14}}
 \@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Update average usage for $customer_i$ for day d and timeslot t, $newUsage$}}{14}}
 \newlabel{alg:updateAvgMovingAvg}{{1}{14}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces predict usage for day d and timeslot t for $customer_i$}}{14}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces forecast usage for day d and timeslot t for $customer_i$}}{14}}
 \newlabel{alg:predictAvgMovingAvg}{{2}{14}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Prediction Mechanism}{14}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Consumption Type Customer}{15}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {3}{\ignorespaces Make prediction for consumption type customer}}{15}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Proposed Electricity Demand Forecasting Mechanism}{14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Demand Forecasting for Consumption Type Customer}{15}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {3}{\ignorespaces Make electricity demand forecasting for consumption type customer}}{15}}
 \newlabel{alg:wholeAlgo}{{3}{15}}
 \@writefile{loa}{\contentsline {algorithm}{\numberline {4}{\ignorespaces extract information from transactionReport sent to broker after each time slot through TariffTransactionHandler call back method}}{15}}
 \newlabel{alg:ttxHandle}{{4}{15}}
 \@writefile{loa}{\contentsline {algorithm}{\numberline {5}{\ignorespaces write extracted data after timeSlot update message received from TimeSlotUpdateHandler call back method}}{16}}
 \newlabel{alg:writeSlotInfo}{{5}{16}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {6}{\ignorespaces write average usage of customer of each hour of the week}}{16}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {6}{\ignorespaces write average electricity usage of the customers of each hour of the week}}{16}}
 \newlabel{alg:writeWeeklyAvg}{{6}{16}}
 \@writefile{loa}{\contentsline {algorithm}{\numberline {7}{\ignorespaces create kmeans cluster of size k from weekly usage training instance file}}{16}}
 \newlabel{alg:makeCluster}{{7}{16}}
@@ -27,7 +27,7 @@
 \newlabel{alg:bestClassifierIndiv}{{10}{17}}
 \@writefile{loa}{\contentsline {algorithm}{\numberline {11}{\ignorespaces performance evalulation of each method}}{18}}
 \newlabel{alg:performanceEval}{{11}{18}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {12}{\ignorespaces calculate error from predictedValue and trueValue}}{18}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {12}{\ignorespaces calculate error from the predicted value and the true value}}{18}}
 \newlabel{alg:errorCalculation}{{12}{18}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.3}Result}{18}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Finding number of clusters}{18}}
@@ -35,27 +35,27 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces cluster type vs average absolute error.}}{19}}
 \newlabel{fig:cluster-type-vs-error}{{4.1}{19}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces cluster type vs percent relative absolute error}}{19}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Cluster assignments.}}{19}}
-\newlabel{fig:4-cluster-with-10-files}{{4.3}{19}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces cluster 0 average absolute error of 4 classifiers}}{20}}
-\newlabel{fig:cluster-0-predictors}{{4.4}{20}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces cluster 0 average relative absolute error of 4 classifiers}}{20}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces cluster 1 average absolute error of 4 classifiers}}{20}}
-\newlabel{fig:cluster-1-predictors}{{4.6}{20}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces cluster 1 average relative absolute error of 4 classifiers}}{20}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces cluster 2 average absolute error of 4 classifiers}}{20}}
-\newlabel{fig:cluster-2-predictors}{{4.8}{20}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces cluster 2 average relative absolute error of 4 classifiers}}{20}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces cluster 3 average absolute error of 4 classifiers}}{20}}
-\newlabel{fig:cluster-3-predictors}{{4.10}{20}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces cluster 3 average relative absolute error of 4 classifiers}}{20}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Best individual predictor for each customer}}{21}}
-\newlabel{table:1}{{4.1}{21}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces Performance of the best predictors for each customer type. Customer Medical center was excluded as it was showing huge error. }}{22}}
-\newlabel{fig:indiv-cutomer-best-predictor-error}{{4.12}{22}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.13}{\ignorespaces average absolute error}}{22}}
-\newlabel{fig:prediction-scheme-vs-error}{{4.13}{22}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.14}{\ignorespaces average percent relative absolute error}}{22}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Assigned cluster for each customer}}{19}}
+\newlabel{table:clusterAss}{{4.1}{19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces cluster 0 average absolute error of 4 classifiers}}{20}}
+\newlabel{fig:cluster-0-predictors}{{4.3}{20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces cluster 0 average relative absolute error of 4 classifiers}}{20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces cluster 1 average absolute error of 4 classifiers}}{20}}
+\newlabel{fig:cluster-1-predictors}{{4.5}{20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces cluster 1 average relative absolute error of 4 classifiers}}{20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces cluster 2 average absolute error of 4 classifiers}}{20}}
+\newlabel{fig:cluster-2-predictors}{{4.7}{20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces cluster 2 average relative absolute error of 4 classifiers}}{20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces cluster 3 average absolute error of 4 classifiers}}{20}}
+\newlabel{fig:cluster-3-predictors}{{4.9}{20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces cluster 3 average relative absolute error of 4 classifiers}}{20}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Best individual predictor for each customer}}{21}}
+\newlabel{table:1}{{4.2}{21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces Performance of the best classifier for each customer type. Customer Medical center was excluded as it was showing huge error. }}{22}}
+\newlabel{fig:indiv-cutomer-best-predictor-error}{{4.11}{22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces average absolute error}}{22}}
+\newlabel{fig:prediction-scheme-vs-error}{{4.12}{22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.13}{\ignorespaces average percent relative absolute error}}{22}}
 \@setckpt{chapter5}{
 \setcounter{page}{23}
 \setcounter{equation}{0}
@@ -72,8 +72,8 @@
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{14}
-\setcounter{table}{1}
+\setcounter{figure}{13}
+\setcounter{table}{2}
 \setcounter{definition}{0}
 \setcounter{theorem}{0}
 \setcounter{corollary}{0}

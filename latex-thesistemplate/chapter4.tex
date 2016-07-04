@@ -2,27 +2,27 @@
 
 \chapter{Customer Description} 
 
-In this chapter I will describe the customers present in the PowerTAC simulation system, some statistics about them and their attributes.
+In this chapter, I will describe the customers present in the PowerTAC simulation system, some statistics about them and their attributes.
 
 \section{Customers}
 
-In PowerTAC simulation system the customers are the entities that buys and sells energy. A customer subscribes to one of the tariffs of the brokers and it pays or sells energy according the tariff plan. A customer can represent a population size of one to several thousands. For example, customers that represent a Electric Vehicle represent only one person and the customers that represent a village usually have several thousand population. In PowerTAC environment there are 168 customers.
+In PowerTAC simulation system the customers are the entities that buy and sell electricity. A customer subscribes to one of the tariffs published by the brokers and it pays or receives money according to the tariff plan. A customer can represent a population size of one to several thousand. For example, customers that represent an electric vehicle customer represent only one person and the customers that represent a village usually have several thousand populations. In PowerTAC environment there are 168 customers in total.
 
 \section {PowerTypes}
-A customer can have among powertype among some possibility. Powertype determines the behaviour of the customers. A customer that has powertype related to production produces energy. A customer that has a power type related to energy consumption usually consumes energy. In the following subsections I describe powertypes of the customer.
+In Power TAC, every customer has a power type. Power type determines the behavior of the customers. A customer that has power type related to production produces electricity. A customer that has a power type related to energy consumption consumes energy. In the following subsections, I describe different power types of the simulation.
 
 \subsection{consumption}
 
-A customer with powertype consumption are the most common customers. They use the energy when they need it. They cannot shift their demand to a future timeslot. Usually they have a regular pattern in their energy usage. Usually they show similar pattern for weekdays. They have similar kind of usage pattern for the weekends. 
+A customer with power type consumption are the most common customers. They use the energy when they need it. They cannot shift their demand to a future timeslot. Usually, they have a regular pattern of their energy usage. Usually, they show a similar pattern for weekdays. They have similar kind of usage pattern for the weekends. 
 
-The figure  \ref{fig:2daysbrook} shows 2 days electricity usage of the BrookSideHomes customer. The pattern shows in a day, around at 10 am there is a growing need for electricity. During night after 10 pm the electricity consumption starts decreasing.
+The figure  \ref{fig:2daysbrook} shows 2 days electricity usage of the BrookSideHomes customer. The pattern shows in a day, around at 10 am there is a growing need for electricity. During the night after 10 pm, the electricity consumption starts decreasing.
 \begin{figure}[h!]
   \includegraphics[width=\linewidth]{BrooksideHomes-2days.png}
   \caption{Two days energy usage for the customer Brooksidehomes.}
   \label{fig:2daysbrook}
 \end{figure}
 
-The figure \ref{fig:2weekOffice} shows two weeks consumption of the downtown customer. The customer shows similar pattern for all weekdays. It also distinguishable energy usage during the weekends.
+The figure \ref{fig:2weekOffice} shows two weeks consumption of the downtown customer. The customer shows a similar pattern for all weekdays. It also shows  distinguishable energy usage during the weekends.
 
 \begin{figure}[h!]
   \includegraphics[width=\linewidth]{downtown-offc-2-weeks.png}
@@ -31,7 +31,7 @@ The figure \ref{fig:2weekOffice} shows two weeks consumption of the downtown cus
 \end{figure}
 
 \subsection{Interruptible Consumption}
-Interruptible customers are smart enough to shift their energy demand in a timeslot where they can buy electricity in a reduced price. Because of this shifting capability, they don't show the regular usage pattern as the consumption customers do. Figure \ref{fig:2weekOffice} shows a controlloable customer's 2 days usage.
+Interruptible customers are smart enough to shift their energy demand in a timeslot where they can buy electricity at a reduced price. Because of this shifting capability, they don't show a regular usage pattern as the consumption customers do. Figure \ref{fig:2weekOffice} shows a controllable customer's 2 days usage.
 
 \begin{figure}[h!]
   \includegraphics[width=\linewidth]{village2nsControllable.png}
@@ -40,7 +40,7 @@ Interruptible customers are smart enough to shift their energy demand in a times
 \end{figure}
 
 \subsection{Thermal Storage}
-Thermal storage customers shows weekly pattern in their energy usage. Their energy usage in a day depends very much on the energy they used in the last timeslot. Figure \ref{fig:day-thermal} and \ref{fig:thermal-week} shows a day and two week's energy usage of the thermal storage customer sf2.
+Thermal storage customers show a weekly pattern in their electricity usage. Also, during a day, their electricity usage in a day depends  much on the energy they used in the last timeslot. Figure \ref{fig:day-thermal} and \ref{fig:thermal-week} shows a day and two week's energy usage of the thermal storage customer sf2.
 
 \begin{figure}[h!]
   \includegraphics[width=\linewidth]{sf2-thermal-daily.png}
@@ -56,7 +56,7 @@ Thermal storage customers shows weekly pattern in their energy usage. Their ener
 
 
 \subsection{Solar Production}
-Figure \ref{fig:solar-twoday} shows two day's and  figure \ref{{fig:solar-oneweek}} shows a week's energy produciton of the Solar Production customer of the customer SunnyHill solar production customer.
+Figure \ref{fig:solar-twoday} shows two day's and  figure \ref{{fig:solar-oneweek}} shows a week's energy production of the SunnyHill solar production customer. From the figures, we see that during the daytime the solar production customers usually produces electricity which is as expected.
 
 \begin{figure}[h!]
   \includegraphics[width=\linewidth]{sunnyhill-twoday.png}
@@ -72,19 +72,19 @@ Figure \ref{fig:solar-twoday} shows two day's and  figure \ref{{fig:solar-onewee
 \end{figure}
 
 \subsection{Wind Production}
-Wind production customers generates energy from the wind.
+Wind production customers generate energy from the wind.
 \subsection {Electric Vehicle}
-A electric vehicle customer represnt one electric vehicle. Their usage of energy is quite irregular and hard to predict.
+An electric vehicle customer represents one electric vehicle. Their usage of energy is quite irregular and hard to predict.
 
 \section{Statistics}
-In this section I present some statistics on the customers available in the system. 
+In this section, I present some statistics on the customers available in the system. 
 
 \subsection {Customer Vs PowerType}
 
-In the figure \ref{fig:cust-pt} we can see the system has more customer with the power type electric vehicle than any other powertypes. This is because, the electric vehicle represents a population of size 1.
+In the figure \ref{fig:cust-pt} we can see the system has more customer with the power type electric vehicle than any other power types. This is because the electric vehicle represents a population of size 1.
 
 \subsection {Population Vs PowerType}
-From figure \ref{fig:pop-pt} by far the powertype of consumption has the most number of people in them.
+From figure \ref{fig:pop-pt} by far the powertype of consumption has the most number of population.
 
 \subsection {Total Energy Consumed Vs PowerType}
 From figure \ref{fig:energy-pt} we can see that the consumption type customers uses the most amount of the electricity.

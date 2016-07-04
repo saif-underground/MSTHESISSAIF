@@ -1,11 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{al2004short}
-HM~Al-Hamadi and SA~Soliman.
-\newblock Short-term electric load forecasting based on kalman filtering
-  algorithm with moving window weather and load model.
-\newblock {\em Electric power systems research}, 68(1):47--59, 2004.
-
 \bibitem{chen2004load}
 Bo-Juen Chen, Ming-Wei Chang, and Chih-Jen Lin.
 \newblock Load forecasting using support vector machines: A study on eunite

@@ -16,16 +16,15 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces cluster type vs average absolute error.}}{19}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces cluster type vs percent relative absolute error}}{19}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Cluster assignments.}}{19}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces cluster 0 average absolute error of 4 classifiers}}{20}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces cluster 0 average relative absolute error of 4 classifiers}}{20}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces cluster 1 average absolute error of 4 classifiers}}{20}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces cluster 1 average relative absolute error of 4 classifiers}}{20}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces cluster 2 average absolute error of 4 classifiers}}{20}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces cluster 2 average relative absolute error of 4 classifiers}}{20}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces cluster 3 average absolute error of 4 classifiers}}{20}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces cluster 3 average relative absolute error of 4 classifiers}}{20}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Performance of the best predictors for each customer type. Customer Medical center was excluded as it was showing huge error. }}{22}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces average absolute error}}{22}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces average percent relative absolute error}}{22}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces cluster 0 average absolute error of 4 classifiers}}{20}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces cluster 0 average relative absolute error of 4 classifiers}}{20}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces cluster 1 average absolute error of 4 classifiers}}{20}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces cluster 1 average relative absolute error of 4 classifiers}}{20}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces cluster 2 average absolute error of 4 classifiers}}{20}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces cluster 2 average relative absolute error of 4 classifiers}}{20}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces cluster 3 average absolute error of 4 classifiers}}{20}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces cluster 3 average relative absolute error of 4 classifiers}}{20}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Performance of the best classifier for each customer type. Customer Medical center was excluded as it was showing huge error. }}{22}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces average absolute error}}{22}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces average percent relative absolute error}}{22}
 \addvspace {10\p@ }
