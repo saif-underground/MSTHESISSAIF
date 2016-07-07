@@ -31,6 +31,12 @@ Melissa Hart and Richard de~Dear.
 \newblock Weather sensitivity in household appliance energy end-use.
 \newblock {\em Energy and Buildings}, 36(2):161--174, 2004.
 
+\bibitem{hor2005analyzing}
+Ching-Lai Hor, Simon~J Watson, and Shanti Majithia.
+\newblock Analyzing the impact of weather variables on monthly electricity
+  demand.
+\newblock {\em IEEE transactions on power systems}, 20(4):2078--2085, 2005.
+
 \bibitem{hsu2003regional}
 Che-Chiang Hsu and Chia-Yon Chen.
 \newblock Regional load forecasting in taiwan----applications of artificial
@@ -76,6 +82,12 @@ Andre Richter, Erwin van~der Laan, Wolfgang Ketter, and Konstantina Valogianni.
   from closed-loop supply chains.
 \newblock In {\em Smart Grid Technology, Economics and Policies (SG-TEP), 2012
   International Conference on}, pages 1--7. IEEE, 2012.
+
+\bibitem{rudenauer2004energy}
+Ina R{\"u}denauer and Carl-Otto Gensch.
+\newblock Energy demand of tumble driers with respect to differences in
+  technology and ambient conditions.
+\newblock {\em {\"O}ko-institut, Freiburg}, 2004.
 
 \bibitem{wang2015gongbroker}
 Xishun Wang, Minjie Zhang, Fenghui Ren, and Takayuki Ito.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  3 JUL 2016 12:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  6 JUL 2016 18:40
 entering extended mode
 **C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
 (C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
@@ -194,8 +194,8 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (chapter2.tex
 Chapter 1.
 
-Overfull \hbox (1.70813pt too wide) in paragraph at lines 7--7
-[]\OT1/cmr/bx/n/17.28 Traditional En-ergy Dis-tri-bu-tion and Con-sump-tion
+Overfull \hbox (2.24815pt too wide) in paragraph at lines 7--7
+[]\OT1/cmr/bx/n/17.28 Traditional Elec-tric-ity Dis-tri-bu-tion and Con-sump-
  []
 
 [1
@@ -207,7 +207,7 @@ Overfull \hbox (1.70813pt too wide) in paragraph at lines 7--7
 File: simulation-environment.png Graphic file (type png)
 
 <use simulation-environment.png>
-Package pdftex.def Info: simulation-environment.png used on input line 53.
+Package pdftex.def Info: simulation-environment.png used on input line 50.
 (pdftex.def)             Requested size: 462.52756pt x 172.04768pt.
 ) [3 <./simulation-environment.png>]
 \openout2 = `chapter3.aux'.
@@ -215,22 +215,22 @@ Package pdftex.def Info: simulation-environment.png used on input line 53.
 
 (chapter3.tex
 Chapter 2.
-[4
 
-
-
-]
-Overfull \hbox (29.40623pt too wide) in paragraph at lines 17--17
+Overfull \hbox (29.40623pt too wide) in paragraph at lines 16--16
 []\OT1/cmr/bx/n/17.28 Electricity Load Fore-cast-ing Us-ing Sta-tis-ti-cal Meth
 od 
  []
 
-[5] [6]) [7]
+[4
+
+
+
+] [5]) [6]
 \openout2 = `chapter4.aux'.
 
  (chapter4.tex
 Chapter 3.
-<BrooksideHomes-2days.png, id=59, 881.54344pt x 324.46219pt>
+<BrooksideHomes-2days.png, id=56, 881.54344pt x 324.46219pt>
 File: BrooksideHomes-2days.png Graphic file (type png)
 
 <use BrooksideHomes-2days.png>
@@ -240,7 +240,7 @@ Package pdftex.def Info: BrooksideHomes-2days.png used on input line 20.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<downtown-offc-2-weeks.png, id=60, 871.00406pt x 324.46219pt>
+<downtown-offc-2-weeks.png, id=57, 871.00406pt x 324.46219pt>
 File: downtown-offc-2-weeks.png Graphic file (type png)
 
 <use downtown-offc-2-weeks.png>
@@ -250,11 +250,11 @@ Package pdftex.def Info: downtown-offc-2-weeks.png used on input line 28.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8
+[7
 
 
 
-] <village2nsControllable.png, id=64, 871.00406pt x 333.49594pt>
+] <village2nsControllable.png, id=61, 871.00406pt x 333.49594pt>
 File: village2nsControllable.png Graphic file (type png)
 
 <use village2nsControllable.png>
@@ -264,7 +264,7 @@ Package pdftex.def Info: village2nsControllable.png used on input line 37.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<sf2-thermal-daily.png, id=65, 880.03781pt x 325.96782pt>
+<sf2-thermal-daily.png, id=62, 880.03781pt x 325.96782pt>
 File: sf2-thermal-daily.png Graphic file (type png)
 
 <use sf2-thermal-daily.png>
@@ -274,7 +274,7 @@ Package pdftex.def Info: sf2-thermal-daily.png used on input line 46.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<sf2-thermal-week.png, id=66, 867.99281pt x 342.5297pt>
+<sf2-thermal-week.png, id=63, 867.99281pt x 342.5297pt>
 File: sf2-thermal-week.png Graphic file (type png)
 
 <use sf2-thermal-week.png>
@@ -285,10 +285,10 @@ Package pdftex.def Info: sf2-thermal-week.png used on input line 52.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `{fig:solar-oneweek}' on page 9 undefined on input lin
+LaTeX Warning: Reference `{fig:solar-oneweek}' on page 8 undefined on input lin
 e 59.
 
-<sunnyhill-twoday.png, id=67, 877.02657pt x 335.00156pt>
+<sunnyhill-twoday.png, id=64, 877.02657pt x 335.00156pt>
 File: sunnyhill-twoday.png Graphic file (type png)
 
 <use sunnyhill-twoday.png>
@@ -298,7 +298,7 @@ Package pdftex.def Info: sunnyhill-twoday.png used on input line 62.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<sunnyhill-oneweek.png, id=68, 872.50969pt x 328.97906pt>
+<sunnyhill-oneweek.png, id=65, 872.50969pt x 328.97906pt>
 File: sunnyhill-oneweek.png Graphic file (type png)
 
 <use sunnyhill-oneweek.png>
@@ -308,9 +308,9 @@ Package pdftex.def Info: sunnyhill-oneweek.png used on input line 69.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9 <./BrooksideHomes-2days.png> <./downtown-offc-2-weeks.png>] [10 <./village2n
-sControllable.png> <./sf2-thermal-daily.png>]
-<4-customer-vs-powertype.jpg, id=80, 280.04625pt x 196.48407pt>
+[8 <./BrooksideHomes-2days.png> <./downtown-offc-2-weeks.png>] [9 <./village2ns
+Controllable.png> <./sf2-thermal-daily.png>]
+<4-customer-vs-powertype.jpg, id=76, 280.04625pt x 196.48407pt>
 File: 4-customer-vs-powertype.jpg Graphic file (type jpg)
 
 <use 4-customer-vs-powertype.jpg>
@@ -321,21 +321,21 @@ Overfull \hbox (130.08621pt too wide) in paragraph at lines 98--98
  [] 
  []
 
-<2-population-vs-powertype.jpg, id=81, 243.91125pt x 215.30438pt>
+<2-population-vs-powertype.jpg, id=77, 243.91125pt x 215.30438pt>
 File: 2-population-vs-powertype.jpg Graphic file (type jpg)
 
 <use 2-population-vs-powertype.jpg>
 Package pdftex.def Info: 2-population-vs-powertype.jpg used on input line 103.
 (pdftex.def)             Requested size: 231.26378pt x 204.14375pt.
 
-<3-energy-vs-powertype.png, id=82, 249.93375pt x 210.03468pt>
+<3-energy-vs-powertype.png, id=78, 249.93375pt x 210.03468pt>
 File: 3-energy-vs-powertype.png Graphic file (type png)
 
 <use 3-energy-vs-powertype.png>
 Package pdftex.def Info: 3-energy-vs-powertype.png used on input line 110.
 (pdftex.def)             Requested size: 231.26378pt x 194.35274pt.
 
-<pie-energy-share.png, id=83, 319.1925pt x 271.0125pt>
+<pie-energy-share.png, id=79, 319.1925pt x 271.0125pt>
 File: pie-energy-share.png Graphic file (type png)
 
 <use pie-energy-share.png>
@@ -346,15 +346,15 @@ Overfull \hbox (130.08621pt too wide) in paragraph at lines 116--116
  [] 
  []
 
-) [11 <./sf2-thermal-week.png> <./sunnyhill-twoday.png>] [12 <./sunnyhill-onewe
-ek.png>] [13 <./4-customer-vs-powertype.jpg (PNG copy)> <./2-population-vs-powe
+) [10 <./sf2-thermal-week.png> <./sunnyhill-twoday.png>] [11 <./sunnyhill-onewe
+ek.png>] [12 <./4-customer-vs-powertype.jpg (PNG copy)> <./2-population-vs-powe
 rtype.jpg (PNG copy)> <./3-energy-vs-powertype.png (PNG copy)> <./pie-energy-sh
 are.png (PNG copy)>]
 \openout2 = `chapter5.aux'.
 
  (chapter5.tex
 Chapter 4.
-[14
+[13
 
 
 
@@ -365,18 +365,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[14]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 [15]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[16]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[17] <diff-szied-kmeansAbsErroPercent.png, id=112, 344.78813pt x 213.79875pt>
+[16] <diff-szied-kmeansAbsErroPercent.png, id=109, 344.78813pt x 213.79875pt>
 File: diff-szied-kmeansAbsErroPercent.png Graphic file (type png)
 
 <use diff-szied-kmeansAbsErroPercent.png>
@@ -389,7 +389,7 @@ Overfull \hbox (130.08621pt too wide) in paragraph at lines 223--223
  []
 
 
-<diff-szied-kmeansRelativeAbsErroPercent.png, id=113, 344.78813pt x 213.79875pt
+<diff-szied-kmeansRelativeAbsErroPercent.png, id=110, 344.78813pt x 213.79875pt
 >
 File: diff-szied-kmeansRelativeAbsErroPercent.png Graphic file (type png)
  <use diff-szied-kmeansRelativeAbsErroPercent.png>
@@ -404,8 +404,8 @@ Overfull \hbox (130.08621pt too wide) in paragraph at lines 229--229
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[18]
-<cluster-0-diff-classifier-avg-abs.png, id=117, 334.24875pt x 209.28188pt>
+[17]
+<cluster-0-diff-classifier-avg-abs.png, id=114, 334.24875pt x 209.28188pt>
 File: cluster-0-diff-classifier-avg-abs.png Graphic file (type png)
 
 <use cluster-0-diff-classifier-avg-abs.png>
@@ -418,7 +418,7 @@ Overfull \hbox (130.08621pt too wide) in paragraph at lines 293--293
  []
 
 
-<cluster-0-diff-classifier-relative-abs.png, id=118, 324.46219pt x 238.64156pt>
+<cluster-0-diff-classifier-relative-abs.png, id=115, 324.46219pt x 238.64156pt>
 File: cluster-0-diff-classifier-relative-abs.png Graphic file (type png)
 <use cluster-0-diff-classifier-relative-abs.png>
 Package pdftex.def Info: cluster-0-diff-classifier-relative-abs.png used on inp
@@ -429,7 +429,7 @@ Overfull \hbox (130.08621pt too wide) in paragraph at lines 299--299
  [] 
  []
 
-<cluster-1-diff-classifier-avg-abs.png, id=119, 334.24875pt x 209.28188pt>
+<cluster-1-diff-classifier-avg-abs.png, id=116, 334.24875pt x 209.28188pt>
 File: cluster-1-diff-classifier-avg-abs.png Graphic file (type png)
 
 <use cluster-1-diff-classifier-avg-abs.png>
@@ -442,7 +442,7 @@ Overfull \hbox (130.08621pt too wide) in paragraph at lines 306--306
  []
 
 
-<cluster-1-diff-classifier-relative-abs.png, id=120, 334.24875pt x 209.28188pt>
+<cluster-1-diff-classifier-relative-abs.png, id=117, 334.24875pt x 209.28188pt>
 File: cluster-1-diff-classifier-relative-abs.png Graphic file (type png)
 <use cluster-1-diff-classifier-relative-abs.png>
 Package pdftex.def Info: cluster-1-diff-classifier-relative-abs.png used on inp
@@ -453,7 +453,7 @@ Overfull \hbox (130.08621pt too wide) in paragraph at lines 312--312
  [] 
  []
 
-<cluster-2-diff-classifier-avg-abs.png, id=121, 334.24875pt x 209.28188pt>
+<cluster-2-diff-classifier-avg-abs.png, id=118, 334.24875pt x 209.28188pt>
 File: cluster-2-diff-classifier-avg-abs.png Graphic file (type png)
 
 <use cluster-2-diff-classifier-avg-abs.png>
@@ -466,7 +466,7 @@ Overfull \hbox (130.08621pt too wide) in paragraph at lines 319--319
  []
 
 
-<cluster-2-diff-classifier-relative-abs.png, id=122, 334.24875pt x 209.28188pt>
+<cluster-2-diff-classifier-relative-abs.png, id=119, 334.24875pt x 209.28188pt>
 File: cluster-2-diff-classifier-relative-abs.png Graphic file (type png)
 <use cluster-2-diff-classifier-relative-abs.png>
 Package pdftex.def Info: cluster-2-diff-classifier-relative-abs.png used on inp
@@ -477,7 +477,7 @@ Overfull \hbox (130.08621pt too wide) in paragraph at lines 325--325
  [] 
  []
 
-<cluster-3-diff-classifier-avg-abs.png, id=123, 334.24875pt x 209.28188pt>
+<cluster-3-diff-classifier-avg-abs.png, id=120, 334.24875pt x 209.28188pt>
 File: cluster-3-diff-classifier-avg-abs.png Graphic file (type png)
 
 <use cluster-3-diff-classifier-avg-abs.png>
@@ -490,7 +490,7 @@ Overfull \hbox (130.08621pt too wide) in paragraph at lines 332--332
  []
 
 
-<cluster-3-diff-classifier-relative-abs.png, id=124, 334.24875pt x 209.28188pt>
+<cluster-3-diff-classifier-relative-abs.png, id=121, 334.24875pt x 209.28188pt>
 File: cluster-3-diff-classifier-relative-abs.png Graphic file (type png)
 <use cluster-3-diff-classifier-relative-abs.png>
 Package pdftex.def Info: cluster-3-diff-classifier-relative-abs.png used on inp
@@ -507,16 +507,16 @@ LaTeX Warning: Float too large for page by 193.63788pt on input line 341.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<relativeErrorIndivPredictor.png, id=125, 421.575pt x 316.18124pt>
+<relativeErrorIndivPredictor.png, id=122, 421.575pt x 316.18124pt>
 File: relativeErrorIndivPredictor.png Graphic file (type png)
 
 <use relativeErrorIndivPredictor.png>
 Package pdftex.def Info: relativeErrorIndivPredictor.png used on input line 378
 .
 (pdftex.def)             Requested size: 462.52756pt x 346.90308pt.
- [19 <./diff-szied-kmeansAbsErroPercent.png (PNG copy)> <./diff-szied-kmeansRel
+ [18 <./diff-szied-kmeansAbsErroPercent.png (PNG copy)> <./diff-szied-kmeansRel
 ativeAbsErroPercent.png (PNG copy)>]
-[20 <./cluster-0-diff-classifier-avg-abs.png (PNG copy)> <./cluster-0-diff-clas
+[19 <./cluster-0-diff-classifier-avg-abs.png (PNG copy)> <./cluster-0-diff-clas
 sifier-relative-abs.png (PNG copy)> <./cluster-1-diff-classifier-avg-abs.png (P
 NG copy)> <./cluster-1-diff-classifier-relative-abs.png (PNG copy)> <./cluster-
 2-diff-classifier-avg-abs.png (PNG copy)> <./cluster-2-diff-classifier-relative
@@ -525,14 +525,14 @@ uster-3-diff-classifier-relative-abs.png (PNG copy)>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<final-avg-abs-error.png, id=132, 344.78813pt x 213.79875pt>
+<final-avg-abs-error.png, id=129, 344.78813pt x 213.79875pt>
 File: final-avg-abs-error.png Graphic file (type png)
 
 <use final-avg-abs-error.png>
 Package pdftex.def Info: final-avg-abs-error.png used on input line 391.
 (pdftex.def)             Requested size: 231.26378pt x 143.40427pt.
 
-<final-relative-abs-error.png, id=133, 344.78813pt x 213.79875pt>
+<final-relative-abs-error.png, id=130, 344.78813pt x 213.79875pt>
 File: final-relative-abs-error.png Graphic file (type png)
 
 <use final-relative-abs-error.png>
@@ -546,31 +546,31 @@ Overfull \hbox (130.08621pt too wide) in paragraph at lines 398--398
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [21]
+) [20]
 
-LaTeX Warning: Text page 22 contains only floats.
+LaTeX Warning: Text page 21 contains only floats.
 
-[22 <./relativeErrorIndivPredictor.png (PNG copy)> <./final-avg-abs-error.png (
+[21 <./relativeErrorIndivPredictor.png (PNG copy)> <./final-avg-abs-error.png (
 PNG copy)> <./final-relative-abs-error.png (PNG copy)>] (thesis.bbl
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
- [23
+ [22
 
 
 ])
-[24]
+[23]
 \openout2 = `AppendixA.aux'.
 
  (AppendixA.tex
 Appendix A.
-) [25
+) [24
 
 
 ]
 \openout2 = `vitae.aux'.
 
- (vitae.tex) [26
+ (vitae.tex) [25
 
 
 
@@ -585,10 +585,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1760 strings out of 493634
- 25989 string characters out of 3139732
- 92093 words of memory out of 3000000
- 5069 multiletter control sequences out of 15000+200000
+ 1763 strings out of 493634
+ 26036 string characters out of 3139732
+ 92099 words of memory out of 3000000
+ 5072 multiletter control sequences out of 15000+200000
  8847 words of font info for 31 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  24i,7n,19p,2032b,558s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -600,9 +600,9 @@ r10.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/c
 mr12.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/c
 m/cmti12.pfb>
-Output written on thesis.pdf (35 pages, 679653 bytes).
+Output written on thesis.pdf (34 pages, 679337 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
+ 173 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

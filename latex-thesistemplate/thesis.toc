@@ -5,44 +5,44 @@
 \contentsline {chapter}{List of Figures}{ix}
 \noindent {\bf Chapter}
 \contentsline {chapter}{\numberline {1}Smart Grid and PowerTAC Competition}{1}
-\contentsline {section}{\numberline {1.1}Traditional Energy Distribution and Consumption System}{1}
-\contentsline {section}{\numberline {1.2}Smart Grid and Renewable Energy}{1}
-\contentsline {section}{\numberline {1.3}Importance of accurate load forecasting}{2}
-\contentsline {section}{\numberline {1.4}Power TAC System}{2}
-\contentsline {subsection}{\numberline {1.4.1}Broker}{2}
-\contentsline {subsection}{\numberline {1.4.2}Wholesale Market}{2}
-\contentsline {subsection}{\numberline {1.4.3}Customers}{2}
-\contentsline {subsection}{\numberline {1.4.4}Balancing Market}{3}
-\contentsline {subsection}{\numberline {1.4.5}Weather Service}{3}
-\contentsline {subsection}{\numberline {1.4.6}Tariff Market}{3}
+\contentsline {section}{\numberline {1.1}Traditional Electricity Distribution and Consumption System}{1}
+\contentsline {section}{\numberline {1.2}Smart Grid}{1}
+\contentsline {section}{\numberline {1.3}Smart Grid and Renewable Energy}{2}
+\contentsline {section}{\numberline {1.4}Importance of accurate load forecasting}{2}
+\contentsline {section}{\numberline {1.5}Power TAC System}{2}
+\contentsline {subsection}{\numberline {1.5.1}Broker}{2}
+\contentsline {subsection}{\numberline {1.5.2}Wholesale Market}{2}
+\contentsline {subsection}{\numberline {1.5.3}Customers}{3}
+\contentsline {subsection}{\numberline {1.5.4}Balancing Market}{3}
+\contentsline {subsection}{\numberline {1.5.5}Weather Service}{3}
+\contentsline {subsection}{\numberline {1.5.6}Tariff Market}{3}
 \contentsline {chapter}{\numberline {2}Related Works}{4}
-\contentsline {section}{\numberline {2.1}Types of Electricity Load Forecasting}{4}
-\contentsline {section}{\numberline {2.2}Variables in Electricity Demand}{4}
-\contentsline {section}{\numberline {2.3}Electricity Load Forecasting Using Statistical Method}{5}
-\contentsline {section}{\numberline {2.4}Load Forecasting using Machine Learning}{5}
-\contentsline {section}{\numberline {2.5}Load Forecasting for a Specific Region}{5}
-\contentsline {section}{\numberline {2.6}Load Forecasting using Clustering}{6}
-\contentsline {section}{\numberline {2.7}Expert System based Load Forecasting}{6}
-\contentsline {chapter}{\numberline {3}Customer Description}{8}
-\contentsline {section}{\numberline {3.1}Customers}{8}
-\contentsline {section}{\numberline {3.2}PowerTypes}{8}
-\contentsline {subsection}{\numberline {3.2.1}consumption}{8}
-\contentsline {subsection}{\numberline {3.2.2}Interruptible Consumption}{8}
-\contentsline {subsection}{\numberline {3.2.3}Thermal Storage}{9}
-\contentsline {subsection}{\numberline {3.2.4}Solar Production}{9}
-\contentsline {subsection}{\numberline {3.2.5}Wind Production}{10}
-\contentsline {subsection}{\numberline {3.2.6}Electric Vehicle}{10}
-\contentsline {section}{\numberline {3.3}Statistics}{10}
-\contentsline {subsection}{\numberline {3.3.1}Customer Vs PowerType}{11}
-\contentsline {subsection}{\numberline {3.3.2}Population Vs PowerType}{11}
-\contentsline {subsection}{\numberline {3.3.3}Total Energy Consumed Vs PowerType}{11}
-\contentsline {chapter}{\numberline {4}Methodology and Result}{14}
-\contentsline {section}{\numberline {4.1}The Baseline Electricity Forecasting Mechanisms}{14}
-\contentsline {section}{\numberline {4.2}Proposed Electricity Demand Forecasting Mechanism}{14}
-\contentsline {subsection}{\numberline {4.2.1}Demand Forecasting for Consumption Type Customer}{15}
-\contentsline {section}{\numberline {4.3}Result}{18}
-\contentsline {subsection}{\numberline {4.3.1}Finding number of clusters}{18}
-\contentsline {subsection}{\numberline {4.3.2}Finding best predictor for each cluster}{18}
+\contentsline {section}{\numberline {2.1}Variables in Electricity Demand}{4}
+\contentsline {section}{\numberline {2.2}Electricity Load Forecasting Using Statistical Method}{5}
+\contentsline {section}{\numberline {2.3}Load Forecasting using Machine Learning}{5}
+\contentsline {section}{\numberline {2.4}Load Forecasting for a Specific Region}{5}
+\contentsline {section}{\numberline {2.5}Load Forecasting using Clustering}{5}
+\contentsline {section}{\numberline {2.6}Expert System based Load Forecasting}{6}
+\contentsline {chapter}{\numberline {3}Customer Description}{7}
+\contentsline {section}{\numberline {3.1}Customers}{7}
+\contentsline {section}{\numberline {3.2}PowerTypes}{7}
+\contentsline {subsection}{\numberline {3.2.1}consumption}{7}
+\contentsline {subsection}{\numberline {3.2.2}Interruptible Consumption}{7}
+\contentsline {subsection}{\numberline {3.2.3}Thermal Storage}{8}
+\contentsline {subsection}{\numberline {3.2.4}Solar Production}{8}
+\contentsline {subsection}{\numberline {3.2.5}Wind Production}{9}
+\contentsline {subsection}{\numberline {3.2.6}Electric Vehicle}{9}
+\contentsline {section}{\numberline {3.3}Statistics}{9}
+\contentsline {subsection}{\numberline {3.3.1}Customer Vs PowerType}{10}
+\contentsline {subsection}{\numberline {3.3.2}Population Vs PowerType}{10}
+\contentsline {subsection}{\numberline {3.3.3}Total Energy Consumed Vs PowerType}{10}
+\contentsline {chapter}{\numberline {4}Methodology and Result}{13}
+\contentsline {section}{\numberline {4.1}The Baseline Electricity Forecasting Mechanisms}{13}
+\contentsline {section}{\numberline {4.2}Proposed Electricity Demand Forecasting Mechanism}{13}
+\contentsline {subsection}{\numberline {4.2.1}Demand Forecasting for Consumption Type Customer}{14}
+\contentsline {section}{\numberline {4.3}Result}{17}
+\contentsline {subsection}{\numberline {4.3.1}Finding number of clusters}{17}
+\contentsline {subsection}{\numberline {4.3.2}Finding best predictor for each cluster}{17}
 \noindent {\bf Appendix}
-\contentsline {chapter}{\numberline {A}Some more stuff}{25}
-\contentsline {chapter}{Curriculum Vitae}{26}
+\contentsline {chapter}{\numberline {A}Some more stuff}{24}
+\contentsline {chapter}{Curriculum Vitae}{25}

@@ -1,30 +1,30 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces PowerTAC simulation Environment.}}{3}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces PowerTAC simulation environment.}}{3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Two days energy usage for the customer Brooksidehomes.}}{9}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Two weeks energys usage of the downtown office customer.}}{9}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Two days energys usage of the village 2 ns controllable customer.}}{10}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces A day's energys usage of the sf2 thermal storage customer.}}{10}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Two week's energys usage of the sf2 thermal storage customer.}}{11}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Two days energys usage of the SunnyHill solar production.}}{11}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces One week's energys usage of the SunnyHill solar production.}}{12}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Number of customers vs Powertype.}}{13}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Population vs Powertype}}{13}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Energy vs PowerType.}}{13}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Energy share for each power type.}}{13}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Two days energy usage for the customer Brooksidehomes.}}{8}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Two weeks energys usage of the downtown office customer.}}{8}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Two days energys usage of the village 2 ns controllable customer.}}{9}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces A day's energys usage of the sf2 thermal storage customer.}}{9}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Two week's energys usage of the sf2 thermal storage customer.}}{10}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Two days energys usage of the SunnyHill solar production.}}{10}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces One week's energys usage of the SunnyHill solar production.}}{11}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Number of customers vs Powertype.}}{12}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Population vs Powertype}}{12}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Energy vs PowerType.}}{12}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Energy share for each power type.}}{12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces cluster type vs average absolute error.}}{19}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces cluster type vs percent relative absolute error}}{19}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces cluster 0 average absolute error of 4 classifiers}}{20}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces cluster 0 average relative absolute error of 4 classifiers}}{20}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces cluster 1 average absolute error of 4 classifiers}}{20}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces cluster 1 average relative absolute error of 4 classifiers}}{20}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces cluster 2 average absolute error of 4 classifiers}}{20}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces cluster 2 average relative absolute error of 4 classifiers}}{20}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces cluster 3 average absolute error of 4 classifiers}}{20}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces cluster 3 average relative absolute error of 4 classifiers}}{20}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Performance of the best classifier for each customer type. Customer Medical center was excluded as it was showing huge error. }}{22}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces average absolute error}}{22}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces average percent relative absolute error}}{22}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces cluster type vs average absolute error.}}{18}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces cluster type vs percent relative absolute error}}{18}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces cluster 0 average absolute error of 4 classifiers}}{19}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces cluster 0 average relative absolute error of 4 classifiers}}{19}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces cluster 1 average absolute error of 4 classifiers}}{19}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces cluster 1 average relative absolute error of 4 classifiers}}{19}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces cluster 2 average absolute error of 4 classifiers}}{19}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces cluster 2 average relative absolute error of 4 classifiers}}{19}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces cluster 3 average absolute error of 4 classifiers}}{19}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces cluster 3 average relative absolute error of 4 classifiers}}{19}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Performance of the best classifier for each customer type. Customer Medical center was excluded as it was showing huge error. }}{21}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces average absolute error}}{21}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces average percent relative absolute error}}{21}
 \addvspace {10\p@ }
