@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{amjady2001short}
+Nima Amjady.
+\newblock Short-term hourly load forecasting using time-series modeling with
+  peak load estimation capability.
+\newblock {\em IEEE Transactions on Power Systems}, 16(3):498--505, 2001.
+
 \bibitem{chen2004load}
 Bo-Juen Chen, Ming-Wei Chang, and Chih-Jen Lin.
 \newblock Load forecasting using support vector machines: A study on eunite
@@ -31,6 +37,13 @@ Melissa Hart and Richard de~Dear.
 \newblock Weather sensitivity in household appliance energy end-use.
 \newblock {\em Energy and Buildings}, 36(2):161--174, 2004.
 
+\bibitem{hernandez2012classification}
+Luis Hern{\'a}ndez, Carlos Baladr{\'o}n, Javier~M Aguiar, Bel{\'e}n Carro, and
+  Antonio S{\'a}nchez-Esguevillas.
+\newblock Classification and clustering of electricity demand patterns in
+  industrial parks.
+\newblock {\em Energies}, 5(12):5215--5228, 2012.
+
 \bibitem{hor2005analyzing}
 Ching-Lai Hor, Simon~J Watson, and Shanti Majithia.
 \newblock Analyzing the impact of weather variables on monthly electricity
@@ -42,6 +55,19 @@ Che-Chiang Hsu and Chia-Yon Chen.
 \newblock Regional load forecasting in taiwan----applications of artificial
   neural networks.
 \newblock {\em Energy conversion and Management}, 44(12):1941--1949, 2003.
+
+\bibitem{izgi2012short}
+Ercan Izgi, Ahmet {\"O}ztopal, Bihter Yerli, Mustafa~Kemal Kaymak, and
+  Ahmet~Duran {\c{S}}ahin.
+\newblock Short--mid-term solar power prediction by using artificial neural
+  networks.
+\newblock {\em Solar Energy}, 86(2):725--733, 2012.
+
+\bibitem{jalil2013electricity}
+Nur Adilah~Abd Jalil, Maizah~Hura Ahmad, and Norizan Mohamed.
+\newblock Electricity load demand forecasting using exponential smoothing
+  methods.
+\newblock {\em World Applied Sciences Journal}, 22(11):1540--1543, 2013.
 
 \bibitem{liu2006accurate}
 Fang Liu, Qiang Song, and Raymond~D Findlay.
@@ -71,6 +97,13 @@ Cameron~W Potter, Allison Archambault, and Kenneth Westrick.
 \newblock In {\em Power Systems Conference and Exposition, 2009. PSCE'09.
   IEEE/PES}, pages 1--5. IEEE, 2009.
 
+\bibitem{quan2014short}
+Hao Quan, Dipti Srinivasan, and Abbas Khosravi.
+\newblock Short-term load and wind power forecasting using neural network-based
+  prediction intervals.
+\newblock {\em IEEE transactions on neural networks and learning systems},
+  25(2):303--315, 2014.
+
 \bibitem{rahman1988expert}
 Saifur Rahman and Rahul Bhatnagar.
 \newblock An expert system based algorithm for short term load forecast.
@@ -88,6 +121,11 @@ Ina R{\"u}denauer and Carl-Otto Gensch.
 \newblock Energy demand of tumble driers with respect to differences in
   technology and ambient conditions.
 \newblock {\em {\"O}ko-institut, Freiburg}, 2004.
+
+\bibitem{sapankevych2009time}
+Nicholas~I Sapankevych and Ravi Sankar.
+\newblock Time series prediction using support vector machines: a survey.
+\newblock {\em IEEE Computational Intelligence Magazine}, 4(2):24--38, 2009.
 
 \bibitem{wang2015gongbroker}
 Xishun Wang, Minjie Zhang, Fenghui Ren, and Takayuki Ito.

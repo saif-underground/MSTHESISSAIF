@@ -20,9 +20,8 @@
 \contentsline {section}{\numberline {2.1}Variables in Electricity Demand}{4}
 \contentsline {section}{\numberline {2.2}Electricity Load Forecasting Using Statistical Method}{5}
 \contentsline {section}{\numberline {2.3}Load Forecasting using Machine Learning}{5}
-\contentsline {section}{\numberline {2.4}Load Forecasting for a Specific Region}{5}
-\contentsline {section}{\numberline {2.5}Load Forecasting using Clustering}{5}
-\contentsline {section}{\numberline {2.6}Expert System based Load Forecasting}{6}
+\contentsline {section}{\numberline {2.4}Load Forecasting using Clustering}{5}
+\contentsline {section}{\numberline {2.5}Expert System based Load Forecasting}{6}
 \contentsline {chapter}{\numberline {3}Customer Description}{7}
 \contentsline {section}{\numberline {3.1}Customers}{7}
 \contentsline {section}{\numberline {3.2}PowerTypes}{7}
