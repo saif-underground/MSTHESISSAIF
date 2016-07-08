@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  7 JUL 2016 09:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  7 JUL 2016 21:28
 entering extended mode
 **C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
 (C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
@@ -225,12 +225,8 @@ od
 
 
 
-]
-
-LaTeX Warning: Citation `al2004short' on page 5 undefined on input line 23.
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
@@ -567,19 +563,23 @@ Missing character: There is no ” in font cmr12!
  [22
 
 
-])
-[23]
+]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+
+[23]) [24]
 \openout2 = `AppendixA.aux'.
 
  (AppendixA.tex
 Appendix A.
-) [24
+) [25
 
 
 ]
 \openout2 = `vitae.aux'.
 
- (vitae.tex) [25
+ (vitae.tex) [26
 
 
 
@@ -594,10 +594,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1772 strings out of 493634
- 26184 string characters out of 3139732
- 92123 words of memory out of 3000000
- 5081 multiletter control sequences out of 15000+200000
+ 1779 strings out of 493634
+ 26305 string characters out of 3139732
+ 92151 words of memory out of 3000000
+ 5088 multiletter control sequences out of 15000+200000
  8847 words of font info for 31 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  24i,7n,19p,1911b,558s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -609,9 +609,9 @@ r10.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/c
 mr12.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/c
 m/cmti12.pfb>
-Output written on thesis.pdf (34 pages, 680181 bytes).
+Output written on thesis.pdf (35 pages, 681874 bytes).
 PDF statistics:
- 173 PDF objects out of 1000 (max. 8388607)
+ 176 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

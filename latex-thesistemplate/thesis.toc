@@ -43,5 +43,5 @@
 \contentsline {subsection}{\numberline {4.3.1}Finding number of clusters}{17}
 \contentsline {subsection}{\numberline {4.3.2}Finding best predictor for each cluster}{17}
 \noindent {\bf Appendix}
-\contentsline {chapter}{\numberline {A}Some more stuff}{24}
-\contentsline {chapter}{Curriculum Vitae}{25}
+\contentsline {chapter}{\numberline {A}Some more stuff}{25}
+\contentsline {chapter}{Curriculum Vitae}{26}
