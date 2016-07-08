@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  7 JUL 2016 21:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  8 JUL 2016 17:14
 entering extended mode
 **C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
 (C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
@@ -86,12 +86,12 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \ALC@tlm=\skip43
 \algorithmicindent=\skip44
 )
-(thesis.aux (acknowl.aux) (abstract.aux) (null.aux) (chapter2.aux)
-(chapter3.aux) (chapter4.aux
+(thesis.aux (abstract.aux) (null.aux) (chapter2.aux) (chapter3.aux)
+(chapter4.aux
 
 LaTeX Warning: Label `fig:2weekOffice' multiply defined.
 
-) (chapter5.aux) (AppendixA.aux) (vitae.aux))
+) (chapter5.aux) (AppendixA.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -157,41 +157,33 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 55.
  [2] [3]
-\openout2 = `acknowl.aux'.
-
-
-(acknowl.tex [4
-
-
-]) [5]
 \openout2 = `abstract.aux'.
 
- (abstract.tex) [6
+
+(abstract.tex) [4
 
 
-
-] (thesis.toc [7
+] (thesis.toc [5
 
 
 ])
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
- [8] (thesis.lof)
+ [6] (thesis.lof)
 \tf@lof=\write4
 \openout4 = `thesis.lof'.
 
-
-[9
+ [7
 
 ]
 \openout2 = `null.aux'.
 
- (C:\Users\Saif\Desktop\software\miktex\tex\generic\misc\null.tex)
+
+(C:\Users\Saif\Desktop\software\miktex\tex\generic\misc\null.tex)
 \openout2 = `chapter2.aux'.
 
-
-(chapter2.tex
+ (chapter2.tex
 Chapter 1.
 
 Overfull \hbox (2.24815pt too wide) in paragraph at lines 7--7
@@ -203,13 +195,13 @@ Overfull \hbox (2.24815pt too wide) in paragraph at lines 7--7
 
 
 
-] [2] <simulation-environment.png, id=40, 682.04813pt x 253.69781pt>
+] [2] [3] <simulation-environment.png, id=37, 682.04813pt x 253.69781pt>
 File: simulation-environment.png Graphic file (type png)
 
 <use simulation-environment.png>
-Package pdftex.def Info: simulation-environment.png used on input line 50.
+Package pdftex.def Info: simulation-environment.png used on input line 76.
 (pdftex.def)             Requested size: 462.52756pt x 172.04768pt.
-) [3 <./simulation-environment.png>]
+ [4 <./simulation-environment.png>]) [5]
 \openout2 = `chapter3.aux'.
 
 
@@ -221,16 +213,16 @@ Overfull \hbox (29.40623pt too wide) in paragraph at lines 16--16
 od 
  []
 
-[4
+[6
 
 
 
-] [5]
+] [7]
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-) [6]
+) [8]
 \openout2 = `chapter4.aux'.
 
  (chapter4.tex
@@ -255,7 +247,7 @@ Package pdftex.def Info: downtown-offc-2-weeks.png used on input line 28.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7
+[9
 
 
 
@@ -290,8 +282,8 @@ Package pdftex.def Info: sf2-thermal-week.png used on input line 52.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `{fig:solar-oneweek}' on page 8 undefined on input lin
-e 59.
+LaTeX Warning: Reference `{fig:solar-oneweek}' on page 10 undefined on input li
+ne 59.
 
 <sunnyhill-twoday.png, id=64, 877.02657pt x 335.00156pt>
 File: sunnyhill-twoday.png Graphic file (type png)
@@ -313,8 +305,8 @@ Package pdftex.def Info: sunnyhill-oneweek.png used on input line 69.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8 <./BrooksideHomes-2days.png> <./downtown-offc-2-weeks.png>] [9 <./village2ns
-Controllable.png> <./sf2-thermal-daily.png>]
+[10 <./BrooksideHomes-2days.png> <./downtown-offc-2-weeks.png>] [11 <./village2
+nsControllable.png> <./sf2-thermal-daily.png>]
 <4-customer-vs-powertype.jpg, id=76, 280.04625pt x 196.48407pt>
 File: 4-customer-vs-powertype.jpg Graphic file (type jpg)
 
@@ -351,15 +343,15 @@ Overfull \hbox (130.08621pt too wide) in paragraph at lines 116--116
  [] 
  []
 
-) [10 <./sf2-thermal-week.png> <./sunnyhill-twoday.png>] [11 <./sunnyhill-onewe
-ek.png>] [12 <./4-customer-vs-powertype.jpg (PNG copy)> <./2-population-vs-powe
+) [12 <./sf2-thermal-week.png> <./sunnyhill-twoday.png>] [13 <./sunnyhill-onewe
+ek.png>] [14 <./4-customer-vs-powertype.jpg (PNG copy)> <./2-population-vs-powe
 rtype.jpg (PNG copy)> <./3-energy-vs-powertype.png (PNG copy)> <./pie-energy-sh
 are.png (PNG copy)>]
 \openout2 = `chapter5.aux'.
 
  (chapter5.tex
 Chapter 4.
-[13
+[15
 
 
 
@@ -370,18 +362,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[14]
+[16]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[15]
+[17]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[16] <diff-szied-kmeansAbsErroPercent.png, id=109, 344.78813pt x 213.79875pt>
+[18] <diff-szied-kmeansAbsErroPercent.png, id=109, 344.78813pt x 213.79875pt>
 File: diff-szied-kmeansAbsErroPercent.png Graphic file (type png)
 
 <use diff-szied-kmeansAbsErroPercent.png>
@@ -409,7 +401,7 @@ Overfull \hbox (130.08621pt too wide) in paragraph at lines 229--229
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[17]
+[19]
 <cluster-0-diff-classifier-avg-abs.png, id=114, 334.24875pt x 209.28188pt>
 File: cluster-0-diff-classifier-avg-abs.png Graphic file (type png)
 
@@ -519,9 +511,9 @@ File: relativeErrorIndivPredictor.png Graphic file (type png)
 Package pdftex.def Info: relativeErrorIndivPredictor.png used on input line 378
 .
 (pdftex.def)             Requested size: 462.52756pt x 346.90308pt.
- [18 <./diff-szied-kmeansAbsErroPercent.png (PNG copy)> <./diff-szied-kmeansRel
+ [20 <./diff-szied-kmeansAbsErroPercent.png (PNG copy)> <./diff-szied-kmeansRel
 ativeAbsErroPercent.png (PNG copy)>]
-[19 <./cluster-0-diff-classifier-avg-abs.png (PNG copy)> <./cluster-0-diff-clas
+[21 <./cluster-0-diff-classifier-avg-abs.png (PNG copy)> <./cluster-0-diff-clas
 sifier-relative-abs.png (PNG copy)> <./cluster-1-diff-classifier-avg-abs.png (P
 NG copy)> <./cluster-1-diff-classifier-relative-abs.png (PNG copy)> <./cluster-
 2-diff-classifier-avg-abs.png (PNG copy)> <./cluster-2-diff-classifier-relative
@@ -551,16 +543,16 @@ Overfull \hbox (130.08621pt too wide) in paragraph at lines 398--398
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [20]
+) [22]
 
-LaTeX Warning: Text page 21 contains only floats.
+LaTeX Warning: Text page 23 contains only floats.
 
-[21 <./relativeErrorIndivPredictor.png (PNG copy)> <./final-avg-abs-error.png (
+[23 <./relativeErrorIndivPredictor.png (PNG copy)> <./final-avg-abs-error.png (
 PNG copy)> <./final-relative-abs-error.png (PNG copy)>] (thesis.bbl
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
- [22
+ [24
 
 
 ]
@@ -568,24 +560,16 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-[23]) [24]
+[25]) [26]
 \openout2 = `AppendixA.aux'.
 
  (AppendixA.tex
 Appendix A.
-) [25
+) [27
 
 
-]
-\openout2 = `vitae.aux'.
-
- (vitae.tex) [26
-
-
-
-] (thesis.aux (acknowl.aux) (abstract.aux) (null.aux)
-(chapter2.aux) (chapter3.aux) (chapter4.aux) (chapter5.aux) (AppendixA.aux)
-(vitae.aux))
+] (thesis.aux (abstract.aux) (null.aux) (chapter2.aux) (chapter3.aux)
+(chapter4.aux) (chapter5.aux) (AppendixA.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -594,9 +578,9 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1779 strings out of 493634
- 26305 string characters out of 3139732
- 92151 words of memory out of 3000000
+ 1765 strings out of 493634
+ 26189 string characters out of 3139732
+ 91375 words of memory out of 3000000
  5088 multiletter control sequences out of 15000+200000
  8847 words of font info for 31 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
@@ -609,9 +593,9 @@ r10.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/c
 mr12.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/c
 m/cmti12.pfb>
-Output written on thesis.pdf (35 pages, 681874 bytes).
+Output written on thesis.pdf (34 pages, 679791 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
+ 173 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

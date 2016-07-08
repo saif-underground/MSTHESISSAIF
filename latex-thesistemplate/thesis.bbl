@@ -82,20 +82,22 @@ Nur Adilah~Abd Jalil, Maizah~Hura Ahmad, and Norizan Mohamed.
   methods.
 \newblock {\em World Applied Sciences Journal}, 22(11):1540--1543, 2013.
 
+\bibitem{ketter2013power}
+Wolfgang Ketter, John Collins, and Prashant Reddy.
+\newblock Power tac: A competitive economic simulation of the smart grid.
+\newblock {\em Energy Economics}, 39:262--270, 2013.
+
+\bibitem{ketter20162016}
+Wolfgang Ketter, John Collins, and Mathijs~De Weerdt.
+\newblock The 2016 power trading agent competition.
+\newblock {\em ERIM Report Series Reference}, 2016.
+
 \bibitem{liefers2014successful}
 Bart Liefers, Jasper Hoogland, and Han La~Poutr{\'e}.
 \newblock A successful broker agent for power tac.
 \newblock In {\em Agent-Mediated Electronic Commerce. Designing Trading
   Strategies and Mechanisms for Electronic Markets}, pages 99--113. Springer,
   2014.
-
-\bibitem{liu2006accurate}
-Fang Liu, Qiang Song, and Raymond~D Findlay.
-\newblock Accurate 24-hour-ahead load forecasting using similar hourly loads.
-\newblock In {\em Computational Intelligence for Modelling, Control and
-  Automation, 2006 and International Conference on Intelligent Agents, Web
-  Technologies and Internet Commerce, International Conference on}, pages
-  249--249. IEEE, 2006.
 
 \bibitem{mcloughlin2015clustering}
 Fintan McLoughlin, Aidan Duffy, and Michael Conlon.
@@ -169,6 +171,13 @@ Nicholas~I Sapankevych and Ravi Sankar.
 \bibitem{serranofixing}
 Jonathan Serrano, Enrique~Munoz de~Cote, and Ansel~Y Rodr{\'\i}guez.
 \newblock Fixing energy tariff prices through reinforcement learning.
+
+\bibitem{urieli2014tactex}
+Daniel Urieli and Peter Stone.
+\newblock Tactex'13: a champion adaptive power trading agent.
+\newblock In {\em Proceedings of the 2014 international conference on
+  Autonomous agents and multi-agent systems}, pages 1447--1448. International
+  Foundation for Autonomous Agents and Multiagent Systems, 2014.
 
 \bibitem{wang2015gongbroker}
 Xishun Wang, Minjie Zhang, Fenghui Ren, and Takayuki Ito.
