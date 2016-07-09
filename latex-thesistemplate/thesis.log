@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  8 JUL 2016 17:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  8 JUL 2016 17:20
 entering extended mode
 **C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
 (C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
@@ -91,7 +91,7 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 
 LaTeX Warning: Label `fig:2weekOffice' multiply defined.
 
-) (chapter5.aux) (AppendixA.aux))
+) (chapter5.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -560,16 +560,8 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-[25]) [26]
-\openout2 = `AppendixA.aux'.
-
- (AppendixA.tex
-Appendix A.
-) [27
-
-
-] (thesis.aux (abstract.aux) (null.aux) (chapter2.aux) (chapter3.aux)
-(chapter4.aux) (chapter5.aux) (AppendixA.aux))
+[25]) [26] (thesis.aux (abstract.aux) (null.aux) (chapter2.aux) (chapter3.aux)
+(chapter4.aux) (chapter5.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -578,10 +570,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1765 strings out of 493634
- 26189 string characters out of 3139732
- 91375 words of memory out of 3000000
- 5088 multiletter control sequences out of 15000+200000
+ 1757 strings out of 493634
+ 26090 string characters out of 3139732
+ 90980 words of memory out of 3000000
+ 5087 multiletter control sequences out of 15000+200000
  8847 words of font info for 31 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  24i,7n,19p,1911b,558s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -593,9 +585,9 @@ r10.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/c
 mr12.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/c
 m/cmti12.pfb>
-Output written on thesis.pdf (34 pages, 679791 bytes).
+Output written on thesis.pdf (33 pages, 678730 bytes).
 PDF statistics:
- 173 PDF objects out of 1000 (max. 8388607)
+ 170 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
