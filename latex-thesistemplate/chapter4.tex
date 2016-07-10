@@ -25,11 +25,13 @@ Thermal storage customers show a weekly pattern in their electricity usage. Also
 The solar energy production customer's energy production depends on the cloud cover. They are highly likely to produce energy during the day time.
 
 \item\textbf{Wind Production} Wind production customers generate energy from the wind.
-\item \textbf{Electric Vehicle} An electric vehicle customer represents one electric vehicle. Their usage of energy is quite irregular and hard to predict.
+\item \textbf{Electric Vehicle} An electric vehicle customer represents one electric vehicle. Their usage of energy is quite irregular and hard to predict. \\
 \end{itemize}
 
-From figure \ref{fig:daily1} to \ref{fig:weekly3} figure shows zScore value of in different hours of week slot. The zScores give a sense if there is a existing pattern in electricity usage. Looking for pattern was useful in designing demand forecasting mechanism for each category of customers. To discuss behavior of customers, a representative customer was chosen. I chose a represenatative customer from each customer. The following table shows the customer chosen to discuss -
-\begin{center}
+ To discuss the behavior of different power typed ustomers, a representative customer was chosen from each type. The table \ref{table:repCust} shows the customer chosen to discuss -
+
+\begin{table}[h!]
+\centering
 \begin{tabular}{ |c|c| } 
 \hline
 Power Type & Customer Name \\
@@ -42,9 +44,13 @@ Wind Production & windmill 1 \\
 Electric Vehicle & high income 1 \\ 
 \hline
 \end{tabular}
-\end{center}
+\caption{Representative customer from each power type}
+\label{table:repCust}
+\end{table}
 
-figure \ref{fig:daily1} shows a consumption customer downtown offices and an interruptible consumption customer village 1 ns' 
+Before diving into the problem of solving forecasting methods, I found it useful to take a look at how the customers behave. The log extractor program extracts all the energy consumption and production by all the customer on all the timeslot. At the end of the game, it makes a report on normalized usage of all the customers in all the week slots. Normalized values are useful because even if the amount of energy usage vary, the pattern of usage can be captured through it. The figures \ref{fig:daily1} to \ref{fig:daily3}, shows normalized electricity demand or supply of Mondays. 0 in the x axis means hour 12:00 am. From the figures \ref{fig:daily1} to \ref{fig:daily3}, it is clear that some customer's electricity usage is higly correlated with time of the hour of the day. The customers of type consumption and solar energy can be example of these types. The other customer types demands did not seem to have correlation with hour of a day. In both consumption and solar energy customers the consumption or production curve grew smoothly till it reached a peak point. After the reaching the peak, the production or consumption reduced smoothly. It is clear that the customers with types interruptible consumption, wind production, thermal storage and electric vehicle had irregular demand/supply pattern. 
+
+In figure \ref{fig:weekly1} to \ref{fig:weekly3}, normalized usage during the week is shown. Hour 0 to 23 represents all the hours of Monday from 12:00 am to 11:00 pm. It appears that, the electricity demand for consumption customer, interruptible consumption, thermal storage had repeatative demand pattern everyday. The  solar energy production customer showed repeatative production pattern. Moreover some customers such as the consumption type and the thermal storage type showed different pattern during the weekend. During the weekend they usually had lower energy demand than the weekdays. In the case of electric vehicle and wind energy production customers the demand/supply patterns were not regular. From these observation, it can be assumed that the consumption customer and the solar energy type customers can be forecasted with the most accuracy. Due to irregular patterns of other customers, they will be harder to make forecast about accurately.
  
 % figure start
 \begin{figure}[!h]

@@ -21,12 +21,12 @@
 \contentsline {section}{\numberline {2.5}Expert System based Load Forecasting}{8}
 \contentsline {chapter}{\numberline {3}Customer Description}{9}
 \contentsline {section}{\numberline {3.1}Customer Categories}{9}
-\contentsline {section}{\numberline {3.2}Statistics}{10}
-\contentsline {chapter}{\numberline {4}Methodology and Result}{14}
-\contentsline {section}{\numberline {4.1}The Baseline Electricity Forecasting Mechanisms}{14}
-\contentsline {section}{\numberline {4.2}Proposed Electricity Demand Forecasting Mechanism}{14}
-\contentsline {subsection}{\numberline {4.2.1}Demand Forecasting for Consumption Type Customer}{15}
-\contentsline {section}{\numberline {4.3}Result}{18}
-\contentsline {subsection}{\numberline {4.3.1}Finding number of clusters}{18}
-\contentsline {subsection}{\numberline {4.3.2}Finding best predictor for each cluster}{18}
+\contentsline {section}{\numberline {3.2}Statistics}{12}
+\contentsline {chapter}{\numberline {4}Methodology and Result}{15}
+\contentsline {section}{\numberline {4.1}The Baseline Electricity Forecasting Mechanisms}{15}
+\contentsline {section}{\numberline {4.2}Proposed Electricity Demand Forecasting Mechanism}{15}
+\contentsline {subsection}{\numberline {4.2.1}Demand Forecasting for Consumption Type Customer}{16}
+\contentsline {section}{\numberline {4.3}Result}{19}
+\contentsline {subsection}{\numberline {4.3.1}Finding number of clusters}{19}
+\contentsline {subsection}{\numberline {4.3.2}Finding best predictor for each cluster}{19}
 \noindent {\bf Appendix}
