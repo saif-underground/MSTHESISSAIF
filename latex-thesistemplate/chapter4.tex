@@ -2,91 +2,91 @@
 
 \chapter{Customer Description} 
 
-In this chapter, I will describe the customers present in the PowerTAC simulation system, some statistics about them and their attributes.
+In this chapter, I will describe the customers present in the PowerTAC simulation system and some statistics their attributes.
 
-\section{Customers}
+\section{Customer Categories}
 
-In PowerTAC simulation system the customers are the entities that buy and sell electricity. A customer subscribes to one of the tariffs published by the brokers and it pays or receives money according to the tariff plan. A customer can represent a population size of one to several thousand. For example, customers that represent an electric vehicle customer represent only one person and the customers that represent a village usually have several thousand populations. In PowerTAC environment there are 168 customers in total.
 
-\section {PowerTypes}
-In Power TAC, every customer has a power type. Power type determines the behavior of the customers. A customer that has power type related to production produces electricity. A customer that has a power type related to energy consumption consumes energy. In the following subsections, I describe different power types of the simulation.
+In Power TAC simulation, a customer can be electricity consumer or producer based on the power type it has. A customer evaluates the tariff plans targetted for its power type and can look for the tariff that gives it maximum monetary benefit. There are several types of customers in the Power TAC simulation such as consumption, interruptible consumption, thermal storage, solar production, wind production and electric vehicle. Each power type has its own characterstics. For example, interruptile consumption customers can shift their electricity demand to some off peak hour, the solar production customers can produce energy based on the weather condition. As opposed to previous methods on demand forecasting, I argue that each category of customers based on the power type should be treated differently. One load forecasting method can be suitable for a category of customers while it may be unsuitable for other categories because each category behaves differently. In the below section, I describe the characterstics of the customers.
 
-\subsection{consumption}
+\begin{itemize}
+\item \textbf{Consumption: } A customer with power type consumption are the most common customers. They use the energy when they need it. They cannot shift their demand to a future timeslot. Usually, they have a regular pattern of their energy usage. Often, they show a similar pattern for weekdays. They have similar kind of usage pattern for the weekends. 
 
-A customer with power type consumption are the most common customers. They use the energy when they need it. They cannot shift their demand to a future timeslot. Usually, they have a regular pattern of their energy usage. Usually, they show a similar pattern for weekdays. They have similar kind of usage pattern for the weekends. 
 
-The figure  \ref{fig:2daysbrook} shows 2 days electricity usage of the BrookSideHomes customer. The pattern shows in a day, around at 10 am there is a growing need for electricity. During the night after 10 pm, the electricity consumption starts decreasing.
-\begin{figure}[h!]
-  \includegraphics[width=\linewidth]{BrooksideHomes-2days.png}
-  \caption{Two days energy usage for the customer Brooksidehomes.}
-  \label{fig:2daysbrook}
+
+\item \textbf{Interruptible Consumption: }
+Interruptible customers are smart enough to shift their energy demand in a timeslot where they can buy electricity at a reduced price. Because of this shifting capability, they don't show a regular usage pattern as the consumption customers do. 
+
+\item \textbf{Thermal Storage: }
+Thermal storage customers show a weekly pattern in their electricity usage. Also, during a day, their electricity usage in a day depends  much on the energy they used in the last timeslot. 
+
+
+\item \textbf{Solar Production}
+The solar energy production customer's energy production depends on the cloud cover. They are highly likely to produce energy during the day time.
+
+\item\textbf{Wind Production} Wind production customers generate energy from the wind.
+\item \textbf{Electric Vehicle} An electric vehicle customer represents one electric vehicle. Their usage of energy is quite irregular and hard to predict.
+\end{itemize}
+
+From figure \ref{fig:daily1} to \ref{fig:weekly3} figure shows zScore value of in different hours of week slot. The zScores give a sense if there is a existing pattern in electricity usage. Looking for pattern was useful in designing demand forecasting mechanism for each category of customers. To discuss behavior of customers, a representative customer was chosen. I chose a represenatative customer from each customer. The following table shows the customer chosen to discuss -
+\begin{center}
+\begin{tabular}{ |c|c| } 
+\hline
+Power Type & Customer Name \\
+\hline
+Consumption & downtown offices \\ 
+Interruptible Consumption & village 1 ns \\ 
+Thermal Storage & sf2 \\ 
+Solar Production & sunnyHill \\ 
+Wind Production & windmill 1 \\ 
+Electric Vehicle & high income 1 \\ 
+\hline
+\end{tabular}
+\end{center}
+
+figure \ref{fig:daily1} shows a consumption customer downtown offices and an interruptible consumption customer village 1 ns' 
+ 
+% figure start
+\begin{figure}[!h]
+\centering
+\includegraphics{daily1.png}
+\caption{Caption 1}
+\label{fig:daily1}
+\includegraphics{daily2.png}
+\caption{Caption 1}
+\label{fig:daily2}
+\includegraphics{daily3.png}
+\caption{Caption 1}
+\label{fig:daily3}
 \end{figure}
 
-The figure \ref{fig:2weekOffice} shows two weeks consumption of the downtown customer. The customer shows a similar pattern for all weekdays. It also shows  distinguishable energy usage during the weekends.
-
-\begin{figure}[h!]
-  \includegraphics[width=\linewidth]{downtown-offc-2-weeks.png}
-  \caption{Two weeks energys usage of the downtown office customer.}
-  \label{fig:2weekOffice}
+\begin{figure}[!h]
+\centering
+\includegraphics{weekly1.png}
+\caption{Caption 1}
+\label{fig:weekly1}
+\includegraphics{weekly2.png}
+\caption{Caption 1}
+\label{fig:weekly2}
+\includegraphics{weekly3.png}
+\caption{Caption 1}
+\label{fig:weekly3}
 \end{figure}
 
-\subsection{Interruptible Consumption}
-Interruptible customers are smart enough to shift their energy demand in a timeslot where they can buy electricity at a reduced price. Because of this shifting capability, they don't show a regular usage pattern as the consumption customers do. Figure \ref{fig:2weekOffice} shows a controllable customer's 2 days usage.
-
-\begin{figure}[h!]
-  \includegraphics[width=\linewidth]{village2nsControllable.png}
-  \caption{Two days energys usage of the village 2 ns controllable customer.}
-  \label{fig:2weekOffice}
-\end{figure}
-
-\subsection{Thermal Storage}
-Thermal storage customers show a weekly pattern in their electricity usage. Also, during a day, their electricity usage in a day depends  much on the energy they used in the last timeslot. Figure \ref{fig:day-thermal} and \ref{fig:thermal-week} shows a day and two week's energy usage of the thermal storage customer sf2.
-
-\begin{figure}[h!]
-  \includegraphics[width=\linewidth]{sf2-thermal-daily.png}
-  \caption{A day's energys usage of the sf2 thermal storage customer.}
-  \label{fig:day-thermal}
-\end{figure}
-
-\begin{figure}[h!]
-  \includegraphics[width=\linewidth]{sf2-thermal-week.png}
-  \caption{Two week's energys usage of the sf2 thermal storage customer.}
-  \label{fig:thermal-week}
-\end{figure}
-
-
-\subsection{Solar Production}
-Figure \ref{fig:solar-twoday} shows two day's and  figure \ref{{fig:solar-oneweek}} shows a week's energy production of the SunnyHill solar production customer. From the figures, we see that during the daytime the solar production customers usually produces electricity which is as expected.
-
-\begin{figure}[h!]
-  \includegraphics[width=\linewidth]{sunnyhill-twoday.png}
-  \caption{Two days energys usage of the SunnyHill solar production.}
-  \label{fig:solar-twoday}
-\end{figure}
-
-
-\begin{figure}[h!]
-  \includegraphics[width=\linewidth]{sunnyhill-oneweek.png}
-  \caption{One week's energys usage of the SunnyHill solar production.}
-  \label{fig:solar-oneweek}
-\end{figure}
-
-\subsection{Wind Production}
-Wind production customers generate energy from the wind.
-\subsection {Electric Vehicle}
-An electric vehicle customer represents one electric vehicle. Their usage of energy is quite irregular and hard to predict.
+%figure end
 
 \section{Statistics}
 In this section, I present some statistics on the customers available in the system. 
 
-\subsection {Customer Vs PowerType}
+\begin{itemize}
+\item \textbf{Customer Vs PowerType}
 
 In the figure \ref{fig:cust-pt} we can see the system has more customer with the power type electric vehicle than any other power types. This is because the electric vehicle represents a population of size 1.
 
-\subsection {Population Vs PowerType}
+\item \textbf{Population Vs PowerType}
 From figure \ref{fig:pop-pt} by far the powertype of consumption has the most number of population.
 
-\subsection {Total Energy Consumed Vs PowerType}
+\item \textbf{Total Energy Consumed Vs PowerType}
 From figure \ref{fig:energy-pt} we can see that the consumption type customers uses the most amount of the electricity.
 
 
@@ -118,3 +118,5 @@ From figure \ref{fig:energy-pt} we can see that the consumption type customers u
 \end{minipage}
 
 \end{figure}
+
+\end{itemize}
