@@ -1,8 +1,8 @@
 % chap5.tex (Methodology and Result)
 
-\chapter{Methodology and Result}
+\chapter{Methodology and Results}
 
-Traditionally, a single type of predictor served to predict the energy demand of all power type customers. Since each power type customers acts differently, I have attempted to attack each type of customer separately to make a prediction mechanism that performs better than the baseline predictor.
+In this chapter, I have described the methodology used to forecast consumption type customer's demand. Traditionally, a single type of predictor served to predict the energy demand of all power type customers. Since each power type customers acts differently, I planned to make different forecasting mechanism for different power typed customers.
 
 \section{The Baseline Electricity Forecasting Mechanisms}
 The first baseline energy forecasting mechanism is the default prediction mechanism provided by the PowerTAC system. It exploits the fact that usage of a timeslot of a customer in a specific date is highly correlated with the day of the week and the time slot. To make a prediction it stores the average energy usage of an hour of a week. So, for each customer, it uses $24*7 = 168$ memory to remember average usages. As soon as it learns about a new usage information of an hour of a week, it updates old average using the following algorithm.
@@ -34,7 +34,7 @@ The second baseline forecasting mechanism is designed to make energy forecasts f
 In this section, I will describe how I attempted to make energy demand forecaster for consumption power type customers.
 
 \subsection{Demand Forecasting for Consumption Type Customer}
-For the consumption type customers, the algorithm \ref{alg:wholeAlgo} describes the proposed method of forecasting energy demand and how it was compared to the baseline methods. 
+For the consumption type customers, algorithm \ref{alg:wholeAlgo} describes the proposed method of forecasting energy demand and how it was compared to the baseline methods. 
 
 
 \begin{algorithm}
@@ -57,7 +57,17 @@ For the consumption type customers, the algorithm \ref{alg:wholeAlgo} describes 
 \label{alg:wholeAlgo}
 \end{algorithm}
 
-The algorithm \ref{alg:wholeAlgo} begins with extracting information from the game log files. All the activities that occurred in a game can be found in a game log. In power TAC the shortest time unit is an hour and it is called time slot. Activities such as buying or selling electricity occur during a time slot. At the beginning of a time slot, the system notifies the broker that a new time slot is about to begin. The system also notifies the brokers with weather forecast about the future time slots. As a time slot ends, the broker receives information about its customer's energy usage which is called tariff transaction report. Algorithm \ref{alg:ttxHandle} refers how the extraction program retrieves necessary information from tariff transaction report. As the broker gets notification of the beginning of a new time slot, the extraction program has all the information related to energy usage and weather data of the previous time slot available by this time. Algorithm \ref{alg:writeSlotInfo} shows the procedure of writing the information of the known time slot's information in training instance file. Once the simulation ends, the extraction program knows the average energy usage of all the customers during a week. In a week there are 24 * 7 = 168 hours or time slots. The extraction program writes all the 168 hourly averages of a week to a file. This is explained in algorithm \ref{alg:writeWeeklyAvg}. 
+Algorithm \ref{alg:wholeAlgo} begins with extracting information from the game log files. All the activities that occurred in a game can be found in a game log.  Activities such as buying or selling electricity occur during a time slot. At the beginning of a time slot, the system notifies the broker that a new time slot is about to begin. The system also notifies the brokers with weather forecast about the future time slots. As a time slot ends, the broker receives information about its customer's energy usage which is called tariff transaction report. Algorithm \ref{alg:ttxHandle} refers how the extraction program retrieves necessary information from tariff transaction report. As the broker gets notification of the beginning of a new time slot, the extraction program has all the information related to energy usage and weather data of the previous time slot available by this time. The extractor program extracts the following features -
+ 
+\begin{itemize}
+  \item Temperature
+  \item Cloud Cover
+  \item Wind Speed
+  \item Average of the Slot
+  \item Standard Deviation of the Slot
+\end{itemize}
+
+Algorithm \ref{alg:writeSlotInfo} shows the procedure of writing the information of the known time slot's information in training instance file. Once the simulation ends, the extraction program knows the average energy usage of all the customers during a week. The extraction program writes all the 168 hourly averages of a week to a file. This is explained in algorithm \ref{alg:writeWeeklyAvg}. 
 
 %feature extraction
 \begin{algorithm}[!h]
@@ -109,7 +119,7 @@ The algorithm \ref{alg:wholeAlgo} begins with extracting information from the ga
 \end{algorithm}
 
 
-Next, all the average weekly usages are combined together to make training set for the clustering algorithm. I have used kMeans clustering algorithm to cluster the  training set. I have trained clusters of size  = 4, 5, 6, 7, 8, 9, 10 and 11. The algorithm \ref{alg:makeCluster} describes the procedure of making clusters from the training instances. Once a kMeans of cluster size k is made, a program groups the hourly usages of the customers in the same cluster and combines them to make training set for  machine learning classifier. This training set is used to train linear regression classifier. To test the performance of the classifiers, I have separated five game logs and they were not used for training purposes. The algorithm \ref{alg:errorOfCluster} describes how the cluster based predictor's performance was evaluated. 
+Next, all the average weekly usages are combined together to make training set for the clustering algorithm. I have used kMeans clustering algorithm to cluster the  training set. I have trained clusters of sizes 4, 5, 6, 7, 8, 9, 10 and 11. Algorithm \ref{alg:makeCluster} describes the procedure of making clusters from the training instances. Once a k-means of cluster size k is made, a program groups the hourly usages of the customers in the same cluster and combines them to make training set for  machine learning classifier. This training set is used to train linear regression classifier. To test the performance of the classifiers, I have separated five game logs and they were not used for training purposes. Algorithm \ref{alg:errorOfCluster} describes how the cluster based predictor's performance was evaluated. 
 
 %make cluster
 
@@ -125,7 +135,7 @@ Next, all the average weekly usages are combined together to make training set f
 
 
 %observe error of each cluster
-Based on the errors observed from different kMeansCluster based predictions, I fixed the number of clusters. Once the number of the clusters was fixed, a program creates several machine learning predictors to see which one performs best for a given cluster. The machine learning classifiers that were tried out are linear regression, M5P rules, M5 Tree, REP tree. In the runtime, a customer will be grouped in a cluster based on its weekly usage. Once the program knows the cluster assigned to a customer, the program will load the corresponding demand forecaster to make electricity demand forecast about the customers.
+Based on the errors observed from different kMeansCluster based predictions, I fixed the number of clusters. Once the number of the clusters was fixed, a program creates several machine learning predictors to see which one performs best for a given cluster. The machine learning classifiers that were tried out are linear regression \cite{witten2005data}, M5P rules \cite{witten2005data}, M5 Tree\cite{witten2005data}, REP tree\cite{witten2005data}. In the runtime, a customer will be grouped in a cluster based on its weekly usage. Once the program knows the cluster assigned to a customer, the program will load the corresponding demand forecaster to make electricity demand forecast about the customers.
 
 %find size of k
 \begin{algorithm}[!h]
@@ -180,7 +190,7 @@ At this phase, I have the proposed cluster-based customer's demand forecaster. N
 \label{alg:bestClassifierIndiv}
 \end{algorithm}
 
-The next phase is testing the performance of the proposed and baseline methods. For testing, I had used five game logs that were not used for training purposes. For each test instance, all three methods output was observed to figure out the performance. The algorithm \ref{alg:performanceEval} shows the mechanism of testing.
+The next phase is testing the performance of the proposed and baseline methods. For testing, I had used five game logs that were not used for training purposes. For each test instance, all three methods output was observed to figure out the performance. Algorithm \ref{alg:performanceEval} shows the mechanism of testing.
 
 %Testing
 %Testing
@@ -209,29 +219,11 @@ The next phase is testing the performance of the proposed and baseline methods. 
 \end{algorithm}
 
 \section{Result}
+The following subsections describe the results at each stage of experiments. The stages are finding optimal number of clusters. Once the number of clusters has been fixed, different classifier needs to be made for each cluster to see which one makes the best forecast for a particular cluster. After that, the baseline predictor that needs a classifier for each customer needs to be built. At this point, for each customer several classifier has been tried out to see which classifier makes best demand forecast about that customer. After that, the proposed mechanism has been tested against the two baseline demand forecasting methods.
+
 \subsection{Finding number of clusters}
 
-At first, I have segmented the customer using KMeans clustering algorithm with cluster sizes = 4, 5, 6, 7, 8, 9, 10 and 11. For KMeans with size k, we will have k clusters. For each of the k clusters, I had a linear regression predictor. I observed the relative percentage error and absolute average the above cluster sizes. Figure \ref{fig:cluster-type-vs-error} shows the result. From, the figure it is clear that the size of the cluster does not have a big impact on the prediction performance.
-
-
-%place here
-\begin{figure}
-\centering
-\begin{minipage}{.5\textwidth}
-  \centering
-  \includegraphics[width=\linewidth]{diff-szied-kmeansAbsErroPercent.png}
-  \caption{cluster type vs average absolute error.}
-  \label{fig:cluster-type-vs-error}
-\end{minipage}%
-\begin{minipage}{.5\textwidth}
-  \centering
-  \includegraphics[width=\linewidth]{diff-szied-kmeansRelativeAbsErroPercent.png}
-  \caption{cluster type vs percent relative absolute error}
-\end{minipage}
-\end{figure}
-
-To keep things simple, I have decided to choose Kmeans cluster of size 4. %The figure \ref{fig:4-cluster-with-10-files} shows the assignments of customers in different clusters. 
-When k = 4 was chosen, table \ref{table:clusterAss} shows the cluster assignment for each customer. It can be seen that, cluster-0 held most of the offices, cluster 2 held most of the village types, cluster 3 held the medical center, cluster 1 held large housing such as brooksidehomes, centerville homes and large offices such as downtown offices and centerville offices.
+At first, I have segmented the customer using KMeans clustering algorithm with cluster sizes = 4, 5, 6, 7, 8, 9, 10 and 11. For KMeans with size k, we will have k clusters. For each of the k clusters, I had a linear regression predictor. I observed the relative percentage error and absolute average the above cluster sizes. It turned out that the size of the cluster does not have a big impact on the prediction performance. To keep things simple, I have decided to choose Kmeans cluster of size 4. When k = 4 was chosen, table \ref{table:clusterAss} shows the cluster assignment for each customer. It can be seen that, cluster-0 held most of the offices, cluster 2 held most of the village types, cluster 3 held the medical center, cluster 1 held large housing such as brooksidehomes, centerville homes and large offices such as downtown offices and centerville offices.
 
 
 \begin{table}[h!]
@@ -263,28 +255,10 @@ MedicalCenter@1	& 3 \\ [1ex]
 \label{table:clusterAss}
 \end{table}
 
-%\begin{figure}[h!]
-% \includegraphics[width=\linewidth]{4-cluster-with-10-files.png}
-%  \caption{Cluster assignments.}
-%  \label{fig:4-cluster-with-10-files}
-%\end{figure}
-
 \subsection {Finding best predictor for each cluster}
-I have used the following features for a given timeslot to train prediction models. 
- 
-\begin{itemize}
-  \item Temperature
-  \item Cloud Cover
-  \item Wind Speed
-  \item Average of the Slot
-  \item Standard Deviation of the Slot
-\end{itemize}
+Once the features are extracted, I have tried out  M5Tree, Linear Regression, M5P rules and REP tree machine learning classifiers to see which one performs the best for each of the 4 clusters. Figure \ref{fig:cluster-0-predictors}, \ref{fig:cluster-1-predictors}, \ref{fig:cluster-2-predictors}, \ref{fig:cluster-3-predictors} show that M5P, M5P, REPTree and M5RULES are the best predictors for cluster 0, 1, 2 and 3 respectively.
 
-Next, I have tried out  M5Tree, Linear Regression, M5P rules and REP tree machine learning classifiers to see which one performs the best for each of the 4 clusters. Figure \ref{fig:cluster-0-predictors}, \ref{fig:cluster-1-predictors}, \ref{fig:cluster-2-predictors}, \ref{fig:cluster-3-predictors} show that M5P, M5P, REPTree and M5RULES are the best predictors for cluster 0, 1, 2 and 3 respectively.
-
-
-
-%% begin
+%%trial 1
 \begin{figure}
 \centering
 \begin{minipage}{.5\textwidth}
@@ -311,6 +285,12 @@ Next, I have tried out  M5Tree, Linear Regression, M5P rules and REP tree machin
   \includegraphics[width=\linewidth]{cluster-1-diff-classifier-relative-abs.png}
   \caption{cluster 1 average relative absolute error of 4 classifiers}
 \end{minipage}
+
+\end{figure}
+%% trial 1 end
+
+%% trial 2
+\begin{figure}
 
 \centering
 \begin{minipage}{.5\textwidth}
@@ -339,7 +319,7 @@ Next, I have tried out  M5Tree, Linear Regression, M5P rules and REP tree machin
 \end{minipage}
 
 \end{figure}
-%end figure
+%% trial 2 end
 
 The next step is to find the best classifiers for each of the customers. Based on the data from each of the customers, the four types of classifiers described in previously were tried out. For each customer, the following classifiers performed the best. 
 

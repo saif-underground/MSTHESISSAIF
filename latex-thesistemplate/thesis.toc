@@ -1,32 +1,39 @@
 \hfill {\bf Page}
-\contentsline {chapter}{Abstract}{iv}
-\contentsline {chapter}{Table of Contents}{v}
-\contentsline {chapter}{List of Figures}{vi}
+\contentsline {chapter}{Acknowledgements}{v}
+\contentsline {chapter}{Abstract}{viii}
+\contentsline {chapter}{Table of Contents}{ix}
+\contentsline {chapter}{List of Tables}{xi}
+\contentsline {chapter}{List of Figures}{xii}
 \noindent {\bf Chapter}
 \contentsline {chapter}{\numberline {1}Smart Grid and PowerTAC Competition}{1}
 \contentsline {section}{\numberline {1.1}Traditional Electricity Distribution and Consumption System}{1}
 \contentsline {section}{\numberline {1.2}Smart Grid}{1}
 \contentsline {section}{\numberline {1.3}Smart Grid and Renewable Energy}{2}
 \contentsline {section}{\numberline {1.4}Power TAC System}{2}
-\contentsline {subsection}{\numberline {1.4.1}Broker}{2}
-\contentsline {subsection}{\numberline {1.4.2}Customers}{3}
-\contentsline {subsection}{\numberline {1.4.3}Weather Service}{3}
-\contentsline {subsection}{\numberline {1.4.4}Markets and Distribution Utility}{4}
-\contentsline {section}{\numberline {1.5}Importance of Accurate Demand Forecasting in Power TAC}{4}
-\contentsline {chapter}{\numberline {2}Related Works}{6}
-\contentsline {section}{\numberline {2.1}Variables in Electricity Demand}{6}
-\contentsline {section}{\numberline {2.2}Electricity Load Forecasting Using Statistical Method}{7}
-\contentsline {section}{\numberline {2.3}Load Forecasting using Machine Learning}{7}
-\contentsline {section}{\numberline {2.4}Load Forecasting using Clustering}{7}
-\contentsline {section}{\numberline {2.5}Expert System based Load Forecasting}{8}
-\contentsline {chapter}{\numberline {3}Customer Description}{9}
-\contentsline {section}{\numberline {3.1}Customer Categories}{9}
-\contentsline {section}{\numberline {3.2}Statistics}{12}
-\contentsline {chapter}{\numberline {4}Methodology and Result}{15}
-\contentsline {section}{\numberline {4.1}The Baseline Electricity Forecasting Mechanisms}{15}
-\contentsline {section}{\numberline {4.2}Proposed Electricity Demand Forecasting Mechanism}{15}
-\contentsline {subsection}{\numberline {4.2.1}Demand Forecasting for Consumption Type Customer}{16}
-\contentsline {section}{\numberline {4.3}Result}{19}
-\contentsline {subsection}{\numberline {4.3.1}Finding number of clusters}{19}
-\contentsline {subsection}{\numberline {4.3.2}Finding best predictor for each cluster}{19}
+\contentsline {subsection}{\numberline {1.4.1}Broker}{3}
+\contentsline {subsection}{\numberline {1.4.2}Customers}{4}
+\contentsline {subsection}{\numberline {1.4.3}Weather Service}{5}
+\contentsline {subsection}{\numberline {1.4.4}Markets and Distribution Utility}{5}
+\contentsline {section}{\numberline {1.5}Importance of Accurate Demand Forecasting in Power TAC}{6}
+\contentsline {chapter}{\numberline {2}Related Works}{7}
+\contentsline {section}{\numberline {2.1}Variables in Electricity Demand}{7}
+\contentsline {section}{\numberline {2.2}Electricity Load Forecasting Using Statistical Method}{8}
+\contentsline {section}{\numberline {2.3}Load Forecasting using Machine Learning}{9}
+\contentsline {section}{\numberline {2.4}Load Forecasting using Clustering}{9}
+\contentsline {section}{\numberline {2.5}Expert System based Load Forecasting}{10}
+\contentsline {chapter}{\numberline {3}Customer Description}{12}
+\contentsline {section}{\numberline {3.1}Customer Categories}{12}
+\contentsline {section}{\numberline {3.2}Statistics}{15}
+\contentsline {chapter}{\numberline {4}Methodology and Results}{19}
+\contentsline {section}{\numberline {4.1}The Baseline Electricity Forecasting Mechanisms}{19}
+\contentsline {section}{\numberline {4.2}Proposed Electricity Demand Forecasting Mechanism}{20}
+\contentsline {subsection}{\numberline {4.2.1}Demand Forecasting for Consumption Type Customer}{20}
+\contentsline {section}{\numberline {4.3}Result}{25}
+\contentsline {subsection}{\numberline {4.3.1}Finding number of clusters}{25}
+\contentsline {subsection}{\numberline {4.3.2}Finding best predictor for each cluster}{27}
+\contentsline {chapter}{\numberline {5}Conclusions and Future Work}{33}
+\contentsline {section}{\numberline {5.1}Significance of the Result}{33}
+\contentsline {section}{\numberline {5.2}Future Work}{33}
 \noindent {\bf Appendix}
+\contentsline {chapter}{\numberline {A}Source Code}{38}
+\contentsline {chapter}{Curriculum Vitae}{134}

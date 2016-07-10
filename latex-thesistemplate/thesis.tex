@@ -2,6 +2,7 @@
 
 \documentclass[12pt]{report}
 
+\usepackage{listings}
 \usepackage{utepcsthesis}
 \usepackage{graphics}
 \usepackage{graphicx}
@@ -66,17 +67,17 @@ MOTHER and FATHER\\[0.2in]
 with love}
 \end{CenteredPage}
 
-%\maketitlepage
+\maketitlepage
 
-%\include{acknowl}       % Acknowledgements, optional
-%\include{preface}       % Preface, optional
+\include{acknowl}       % Acknowledgements, optional
+\include{preface}       % Preface, optional
 \include{abstract}      % Abstract, optional, but strongly recommended
 
 \tableofcontents        % Generate Table of Contents
 
 % If you a list of tables, uncomment the next line.
 % It is required if the document contains three or more tables
-%\listoftables
+\listoftables
 
 % If you use a list of figures, uncomment the next line
 % It is required if the document contains three or more figures
@@ -90,13 +91,13 @@ with love}
 
 %Start arabic numbering, bottom of first page and top right of subsequent pages
 \StartBody
-
+%70150640000459051977 usps track
 %\include{chapter1}         % Introductory Chapter
 \include{chapter2}         % Chapter 2
 \include{chapter3}         % Chapter 3 
 \include{chapter4}         % Chapter 4 customer description 
 \include{chapter5}         % Chapter 5 Prediction Mechanism and result discussion
-%\include{chapter6}         % Chapter 6
+\include{chapter6}         % Chapter 6
 %\include{chapter7}         % Chapter 7, chap7.tex contains an
                         % example of figs and tables and inclusion of pdf.
 
@@ -119,9 +120,9 @@ with love}
 % If including appendices, uncomment the following lines,
 % adding more includes if needed.
 \StartAppendix
-%\include{AppendixA}         % Example of how to include an appendix
+\include{AppendixA}         % Example of how to include an appendix
 
-%\include{vitae}         % Curriculum Vitae      REQUIRED
+\include{vitae}         % Curriculum Vitae      REQUIRED
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

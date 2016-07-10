@@ -1,28 +1,28 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces PowerTAC simulation environment.}}{4}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces PowerTAC simulation environment.}}{6}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Caption 1}}{11}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Caption 1}}{11}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Caption 1}}{11}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Caption 1}}{13}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Caption 1}}{13}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Caption 1}}{13}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Number of customers vs Powertype.}}{14}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Population vs Powertype}}{14}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Energy vs PowerType.}}{14}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Energy share for each power type.}}{14}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Caption 1}}{16}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Caption 1}}{16}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Caption 1}}{16}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Caption 1}}{17}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Caption 1}}{17}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Caption 1}}{17}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Number of customers vs Powertype.}}{18}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Population vs Powertype}}{18}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Energy vs PowerType.}}{18}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Energy share for each power type.}}{18}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces cluster type vs average absolute error.}}{20}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces cluster type vs percent relative absolute error}}{20}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces cluster 0 average absolute error of 4 classifiers}}{21}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces cluster 0 average relative absolute error of 4 classifiers}}{21}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces cluster 1 average absolute error of 4 classifiers}}{21}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces cluster 1 average relative absolute error of 4 classifiers}}{21}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces cluster 2 average absolute error of 4 classifiers}}{21}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces cluster 2 average relative absolute error of 4 classifiers}}{21}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces cluster 3 average absolute error of 4 classifiers}}{21}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces cluster 3 average relative absolute error of 4 classifiers}}{21}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Performance of the best classifier for each customer type. Customer Medical center was excluded as it was showing huge error. }}{23}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces average absolute error}}{23}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces average percent relative absolute error}}{23}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces cluster 0 average absolute error of 4 classifiers}}{28}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces cluster 0 average relative absolute error of 4 classifiers}}{28}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces cluster 1 average absolute error of 4 classifiers}}{28}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces cluster 1 average relative absolute error of 4 classifiers}}{28}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces cluster 2 average absolute error of 4 classifiers}}{29}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces cluster 2 average relative absolute error of 4 classifiers}}{29}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces cluster 3 average absolute error of 4 classifiers}}{29}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces cluster 3 average relative absolute error of 4 classifiers}}{29}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Performance of the best classifier for each customer type. Customer Medical center was excluded as it was showing huge error. }}{31}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces average absolute error}}{32}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces average percent relative absolute error}}{32}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

@@ -1,26 +1,10 @@
-% chap6.tex (Significance and Future Work)
+% chap6.tex (Conclusions and Future Work)
 
-\chapter{Concluding Remarks}
+\chapter{Conclusions and Future Work}
 
 \section{Significance of the Result}
-
-Now that we have shown that we cannot solve narrow-interval 
-linear equation systems in general, what does this mean to the computing and 
-mathematical communities?  Unless P=NP, attempts at developing a feasible 
-algorithm to solve this problem in general will assuredly fail; however, the 
-very fact that there exists an algorithm for solving a large number of these 
-systems (see \cite{Lakeyev1995}) shows that work on solving a subclass of the 
-class of all narrow-interval linear equation systems is certainly a worthwhile 
-endeavor.
+This work showed that for each power type, a broker should use different demand forecasting mechanism. The work showed that for consumption type customers in the Power TAC simulation, the size of the cluster does not matter. The baseline with individual predictors can be considered as a mechanism with n customer, where n is the number of consumption customers. The proposed forecasting methodology was able to achieve almost similar demand forecasting mechanism using only 4 clusters. The above mentioned baseline has a serious fault, the demand predictors are hardcoded by the customer names. If during the simulation the name of a customer is changed, this mechanism will not work. On the other hand, the proposed mechanism can be trained on previous game logs and does not have the problem mentioned above.
 
 \section{Future Work}
 
-The problem now shifts to identifying new subclasses of the class of all
-narrow-interval linear equation systems for which the problem of solving them
-is possible with the development of new algorithms.  Also, if the general
-problem (or any problem in the class NP) shows up often enough in industry,
-science, research, etc., work on improving existing and/or creating new
-approximation methods (including heuristic and/or statistical methods, where
-applicable) is certainly warranted.  Since we cannot compute the exact bounds
-for the general case, good approximation methodologies are the most we can
-hope for or expect.
+This work only deals with demand forecasting about the consumption customers. The proposed mechanism seems to be applicable for solar energy production customers with a slight change. For customer with irregular demand pattern such as customers with demand shifting capabilities and the electric vehicle customers, different technique of demand forecasting has to be figured out. 

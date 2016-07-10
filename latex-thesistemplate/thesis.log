@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  9 JUL 2016 20:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  10 JUL 2016 17:55
 entering extended mode
 **C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
 (C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
@@ -22,10 +22,39 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\listings\listings.sty
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\lst@mode=\count88
+\lst@gtempboxa=\box26
+\lst@token=\toks15
+\lst@length=\count89
+\lst@currlwidth=\dimen103
+\lst@column=\count90
+\lst@pos=\count91
+\lst@lostspace=\dimen104
+\lst@width=\dimen105
+\lst@newlines=\count92
+\lst@lineno=\count93
+\lst@maxwidth=\dimen106
+
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count94
+\lst@skipnumbers=\count95
+\lst@framebox=\box27
+)
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\listings\listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
 (utepcsthesis.sty
-\c@definition=\count88
-\c@theorem=\count89
-\c@corollary=\count90
+\c@definition=\count96
+\c@theorem=\count97
+\c@corollary=\count98
 )
 (C:\Users\Saif\Desktop\software\miktex\tex\latex\graphics\graphics.sty
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
@@ -47,17 +76,12 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (C:\Users\Saif\Desktop\software\miktex\tex\generic\oberdiek\ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count91
+\Gread@gobject=\count99
 ))
 (C:\Users\Saif\Desktop\software\miktex\tex\latex\graphics\graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\Saif\Desktop\software\miktex\tex\latex\graphics\keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
-)
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
+\Gin@req@height=\dimen107
+\Gin@req@width=\dimen108
 )
 (C:\Users\Saif\Desktop\software\miktex\tex\latex\algorithms\algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
@@ -65,121 +89,143 @@ nment
 
 (C:\Users\Saif\Desktop\software\miktex\tex\latex\float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count92
-\float@exts=\toks15
-\float@box=\box26
-\@float@everytoks=\toks16
-\@floatcapt=\box27
+\c@float@type=\count100
+\float@exts=\toks16
+\float@box=\box28
+\@float@everytoks=\toks17
+\@floatcapt=\box29
 )
 (C:\Users\Saif\Desktop\software\miktex\tex\latex\base\ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\@float@every@algorithm=\toks17
-\c@algorithm=\count93
+\@float@every@algorithm=\toks18
+\c@algorithm=\count101
 )
 (C:\Users\Saif\Desktop\software\miktex\tex\latex\algorithms\algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count94
-\c@ALC@line=\count95
-\c@ALC@rem=\count96
-\c@ALC@depth=\count97
+\c@ALC@unique=\count102
+\c@ALC@line=\count103
+\c@ALC@rem=\count104
+\c@ALC@depth=\count105
 \ALC@tlm=\skip43
 \algorithmicindent=\skip44
 )
-(thesis.aux (abstract.aux) (null.aux) (chapter2.aux) (chapter3.aux)
-(chapter4.aux) (chapter5.aux))
+(thesis.aux (acknowl.aux) (preface.aux) (abstract.aux) (null.aux) (chapter2.aux
+) (chapter3.aux) (chapter4.aux) (chapter5.aux) (chapter6.aux) (AppendixA.aux)
+(vitae.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+\c@lstlisting=\count106
 
 (C:\Users\Saif\Desktop\software\miktex\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count98
-\scratchdimen=\dimen105
-\scratchbox=\box28
-\nofMPsegments=\count99
-\nofMParguments=\count100
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count101
-\MPscratchDim=\dimen106
-\MPnumerator=\count102
-\makeMPintoPDFobject=\count103
-\everyMPtoPDFconversion=\toks19
+\scratchcounter=\count107
+\scratchdimen=\dimen109
+\scratchbox=\box30
+\nofMPsegments=\count108
+\nofMParguments=\count109
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count110
+\MPscratchDim=\dimen110
+\MPnumerator=\count111
+\makeMPintoPDFobject=\count112
+\everyMPtoPDFconversion=\toks20
 )
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 52.
+(Font)              <12> on input line 53.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 52.
+(Font)              <8> on input line 53.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 52.
+(Font)              <6> on input line 53.
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
 
  []
 
 [1
 
 {C:/Users/Saif/Desktop/software/miktex/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 56.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 57.
 
 (C:\Users\Saif\Desktop\software\miktex\tex\latex\base\omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 57.
  [2] [3]
+[4]
+\openout2 = `acknowl.aux'.
+
+ (acknowl.tex [5
+
+
+] [6]) [7]
+\openout2 = `preface.aux'.
+
+
+No file preface.tex.
 \openout2 = `abstract.aux'.
 
+(abstract.tex) [8
 
-(abstract.tex) [4
 
 
-] (thesis.toc)
+
+
+] (thesis.toc [9
+
+
+])
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
- [5
+ [10] (thesis.lot)
+\tf@lot=\write4
+\openout4 = `thesis.lot'.
 
+ [11
 
 ] (thesis.lof)
-\tf@lof=\write4
-\openout4 = `thesis.lof'.
+\tf@lof=\write5
+\openout5 = `thesis.lof'.
 
- [6
+
+[12
 
 ]
 \openout2 = `null.aux'.
 
-
-(C:\Users\Saif\Desktop\software\miktex\tex\generic\misc\null.tex)
+ (C:\Users\Saif\Desktop\software\miktex\tex\generic\misc\null.tex)
 \openout2 = `chapter2.aux'.
 
- (chapter2.tex
+
+(chapter2.tex
 Chapter 1.
 
 Overfull \hbox (2.24815pt too wide) in paragraph at lines 7--7
@@ -191,48 +237,51 @@ Overfull \hbox (2.24815pt too wide) in paragraph at lines 7--7
 
 
 
-] [2] [3] <simulation-environment.png, id=34, 682.04813pt x 253.69781pt>
+] [2] [3] [4] <simulation-environment.png, id=56, 682.04813pt x 253.69781pt>
 File: simulation-environment.png Graphic file (type png)
 
 <use simulation-environment.png>
 Package pdftex.def Info: simulation-environment.png used on input line 76.
 (pdftex.def)             Requested size: 462.52756pt x 172.04768pt.
- [4 <./simulation-environment.png>]) [5]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5]) [6 <./simulation-environment.png>]
 \openout2 = `chapter3.aux'.
 
-
-(chapter3.tex
+ (chapter3.tex
 Chapter 2.
+[7
 
+
+
+]
 Overfull \hbox (29.40623pt too wide) in paragraph at lines 16--16
 []\OT1/cmr/bx/n/17.28 Electricity Load Fore-cast-ing Us-ing Sta-tis-ti-cal Meth
 od 
  []
 
-[6
-
-
-
-] [7]
+[8] [9]
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-) [8]
+[10]) [11]
 \openout2 = `chapter4.aux'.
 
  (chapter4.tex
 Chapter 3.
+[12
 
+
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-[9
-
-
-
-] <daily1.png, id=56, 463.7325pt x 180.675pt>
+[13] <daily1.png, id=88, 463.7325pt x 180.675pt>
 File: daily1.png Graphic file (type png)
  <use daily1.png>
 Package pdftex.def Info: daily1.png used on input line 58.
@@ -242,55 +291,54 @@ Overfull \hbox (1.2038pt too wide) in paragraph at lines 58--59
  [][] 
  []
 
-<daily2.png, id=57, 456.20438pt x 182.18062pt>
+<daily2.png, id=89, 456.20438pt x 182.18062pt>
 File: daily2.png Graphic file (type png)
  <use daily2.png>
 Package pdftex.def Info: daily2.png used on input line 61.
 (pdftex.def)             Requested size: 456.20325pt x 182.18016pt.
 
-<daily3.png, id=58, 459.21562pt x 177.66376pt>
+<daily3.png, id=90, 459.21562pt x 177.66376pt>
 File: daily3.png Graphic file (type png)
  <use daily3.png>
 Package pdftex.def Info: daily3.png used on input line 64.
 (pdftex.def)             Requested size: 459.2145pt x 177.66331pt.
 
 
+LaTeX Warning: Float too large for page by 37.70041pt on input line 67.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<weekly1.png, id=59, 411.03563pt x 200.24812pt>
+<weekly1.png, id=91, 411.03563pt x 200.24812pt>
 File: weekly1.png Graphic file (type png)
  <use weekly1.png>
 Package pdftex.def Info: weekly1.png used on input line 71.
 (pdftex.def)             Requested size: 411.03462pt x 200.24763pt.
 
-<weekly2.png, id=60, 411.03563pt x 200.24812pt>
+<weekly2.png, id=92, 411.03563pt x 200.24812pt>
 File: weekly2.png Graphic file (type png)
  <use weekly2.png>
 Package pdftex.def Info: weekly2.png used on input line 74.
 (pdftex.def)             Requested size: 411.03462pt x 200.24763pt.
 
-<weekly3.png, id=61, 411.03563pt x 200.24812pt>
+<weekly3.png, id=93, 411.03563pt x 200.24812pt>
 File: weekly3.png Graphic file (type png)
  <use weekly3.png>
 Package pdftex.def Info: weekly3.png used on input line 77.
 (pdftex.def)             Requested size: 411.03462pt x 200.24763pt.
 
 
-LaTeX Warning: Float too large for page by 40.0403pt on input line 80.
+LaTeX Warning: Float too large for page by 97.9253pt on input line 80.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[10]
+[14]
 
-LaTeX Warning: Text page 11 contains only floats.
-
-
-Overfull \vbox (7.81541pt too high) has occurred while \output is active []
+LaTeX Warning: Reference `energy-shares' on page 15 undefined on input line 96.
 
 
-[11 <./daily1.png (PNG copy)> <./daily2.png (PNG copy)> <./daily3.png (PNG copy
-)>] <4-customer-vs-powertype.jpg, id=68, 280.04625pt x 196.48407pt>
+<4-customer-vs-powertype.jpg, id=97, 280.04625pt x 196.48407pt>
 File: 4-customer-vs-powertype.jpg Graphic file (type jpg)
 
 <use 4-customer-vs-powertype.jpg>
@@ -301,21 +349,21 @@ Overfull \hbox (130.08621pt too wide) in paragraph at lines 104--104
  [] 
  []
 
-<2-population-vs-powertype.jpg, id=69, 243.91125pt x 215.30438pt>
+<2-population-vs-powertype.jpg, id=98, 243.91125pt x 215.30438pt>
 File: 2-population-vs-powertype.jpg Graphic file (type jpg)
 
 <use 2-population-vs-powertype.jpg>
 Package pdftex.def Info: 2-population-vs-powertype.jpg used on input line 109.
 (pdftex.def)             Requested size: 231.26378pt x 204.14375pt.
 
-<3-energy-vs-powertype.png, id=70, 249.93375pt x 210.03468pt>
+<3-energy-vs-powertype.png, id=99, 249.93375pt x 210.03468pt>
 File: 3-energy-vs-powertype.png Graphic file (type png)
 
 <use 3-energy-vs-powertype.png>
 Package pdftex.def Info: 3-energy-vs-powertype.png used on input line 116.
 (pdftex.def)             Requested size: 231.26378pt x 194.35274pt.
 
-<pie-energy-share.png, id=71, 319.1925pt x 271.0125pt>
+<pie-energy-share.png, id=100, 319.1925pt x 271.0125pt>
 File: pie-energy-share.png Graphic file (type png)
 
 <use pie-energy-share.png>
@@ -326,243 +374,1046 @@ Overfull \hbox (130.08621pt too wide) in paragraph at lines 122--122
  [] 
  []
 
-) [12] [13 <./weekly1.png (PNG copy)> <./weekly2.png (PNG copy)> <./weekly3.png
- (PNG copy)>] [14 <./4-customer-vs-powertype.jpg (PNG copy)> <./2-population-vs
--powertype.jpg (PNG copy)> <./3-energy-vs-powertype.png (PNG copy)> <./pie-ener
-gy-share.png (PNG copy)>]
+) [15] [16 <./daily1.png (PNG copy)> <./daily2.png (PNG copy)> <./daily3.png (P
+NG copy)>] [17 <./weekly1.png (PNG copy)> <./weekly2.png (PNG copy)> <./weekly3
+.png (PNG copy)>] [18 <./4-customer-vs-powertype.jpg (PNG copy)> <./2-populatio
+n-vs-powertype.jpg (PNG copy)> <./3-energy-vs-powertype.png (PNG copy)> <./pie-
+energy-share.png (PNG copy)>]
 \openout2 = `chapter5.aux'.
 
  (chapter5.tex
 Chapter 4.
-[15
+[19
 
 
 
-]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[16]
+] [20]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[17]
+[21] [22]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[18] <diff-szied-kmeansAbsErroPercent.png, id=97, 344.78813pt x 213.79875pt>
-File: diff-szied-kmeansAbsErroPercent.png Graphic file (type png)
-
-<use diff-szied-kmeansAbsErroPercent.png>
-Package pdftex.def Info: diff-szied-kmeansAbsErroPercent.png used on input line
- 222.
-(pdftex.def)             Requested size: 231.26378pt x 143.40427pt.
-
-Overfull \hbox (130.08621pt too wide) in paragraph at lines 223--223
- [] 
- []
-
-
-<diff-szied-kmeansRelativeAbsErroPercent.png, id=98, 344.78813pt x 213.79875pt>
-File: diff-szied-kmeansRelativeAbsErroPercent.png Graphic file (type png)
-<use diff-szied-kmeansRelativeAbsErroPercent.png>
-Package pdftex.def Info: diff-szied-kmeansRelativeAbsErroPercent.png used on in
-put line 228.
-(pdftex.def)             Requested size: 231.26378pt x 143.40427pt.
-
-Overfull \hbox (130.08621pt too wide) in paragraph at lines 229--229
- [] 
- []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[19]
-<cluster-0-diff-classifier-avg-abs.png, id=103, 334.24875pt x 209.28188pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[23]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[24] [25] [26]
+<cluster-0-diff-classifier-avg-abs.png, id=142, 334.24875pt x 209.28188pt>
 File: cluster-0-diff-classifier-avg-abs.png Graphic file (type png)
 
 <use cluster-0-diff-classifier-avg-abs.png>
 Package pdftex.def Info: cluster-0-diff-classifier-avg-abs.png used on input li
-ne 292.
+ne 266.
 (pdftex.def)             Requested size: 231.26378pt x 144.8038pt.
 
-Overfull \hbox (130.08621pt too wide) in paragraph at lines 293--293
+Overfull \hbox (130.08621pt too wide) in paragraph at lines 267--267
  [] 
  []
 
 
-<cluster-0-diff-classifier-relative-abs.png, id=104, 324.46219pt x 238.64156pt>
+<cluster-0-diff-classifier-relative-abs.png, id=143, 324.46219pt x 238.64156pt>
 File: cluster-0-diff-classifier-relative-abs.png Graphic file (type png)
 <use cluster-0-diff-classifier-relative-abs.png>
 Package pdftex.def Info: cluster-0-diff-classifier-relative-abs.png used on inp
-ut line 298.
+ut line 272.
 (pdftex.def)             Requested size: 231.26378pt x 170.09576pt.
+
+Overfull \hbox (130.08621pt too wide) in paragraph at lines 273--273
+ [] 
+ []
+
+<cluster-1-diff-classifier-avg-abs.png, id=144, 334.24875pt x 209.28188pt>
+File: cluster-1-diff-classifier-avg-abs.png Graphic file (type png)
+
+<use cluster-1-diff-classifier-avg-abs.png>
+Package pdftex.def Info: cluster-1-diff-classifier-avg-abs.png used on input li
+ne 279.
+(pdftex.def)             Requested size: 231.26378pt x 144.8038pt.
+
+Overfull \hbox (130.08621pt too wide) in paragraph at lines 280--280
+ [] 
+ []
+
+
+<cluster-1-diff-classifier-relative-abs.png, id=145, 334.24875pt x 209.28188pt>
+File: cluster-1-diff-classifier-relative-abs.png Graphic file (type png)
+<use cluster-1-diff-classifier-relative-abs.png>
+Package pdftex.def Info: cluster-1-diff-classifier-relative-abs.png used on inp
+ut line 285.
+(pdftex.def)             Requested size: 231.26378pt x 144.8038pt.
+
+Overfull \hbox (130.08621pt too wide) in paragraph at lines 286--286
+ [] 
+ []
+
+<cluster-2-diff-classifier-avg-abs.png, id=146, 334.24875pt x 209.28188pt>
+File: cluster-2-diff-classifier-avg-abs.png Graphic file (type png)
+
+<use cluster-2-diff-classifier-avg-abs.png>
+Package pdftex.def Info: cluster-2-diff-classifier-avg-abs.png used on input li
+ne 298.
+(pdftex.def)             Requested size: 231.26378pt x 144.8038pt.
 
 Overfull \hbox (130.08621pt too wide) in paragraph at lines 299--299
  [] 
  []
 
-<cluster-1-diff-classifier-avg-abs.png, id=105, 334.24875pt x 209.28188pt>
-File: cluster-1-diff-classifier-avg-abs.png Graphic file (type png)
 
-<use cluster-1-diff-classifier-avg-abs.png>
-Package pdftex.def Info: cluster-1-diff-classifier-avg-abs.png used on input li
-ne 305.
+<cluster-2-diff-classifier-relative-abs.png, id=147, 334.24875pt x 209.28188pt>
+File: cluster-2-diff-classifier-relative-abs.png Graphic file (type png)
+<use cluster-2-diff-classifier-relative-abs.png>
+Package pdftex.def Info: cluster-2-diff-classifier-relative-abs.png used on inp
+ut line 304.
 (pdftex.def)             Requested size: 231.26378pt x 144.8038pt.
 
-Overfull \hbox (130.08621pt too wide) in paragraph at lines 306--306
+Overfull \hbox (130.08621pt too wide) in paragraph at lines 305--305
  [] 
  []
 
+<cluster-3-diff-classifier-avg-abs.png, id=148, 334.24875pt x 209.28188pt>
+File: cluster-3-diff-classifier-avg-abs.png Graphic file (type png)
 
-<cluster-1-diff-classifier-relative-abs.png, id=106, 334.24875pt x 209.28188pt>
-File: cluster-1-diff-classifier-relative-abs.png Graphic file (type png)
-<use cluster-1-diff-classifier-relative-abs.png>
-Package pdftex.def Info: cluster-1-diff-classifier-relative-abs.png used on inp
-ut line 311.
+<use cluster-3-diff-classifier-avg-abs.png>
+Package pdftex.def Info: cluster-3-diff-classifier-avg-abs.png used on input li
+ne 311.
 (pdftex.def)             Requested size: 231.26378pt x 144.8038pt.
 
 Overfull \hbox (130.08621pt too wide) in paragraph at lines 312--312
  [] 
  []
 
-<cluster-2-diff-classifier-avg-abs.png, id=107, 334.24875pt x 209.28188pt>
-File: cluster-2-diff-classifier-avg-abs.png Graphic file (type png)
 
-<use cluster-2-diff-classifier-avg-abs.png>
-Package pdftex.def Info: cluster-2-diff-classifier-avg-abs.png used on input li
-ne 318.
-(pdftex.def)             Requested size: 231.26378pt x 144.8038pt.
-
-Overfull \hbox (130.08621pt too wide) in paragraph at lines 319--319
- [] 
- []
-
-
-<cluster-2-diff-classifier-relative-abs.png, id=108, 334.24875pt x 209.28188pt>
-File: cluster-2-diff-classifier-relative-abs.png Graphic file (type png)
-<use cluster-2-diff-classifier-relative-abs.png>
-Package pdftex.def Info: cluster-2-diff-classifier-relative-abs.png used on inp
-ut line 324.
-(pdftex.def)             Requested size: 231.26378pt x 144.8038pt.
-
-Overfull \hbox (130.08621pt too wide) in paragraph at lines 325--325
- [] 
- []
-
-<cluster-3-diff-classifier-avg-abs.png, id=109, 334.24875pt x 209.28188pt>
-File: cluster-3-diff-classifier-avg-abs.png Graphic file (type png)
-
-<use cluster-3-diff-classifier-avg-abs.png>
-Package pdftex.def Info: cluster-3-diff-classifier-avg-abs.png used on input li
-ne 331.
-(pdftex.def)             Requested size: 231.26378pt x 144.8038pt.
-
-Overfull \hbox (130.08621pt too wide) in paragraph at lines 332--332
- [] 
- []
-
-
-<cluster-3-diff-classifier-relative-abs.png, id=110, 334.24875pt x 209.28188pt>
+<cluster-3-diff-classifier-relative-abs.png, id=149, 334.24875pt x 209.28188pt>
 File: cluster-3-diff-classifier-relative-abs.png Graphic file (type png)
 <use cluster-3-diff-classifier-relative-abs.png>
 Package pdftex.def Info: cluster-3-diff-classifier-relative-abs.png used on inp
-ut line 337.
+ut line 317.
 (pdftex.def)             Requested size: 231.26378pt x 144.8038pt.
 
-Overfull \hbox (130.08621pt too wide) in paragraph at lines 338--338
+Overfull \hbox (130.08621pt too wide) in paragraph at lines 318--318
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 193.63788pt on input line 341.
-
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<relativeErrorIndivPredictor.png, id=111, 421.575pt x 316.18124pt>
+<relativeErrorIndivPredictor.png, id=150, 421.575pt x 316.18124pt>
 File: relativeErrorIndivPredictor.png Graphic file (type png)
 
 <use relativeErrorIndivPredictor.png>
-Package pdftex.def Info: relativeErrorIndivPredictor.png used on input line 378
+Package pdftex.def Info: relativeErrorIndivPredictor.png used on input line 358
 .
 (pdftex.def)             Requested size: 462.52756pt x 346.90308pt.
- [20 <./diff-szied-kmeansAbsErroPercent.png (PNG copy)> <./diff-szied-kmeansRel
-ativeAbsErroPercent.png (PNG copy)>]
-[21 <./cluster-0-diff-classifier-avg-abs.png (PNG copy)> <./cluster-0-diff-clas
-sifier-relative-abs.png (PNG copy)> <./cluster-1-diff-classifier-avg-abs.png (P
-NG copy)> <./cluster-1-diff-classifier-relative-abs.png (PNG copy)> <./cluster-
-2-diff-classifier-avg-abs.png (PNG copy)> <./cluster-2-diff-classifier-relative
--abs.png (PNG copy)> <./cluster-3-diff-classifier-avg-abs.png (PNG copy)> <./cl
-uster-3-diff-classifier-relative-abs.png (PNG copy)>]
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<final-avg-abs-error.png, id=118, 344.78813pt x 213.79875pt>
+<final-avg-abs-error.png, id=151, 344.78813pt x 213.79875pt>
 File: final-avg-abs-error.png Graphic file (type png)
 
 <use final-avg-abs-error.png>
-Package pdftex.def Info: final-avg-abs-error.png used on input line 391.
+Package pdftex.def Info: final-avg-abs-error.png used on input line 371.
 (pdftex.def)             Requested size: 231.26378pt x 143.40427pt.
 
-<final-relative-abs-error.png, id=119, 344.78813pt x 213.79875pt>
+<final-relative-abs-error.png, id=152, 344.78813pt x 213.79875pt>
 File: final-relative-abs-error.png Graphic file (type png)
 
 <use final-relative-abs-error.png>
-Package pdftex.def Info: final-relative-abs-error.png used on input line 397.
+Package pdftex.def Info: final-relative-abs-error.png used on input line 377.
 (pdftex.def)             Requested size: 231.26378pt x 143.40427pt.
 
-Overfull \hbox (130.08621pt too wide) in paragraph at lines 398--398
+Overfull \hbox (130.08621pt too wide) in paragraph at lines 378--378
  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [22]
+) [27] [28 <./cluster-0-diff-classifier-avg-abs.png (PNG copy)> <./cluster-0-di
+ff-classifier-relative-abs.png (PNG copy)> <./cluster-1-diff-classifier-avg-abs
+.png (PNG copy)> <./cluster-1-diff-classifier-relative-abs.png (PNG copy)>]
+[29 <./cluster-2-diff-classifier-avg-abs.png (PNG copy)> <./cluster-2-diff-clas
+sifier-relative-abs.png (PNG copy)> <./cluster-3-diff-classifier-avg-abs.png (P
+NG copy)> <./cluster-3-diff-classifier-relative-abs.png (PNG copy)>] [30]
+[31 <./relativeErrorIndivPredictor.png (PNG copy)>] [32 <./final-avg-abs-error.
+png (PNG copy)> <./final-relative-abs-error.png (PNG copy)>]
+\openout2 = `chapter6.aux'.
 
-LaTeX Warning: Text page 23 contains only floats.
+ (chapter6.tex
+Chapter 5.
+) [33
 
-[23 <./relativeErrorIndivPredictor.png (PNG copy)> <./final-avg-abs-error.png (
-PNG copy)> <./final-relative-abs-error.png (PNG copy)>] (thesis.bbl
+
+
+] (thesis.bbl
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
- [24
+ [34
 
 
-]
+] [35]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
+ [36]) [37]
+\openout2 = `AppendixA.aux'.
 
-[25]) [26] (thesis.aux (abstract.aux) (null.aux) (chapter2.aux) (chapter3.aux)
-(chapter4.aux) (chapter5.aux)) ) 
+ (AppendixA.tex
+Appendix A.
+(0-Settings.java
+Overfull \hbox (23.9216pt too wide) in paragraph at lines 16--17
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (94.42148pt too wide) in paragraph at lines 22--23
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+[38
+
+
+]
+Overfull \hbox (157.87137pt too wide) in paragraph at lines 24--25
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (94.42148pt too wide) in paragraph at lines 25--26
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (59.17154pt too wide) in paragraph at lines 27--28
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (30.97159pt too wide) in paragraph at lines 28--29
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (52.12155pt too wide) in paragraph at lines 33--34
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (179.02133pt too wide) in paragraph at lines 36--38
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (30.97159pt too wide) in paragraph at lines 38--39
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 43.
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\base\omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 43.
+
+Overfull \hbox (115.57144pt too wide) in paragraph at lines 43--44
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) (1-extract.java [39] [40] [41]
+Overfull \hbox (94.42148pt too wide) in paragraph at lines 58--59
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (30.97159pt too wide) in paragraph at lines 59--60
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (80.3215pt too wide) in paragraph at lines 60--61
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (94.42148pt too wide) in paragraph at lines 63--64
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (108.52145pt too wide) in paragraph at lines 70--72
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (87.37149pt too wide) in paragraph at lines 74--75
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][] 
+ []
+
+
+Overfull \hbox (45.07156pt too wide) in paragraph at lines 75--76
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (66.22153pt too wide) in paragraph at lines 81--82
+[][][][][][][][][][][][][][][][] 
+ []
+
+[42]
+Overfull \hbox (73.27151pt too wide) in paragraph at lines 97--99
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[43]
+Overfull \hbox (30.97159pt too wide) in paragraph at lines 114--115
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (73.27151pt too wide) in paragraph at lines 131--133
+[][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (66.22153pt too wide) in paragraph at lines 139--140
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[44] [45]
+Overfull \hbox (38.02158pt too wide) in paragraph at lines 190--191
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[46]
+Overfull \hbox (9.82162pt too wide) in paragraph at lines 199--200
+[][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.82162pt too wide) in paragraph at lines 209--210
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+[47]
+Overfull \hbox (16.87161pt too wide) in paragraph at lines 246--247
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (101.47147pt too wide) in paragraph at lines 247--248
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[48]
+Overfull \hbox (2.77164pt too wide) in paragraph at lines 259--260
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (16.87161pt too wide) in paragraph at lines 275--276
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[49]
+Overfull \hbox (30.97159pt too wide) in paragraph at lines 302--303
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (45.07156pt too wide) in paragraph at lines 304--305
+[][][][][][][][][][][][][][][][] 
+ []
+
+[50]
+Overfull \hbox (16.87161pt too wide) in paragraph at lines 318--319
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (30.97159pt too wide) in paragraph at lines 321--323
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (80.3215pt too wide) in paragraph at lines 331--332
+[][][][][][][][][][][][][][][] 
+ []
+
+[51]
+Overfull \hbox (9.82162pt too wide) in paragraph at lines 349--350
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[52]
+Overfull \hbox (9.82162pt too wide) in paragraph at lines 373--374
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[53]
+Overfull \hbox (23.9216pt too wide) in paragraph at lines 400--401
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (45.07156pt too wide) in paragraph at lines 401--402
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (2.77164pt too wide) in paragraph at lines 404--405
+[][][][][][][][][][][][][][][] 
+ []
+
+[54]
+Overfull \hbox (9.82162pt too wide) in paragraph at lines 422--423
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (2.77164pt too wide) in paragraph at lines 449--450
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[55]
+Overfull \hbox (16.87161pt too wide) in paragraph at lines 477--478
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[56]
+Overfull \hbox (45.07156pt too wide) in paragraph at lines 483--484
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[57] [58] [59]
+Overfull \hbox (16.87161pt too wide) in paragraph at lines 576--577
+[][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.82162pt too wide) in paragraph at lines 578--579
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.82162pt too wide) in paragraph at lines 580--581
+[][][][][][][][][][][] 
+ []
+
+[60]
+Overfull \hbox (16.87161pt too wide) in paragraph at lines 613--615
+[][][][][][][][][] 
+ []
+
+[61] [62]) (2-phase.java
+Overfull \hbox (52.12155pt too wide) in paragraph at lines 10--11
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (30.97159pt too wide) in paragraph at lines 12--13
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (38.02158pt too wide) in paragraph at lines 14--15
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (52.12155pt too wide) in paragraph at lines 15--16
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (23.9216pt too wide) in paragraph at lines 18--19
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[63] [64]
+Overfull \hbox (73.27151pt too wide) in paragraph at lines 60--61
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (66.22153pt too wide) in paragraph at lines 64--65
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (45.07156pt too wide) in paragraph at lines 66--67
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (52.12155pt too wide) in paragraph at lines 68--69
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (66.22153pt too wide) in paragraph at lines 69--70
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (38.02158pt too wide) in paragraph at lines 72--73
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[65]
+Overfull \hbox (66.22153pt too wide) in paragraph at lines 96--97
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[66]
+Overfull \hbox (9.82162pt too wide) in paragraph at lines 107--108
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (2.77164pt too wide) in paragraph at lines 122--123
+[][][][][][][][][][][][][] 
+ []
+
+[67]
+Overfull \hbox (2.77164pt too wide) in paragraph at lines 148--149
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[68]
+Overfull \hbox (30.97159pt too wide) in paragraph at lines 160--161
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (30.97159pt too wide) in paragraph at lines 162--163
+[][][][][][][][][][][] 
+ []
+
+[69]
+Overfull \hbox (73.27151pt too wide) in paragraph at lines 189--190
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (66.22153pt too wide) in paragraph at lines 204--205
+[][][][][][][][][][][] 
+ []
+
+[70]
+Overfull \hbox (129.67142pt too wide) in paragraph at lines 237--239
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[71] [72] [73]
+Overfull \hbox (30.97159pt too wide) in paragraph at lines 308--309
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[74]
+Overfull \hbox (45.07156pt too wide) in paragraph at lines 333--334
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (16.87161pt too wide) in paragraph at lines 341--342
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[75] [76]
+Overfull \hbox (2.77164pt too wide) in paragraph at lines 386--387
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (16.87161pt too wide) in paragraph at lines 406--407
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (16.87161pt too wide) in paragraph at lines 408--409
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[77]
+Overfull \hbox (164.92136pt too wide) in paragraph at lines 419--420
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[78]
+Overfull \hbox (23.9216pt too wide) in paragraph at lines 464--465
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[79]
+Overfull \hbox (59.17154pt too wide) in paragraph at lines 476--477
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[80]
+Overfull \hbox (38.02158pt too wide) in paragraph at lines 497--498
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (16.87161pt too wide) in paragraph at lines 507--508
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[81]
+Overfull \hbox (73.27151pt too wide) in paragraph at lines 526--527
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (30.97159pt too wide) in paragraph at lines 530--531
+[][][][][][][][][][] 
+ []
+
+[82]
+Overfull \hbox (164.92136pt too wide) in paragraph at lines 574--575
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[83] [84]
+Overfull \hbox (73.27151pt too wide) in paragraph at lines 623--625
+[][][][][][][][][][][][][] 
+ []
+
+[85]
+Overfull \hbox (186.07132pt too wide) in paragraph at lines 642--643
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (164.92136pt too wide) in paragraph at lines 646--647
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (23.9216pt too wide) in paragraph at lines 650--651
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (23.9216pt too wide) in paragraph at lines 654--656
+[][][][][][][][][][][][][][][][][] 
+ []
+
+[86]
+Overfull \hbox (73.27151pt too wide) in paragraph at lines 689--690
+[][][][][][][][][][][][][][][][][] 
+ []
+
+[87]
+Overfull \hbox (52.12155pt too wide) in paragraph at lines 715--716
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.82162pt too wide) in paragraph at lines 716--717
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[88]
+Overfull \hbox (52.12155pt too wide) in paragraph at lines 725--726
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (52.12155pt too wide) in paragraph at lines 738--739
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.82162pt too wide) in paragraph at lines 739--740
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (23.9216pt too wide) in paragraph at lines 740--741
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[89]
+Overfull \hbox (52.12155pt too wide) in paragraph at lines 749--750
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[90] [91]
+Overfull \hbox (38.02158pt too wide) in paragraph at lines 805--806
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.82162pt too wide) in paragraph at lines 812--813
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (2.77164pt too wide) in paragraph at lines 825--826
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[92]
+Overfull \hbox (23.9216pt too wide) in paragraph at lines 836--837
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (23.9216pt too wide) in paragraph at lines 847--848
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+[93]
+Overfull \hbox (30.97159pt too wide) in paragraph at lines 860--862
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[94]
+Overfull \hbox (2.77164pt too wide) in paragraph at lines 899--900
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (23.9216pt too wide) in paragraph at lines 902--903
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (45.07156pt too wide) in paragraph at lines 909--910
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+[95]) (3-evaluate.java
+Overfull \hbox (179.02133pt too wide) in paragraph at lines 6--7
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (108.52145pt too wide) in paragraph at lines 9--10
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (129.67142pt too wide) in paragraph at lines 10--12
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (186.07132pt too wide) in paragraph at lines 12--13
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][] 
+ []
+
+
+Overfull \hbox (263.62119pt too wide) in paragraph at lines 13--14
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][] 
+ []
+
+
+Overfull \hbox (186.07132pt too wide) in paragraph at lines 14--15
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[96]
+Overfull \hbox (291.82114pt too wide) in paragraph at lines 19--20
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][] 
+ []
+
+
+Overfull \hbox (2.77164pt too wide) in paragraph at lines 20--21
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[97]
+Overfull \hbox (52.12155pt too wide) in paragraph at lines 67--68
+[][][][][][][][][][][][][] 
+ []
+
+[98]
+Overfull \hbox (52.12155pt too wide) in paragraph at lines 81--83
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (73.27151pt too wide) in paragraph at lines 86--88
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[99]
+Overfull \hbox (30.97159pt too wide) in paragraph at lines 103--104
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (66.22153pt too wide) in paragraph at lines 124--125
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (672.52048pt too wide) in paragraph at lines 125--126
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][] 
+ []
+
+
+Overfull \hbox (200.1713pt too wide) in paragraph at lines 126--127
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (376.42099pt too wide) in paragraph at lines 127--129
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[100]
+Overfull \hbox (45.07156pt too wide) in paragraph at lines 136--137
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.82162pt too wide) in paragraph at lines 153--154
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[101] [102]
+Overfull \hbox (73.27151pt too wide) in paragraph at lines 205--206
+[][][][][][][][][][][][][][][][][] 
+ []
+
+[103]
+Overfull \hbox (2.77164pt too wide) in paragraph at lines 218--219
+[][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (334.12106pt too wide) in paragraph at lines 224--225
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (94.42148pt too wide) in paragraph at lines 228--229
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[104]
+Overfull \hbox (30.97159pt too wide) in paragraph at lines 256--257
+[][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (16.87161pt too wide) in paragraph at lines 261--262
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+[105]
+Overfull \hbox (16.87161pt too wide) in paragraph at lines 285--286
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (115.57144pt too wide) in paragraph at lines 288--289
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (2.77164pt too wide) in paragraph at lines 296--297
+[][][][][][][][][][][][][][][][][] 
+ []
+
+[106]
+Overfull \hbox (66.22153pt too wide) in paragraph at lines 316--317
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[107]
+Overfull \hbox (38.02158pt too wide) in paragraph at lines 329--330
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (489.2208pt too wide) in paragraph at lines 340--341
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (157.87137pt too wide) in paragraph at lines 342--343
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[108]
+Overfull \hbox (16.87161pt too wide) in paragraph at lines 356--358
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (2.77164pt too wide) in paragraph at lines 360--361
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (2.77164pt too wide) in paragraph at lines 361--362
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[109]
+Overfull \hbox (30.97159pt too wide) in paragraph at lines 397--398
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (45.07156pt too wide) in paragraph at lines 399--400
+[][][][][][][][][][][][][][][][] 
+ []
+
+[110]
+Overfull \hbox (16.87161pt too wide) in paragraph at lines 413--414
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (30.97159pt too wide) in paragraph at lines 416--418
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (30.97159pt too wide) in paragraph at lines 427--428
+[][][][][][][][][][][][][][][] 
+ []
+
+[111]
+Overfull \hbox (9.82162pt too wide) in paragraph at lines 463--464
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[112] [113]
+Overfull \hbox (23.9216pt too wide) in paragraph at lines 515--516
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (45.07156pt too wide) in paragraph at lines 516--517
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[114] [115] [116] [117]
+Overfull \hbox (59.17154pt too wide) in paragraph at lines 624--625
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[118]
+Overfull \hbox (16.87161pt too wide) in paragraph at lines 660--661
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[119]
+Overfull \hbox (45.07156pt too wide) in paragraph at lines 666--667
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (45.07156pt too wide) in paragraph at lines 681--682
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.82162pt too wide) in paragraph at lines 685--686
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (2.77164pt too wide) in paragraph at lines 686--687
+[][][][][][][][][][][][] 
+ []
+
+[120] [121]
+Overfull \hbox (2.77164pt too wide) in paragraph at lines 723--724
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (16.87161pt too wide) in paragraph at lines 742--743
+[][][][][][][][][][][][][][][][][] 
+ []
+
+[122] [123]
+Overfull \hbox (9.82162pt too wide) in paragraph at lines 797--798
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (52.12155pt too wide) in paragraph at lines 801--802
+[][][][][][][][][][][][][][][][][] 
+ []
+
+[124] [125]
+Overfull \hbox (45.07156pt too wide) in paragraph at lines 845--846
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[126]
+Overfull \hbox (16.87161pt too wide) in paragraph at lines 883--885
+[][][][][][][][][] 
+ []
+
+[127] [128] [129]
+Overfull \hbox (16.87161pt too wide) in paragraph at lines 957--958
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (23.9216pt too wide) in paragraph at lines 968--969
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[130] [131]) [132]) [133]
+\openout2 = `vitae.aux'.
+
+ (vitae.tex) [134
+
+
+
+] (thesis.aux (acknowl.aux)
+(preface.aux) (abstract.aux) (null.aux) (chapter2.aux) (chapter3.aux)
+(chapter4.aux) (chapter5.aux) (chapter6.aux) (AppendixA.aux) (vitae.aux))
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1752 strings out of 493634
- 25565 string characters out of 3139732
- 90951 words of memory out of 3000000
- 5083 multiletter control sequences out of 15000+200000
+ 3001 strings out of 493634
+ 43609 string characters out of 3139732
+ 124205 words of memory out of 3000000
+ 6270 multiletter control sequences out of 15000+200000
  8847 words of font info for 31 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 24i,7n,19p,1911b,558s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Saif/Desktop/software/miktex/fonts/ty
-pe1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/
-type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Saif/Desktop/software/miktex/font
-s/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Saif/Desktop/software/miktex/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Saif/Desktop/software/miktex/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Saif/Desktop/software/miktex/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Saif/Desktop/software/miktex
-/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (32 pages, 480283 bytes).
+ 31i,7n,32p,1911b,1379s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmbx12.
+pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmmi1
+2.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmm
+i8.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cm
+r10.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/c
+mr12.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/c
+m/cmti12.pfb>
+Output written on thesis.pdf (146 pages, 688754 bytes).
 PDF statistics:
- 159 PDF objects out of 1000 (max. 8388607)
+ 523 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
