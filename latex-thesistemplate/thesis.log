@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  12 JUL 2016 10:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  12 JUL 2016 11:58
 entering extended mode
 **C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
 (C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
@@ -322,10 +322,6 @@ LaTeX Warning: Float too large for page by 7.81749pt on input line 80.
 [14] [15 <./daily1.png (PNG copy)> <./daily2.png (PNG copy)> <./daily3.png (PNG
  copy)>] [16 <./weekly1.png (PNG copy)> <./weekly2.png (PNG copy)> <./weekly3.p
 ng (PNG copy)>]
-
-LaTeX Warning: Reference `energy-shares' on page 17 undefined on input line 96.
-
-
 <4-customer-vs-powertype.jpg, id=103, 280.04625pt x 196.48407pt>
 File: 4-customer-vs-powertype.jpg Graphic file (type jpg)
 
@@ -390,12 +386,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[23]
+[23] [24] [25]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[24] [25] [26]
-<cluster-0-diff-classifier-avg-abs.png, id=142, 334.24875pt x 209.28188pt>
+<cluster-0-diff-classifier-avg-abs.png, id=139, 334.24875pt x 209.28188pt>
 File: cluster-0-diff-classifier-avg-abs.png Graphic file (type png)
 
 <use cluster-0-diff-classifier-avg-abs.png>
@@ -408,7 +403,7 @@ Overfull \hbox (130.08621pt too wide) in paragraph at lines 267--267
  []
 
 
-<cluster-0-diff-classifier-relative-abs.png, id=143, 324.46219pt x 238.64156pt>
+<cluster-0-diff-classifier-relative-abs.png, id=140, 324.46219pt x 238.64156pt>
 File: cluster-0-diff-classifier-relative-abs.png Graphic file (type png)
 <use cluster-0-diff-classifier-relative-abs.png>
 Package pdftex.def Info: cluster-0-diff-classifier-relative-abs.png used on inp
@@ -419,7 +414,7 @@ Overfull \hbox (130.08621pt too wide) in paragraph at lines 273--273
  [] 
  []
 
-<cluster-1-diff-classifier-avg-abs.png, id=144, 334.24875pt x 209.28188pt>
+<cluster-1-diff-classifier-avg-abs.png, id=141, 334.24875pt x 209.28188pt>
 File: cluster-1-diff-classifier-avg-abs.png Graphic file (type png)
 
 <use cluster-1-diff-classifier-avg-abs.png>
@@ -432,7 +427,7 @@ Overfull \hbox (130.08621pt too wide) in paragraph at lines 280--280
  []
 
 
-<cluster-1-diff-classifier-relative-abs.png, id=145, 334.24875pt x 209.28188pt>
+<cluster-1-diff-classifier-relative-abs.png, id=142, 334.24875pt x 209.28188pt>
 File: cluster-1-diff-classifier-relative-abs.png Graphic file (type png)
 <use cluster-1-diff-classifier-relative-abs.png>
 Package pdftex.def Info: cluster-1-diff-classifier-relative-abs.png used on inp
@@ -443,7 +438,7 @@ Overfull \hbox (130.08621pt too wide) in paragraph at lines 286--286
  [] 
  []
 
-<cluster-2-diff-classifier-avg-abs.png, id=146, 334.24875pt x 209.28188pt>
+<cluster-2-diff-classifier-avg-abs.png, id=143, 334.24875pt x 209.28188pt>
 File: cluster-2-diff-classifier-avg-abs.png Graphic file (type png)
 
 <use cluster-2-diff-classifier-avg-abs.png>
@@ -456,7 +451,7 @@ Overfull \hbox (130.08621pt too wide) in paragraph at lines 299--299
  []
 
 
-<cluster-2-diff-classifier-relative-abs.png, id=147, 334.24875pt x 209.28188pt>
+<cluster-2-diff-classifier-relative-abs.png, id=144, 334.24875pt x 209.28188pt>
 File: cluster-2-diff-classifier-relative-abs.png Graphic file (type png)
 <use cluster-2-diff-classifier-relative-abs.png>
 Package pdftex.def Info: cluster-2-diff-classifier-relative-abs.png used on inp
@@ -467,7 +462,7 @@ Overfull \hbox (130.08621pt too wide) in paragraph at lines 305--305
  [] 
  []
 
-<cluster-3-diff-classifier-avg-abs.png, id=148, 334.24875pt x 209.28188pt>
+<cluster-3-diff-classifier-avg-abs.png, id=145, 334.24875pt x 209.28188pt>
 File: cluster-3-diff-classifier-avg-abs.png Graphic file (type png)
 
 <use cluster-3-diff-classifier-avg-abs.png>
@@ -480,7 +475,7 @@ Overfull \hbox (130.08621pt too wide) in paragraph at lines 312--312
  []
 
 
-<cluster-3-diff-classifier-relative-abs.png, id=149, 334.24875pt x 209.28188pt>
+<cluster-3-diff-classifier-relative-abs.png, id=146, 334.24875pt x 209.28188pt>
 File: cluster-3-diff-classifier-relative-abs.png Graphic file (type png)
 <use cluster-3-diff-classifier-relative-abs.png>
 Package pdftex.def Info: cluster-3-diff-classifier-relative-abs.png used on inp
@@ -494,7 +489,7 @@ Overfull \hbox (130.08621pt too wide) in paragraph at lines 318--318
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<relativeErrorIndivPredictor.png, id=150, 421.575pt x 316.18124pt>
+<relativeErrorIndivPredictor.png, id=147, 421.575pt x 316.18124pt>
 File: relativeErrorIndivPredictor.png Graphic file (type png)
 
 <use relativeErrorIndivPredictor.png>
@@ -505,14 +500,14 @@ Package pdftex.def Info: relativeErrorIndivPredictor.png used on input line 358
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<final-avg-abs-error.png, id=151, 344.78813pt x 213.79875pt>
+<final-avg-abs-error.png, id=148, 344.78813pt x 213.79875pt>
 File: final-avg-abs-error.png Graphic file (type png)
 
 <use final-avg-abs-error.png>
 Package pdftex.def Info: final-avg-abs-error.png used on input line 371.
 (pdftex.def)             Requested size: 231.26378pt x 143.40427pt.
 
-<final-relative-abs-error.png, id=152, 344.78813pt x 213.79875pt>
+<final-relative-abs-error.png, id=149, 344.78813pt x 213.79875pt>
 File: final-relative-abs-error.png Graphic file (type png)
 
 <use final-relative-abs-error.png>
@@ -526,14 +521,14 @@ Overfull \hbox (130.08621pt too wide) in paragraph at lines 378--378
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [27] [28 <./cluster-0-diff-classifier-avg-abs.png (PNG copy)> <./cluster-0-di
+) [26] [27 <./cluster-0-diff-classifier-avg-abs.png (PNG copy)> <./cluster-0-di
 ff-classifier-relative-abs.png (PNG copy)> <./cluster-1-diff-classifier-avg-abs
 .png (PNG copy)> <./cluster-1-diff-classifier-relative-abs.png (PNG copy)>]
-[29 <./cluster-2-diff-classifier-avg-abs.png (PNG copy)> <./cluster-2-diff-clas
+[28 <./cluster-2-diff-classifier-avg-abs.png (PNG copy)> <./cluster-2-diff-clas
 sifier-relative-abs.png (PNG copy)> <./cluster-3-diff-classifier-avg-abs.png (P
-NG copy)> <./cluster-3-diff-classifier-relative-abs.png (PNG copy)>] [30]
-[31 <./relativeErrorIndivPredictor.png (PNG copy)> <./final-avg-abs-error.png (
-PNG copy)> <./final-relative-abs-error.png (PNG copy)>]
+NG copy)> <./cluster-3-diff-classifier-relative-abs.png (PNG copy)>] [29]
+[30] [31 <./relativeErrorIndivPredictor.png (PNG copy)> <./final-avg-abs-error.
+png (PNG copy)> <./final-relative-abs-error.png (PNG copy)>]
 \openout2 = `chapter6.aux'.
 
  (chapter6.tex
@@ -561,28 +556,25 @@ Missing character: There is no ™ in font cmr12!
 
 ] (thesis.aux
 (acknowl.aux) (preface.aux) (abstract.aux) (null.aux) (chapter2.aux)
-(chapter3.aux) (chapter4.aux) (chapter5.aux) (chapter6.aux) (vitae.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
+(chapter3.aux) (chapter4.aux) (chapter5.aux) (chapter6.aux) (vitae.aux)) ) 
 Here is how much of TeX's memory you used:
- 2956 strings out of 493634
- 42941 string characters out of 3139732
- 108768 words of memory out of 3000000
- 6248 multiletter control sequences out of 15000+200000
+ 2955 strings out of 493634
+ 42926 string characters out of 3139732
+ 112768 words of memory out of 3000000
+ 6247 multiletter control sequences out of 15000+200000
  8847 words of font info for 31 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  26i,7n,32p,1911b,558s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmbx12.
-pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmmi1
-2.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmm
-i8.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cm
-r10.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/c
-mr12.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/c
-m/cmti12.pfb>
-Output written on thesis.pdf (49 pages, 476558 bytes).
+<C:/U
+sers/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:
+/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
+<C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb
+><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmr12.pf
+b><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmti1
+2.pfb>
+Output written on thesis.pdf (49 pages, 476410 bytes).
 PDF statistics:
  213 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
