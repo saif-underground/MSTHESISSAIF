@@ -23,7 +23,7 @@
 \contentsline {section}{\numberline {2.5}Expert System based Load Forecasting}{10}
 \contentsline {chapter}{\numberline {3}Customer Description}{12}
 \contentsline {section}{\numberline {3.1}Customer Categories}{12}
-\contentsline {section}{\numberline {3.2}Statistics}{15}
+\contentsline {section}{\numberline {3.2}Statistics}{17}
 \contentsline {chapter}{\numberline {4}Methodology and Results}{19}
 \contentsline {section}{\numberline {4.1}The Baseline Electricity Forecasting Mechanisms}{19}
 \contentsline {section}{\numberline {4.2}Proposed Electricity Demand Forecasting Mechanism}{20}
@@ -31,9 +31,8 @@
 \contentsline {section}{\numberline {4.3}Result}{25}
 \contentsline {subsection}{\numberline {4.3.1}Finding number of clusters}{25}
 \contentsline {subsection}{\numberline {4.3.2}Finding best predictor for each cluster}{27}
-\contentsline {chapter}{\numberline {5}Conclusions and Future Work}{33}
-\contentsline {section}{\numberline {5.1}Significance of the Result}{33}
-\contentsline {section}{\numberline {5.2}Future Work}{33}
+\contentsline {chapter}{\numberline {5}Conclusions and Future Work}{32}
+\contentsline {section}{\numberline {5.1}Significance of the Result}{32}
+\contentsline {section}{\numberline {5.2}Future Work}{32}
 \noindent {\bf Appendix}
-\contentsline {chapter}{\numberline {A}Source Code}{38}
-\contentsline {chapter}{Curriculum Vitae}{134}
+\contentsline {chapter}{Curriculum Vitae}{37}

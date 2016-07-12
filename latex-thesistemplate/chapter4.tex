@@ -2,7 +2,7 @@
 
 \chapter{Customer Description} 
 
-In this chapter, I will describe the customers present in the PowerTAC simulation system and some statistics their attributes.
+In this chapter, I will describe the customers present in the Power TAC simulation system and some statistics their attributes.
 
 \section{Customer Categories}
 
@@ -30,7 +30,7 @@ The solar energy production customer's energy production depends on the cloud co
 
  To discuss the behavior of different power typed ustomers, a representative customer was chosen from each type. The table \ref{table:repCust} shows the customer chosen to discuss -
 
-\begin{table}[h!]
+\begin{table}
 \centering
 \begin{tabular}{ |c|c| } 
 \hline
@@ -53,29 +53,29 @@ Before diving into the problem of solving forecasting methods, I found it useful
 In figure \ref{fig:weekly1} to \ref{fig:weekly3}, normalized electricity usages during the week are shown. Hour 0 to 23 represents all the hours of Monday from 12:00 am to 11:00 pm. It appears that, the electricity demand for consumption customer, interruptible consumption, thermal storage had repeatative demand pattern everyday. The  solar energy production customer showed repeatative production pattern. Moreover some customers such as the consumption type and the thermal storage type showed different pattern during the weekend. During the weekend they usually had lower energy demand than the weekdays. In the case of electric vehicle and wind energy production customers the demand/supply patterns were not regular. From these observations, it can be assumed that the consumption customer and the solar energy type customers can be forecasted with the most accuracy. Due to the irregular patterns of other customers, it will be harder to make accurate demand forecast about them.
  
 % figure start
-\begin{figure}[!h]
+\begin{figure}
 \centering
-\includegraphics{daily1.png}
-\caption{Caption 1}
+\includegraphics[scale=0.9]{daily1.png}
+\caption{energy usage z Score over Monday}
 \label{fig:daily1}
-\includegraphics{daily2.png}
-\caption{Caption 1}
+\includegraphics[scale=0.9]{daily2.png}
+\caption{energy usage z Score over Monday}
 \label{fig:daily2}
-\includegraphics{daily3.png}
-\caption{Caption 1}
+\includegraphics[scale=0.9]{daily3.png}
+\caption{energy usage z Score over Monday}
 \label{fig:daily3}
 \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}
 \centering
-\includegraphics{weekly1.png}
-\caption{Caption 1}
+\includegraphics[scale=0.85]{weekly1.png}
+\caption{energy usage z Score over week}
 \label{fig:weekly1}
-\includegraphics{weekly2.png}
-\caption{Caption 1}
+\includegraphics[scale=0.85]{weekly2.png}
+\caption{energy usage z Score over week}
 \label{fig:weekly2}
-\includegraphics{weekly3.png}
-\caption{Caption 1}
+\includegraphics[scale=0.85]{weekly3.png}
+\caption{energy usage z Score over week}
 \label{fig:weekly3}
 \end{figure}
 
