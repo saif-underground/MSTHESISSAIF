@@ -34,5 +34,4 @@
 \contentsline {chapter}{\numberline {5}Conclusions and Future Work}{32}
 \contentsline {section}{\numberline {5.1}Significance of the Result}{32}
 \contentsline {section}{\numberline {5.2}Future Work}{32}
-\noindent {\bf Appendix}
 \contentsline {chapter}{Curriculum Vitae}{37}
