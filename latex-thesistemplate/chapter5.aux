@@ -1,69 +1,77 @@
 \relax 
 \citation{witten2005data}
 \citation{witten2005data}
-\citation{witten2005data}
-\citation{witten2005data}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Methodology and Results}{19}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Methodology and Results}{23}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}The Baseline Electricity Forecasting Mechanisms}{19}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Update average usage for $customer_i$ for day d and timeslot t, $newUsage$}}{19}}
-\newlabel{alg:updateAvgMovingAvg}{{1}{19}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces forecast usage for day d and timeslot t for $customer_i$}}{19}}
-\newlabel{alg:predictAvgMovingAvg}{{2}{19}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Proposed Electricity Demand Forecasting Mechanism}{20}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Demand Forecasting for Consumption Type Customer}{20}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {3}{\ignorespaces Make electricity demand forecasting for consumption type customer}}{20}}
-\newlabel{alg:wholeAlgo}{{3}{20}}
-\citation{witten2005data}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {4}{\ignorespaces extract information from transactionReport sent to broker after each time slot through TariffTransactionHandler call back method}}{21}}
-\newlabel{alg:ttxHandle}{{4}{21}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {5}{\ignorespaces write extracted data after timeSlot update message received from TimeSlotUpdateHandler call back method}}{22}}
-\newlabel{alg:writeSlotInfo}{{5}{22}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {6}{\ignorespaces write average electricity usage of the customers of each hour of the week}}{22}}
-\newlabel{alg:writeWeeklyAvg}{{6}{22}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Learning Algorithms, Train and Test Set}{23}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}The Baseline Electricity Forecasting Mechanisms}{23}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Update average usage for $customer_i$ for day d and timeslot t, $newUsage$}}{24}}
+\newlabel{alg:updateAvgMovingAvg}{{1}{24}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces forecast usage for day d and timeslot t for $customer_i$}}{24}}
+\newlabel{alg:predictAvgMovingAvg}{{2}{24}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Single Demand Predictor}{24}}
 \citation{witten2005data}
 \citation{witten2005data}
 \citation{witten2005data}
 \citation{witten2005data}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {7}{\ignorespaces create kmeans cluster of size k from weekly usage training instance file}}{23}}
-\newlabel{alg:makeCluster}{{7}{23}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {8}{\ignorespaces find error of kmeans clusters of different size}}{24}}
-\newlabel{alg:errorOfCluster}{{8}{24}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {9}{\ignorespaces find best classifiers of each cluster of kmeans cluster of size k}}{24}}
-\newlabel{alg:bestClassifierForCluster}{{9}{24}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {10}{\ignorespaces find best classifiers created for each individual customer}}{24}}
-\newlabel{alg:bestClassifierIndiv}{{10}{24}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {11}{\ignorespaces performance evalulation of each method}}{25}}
-\newlabel{alg:performanceEval}{{11}{25}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {12}{\ignorespaces calculate error from the predicted value and the true value}}{25}}
-\newlabel{alg:errorCalculation}{{12}{25}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Result}{25}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Finding number of clusters}{26}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Finding best predictor for each cluster}{26}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces cluster 0 avg absolute error of 4 classifiers}}{27}}
-\newlabel{fig:cluster-0-predictors}{{4.1}{27}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces cluster 0 avg relative absolute error of 4 classifiers}}{27}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces cluster 1 avg absolute error of 4 classifiers}}{27}}
-\newlabel{fig:cluster-1-predictors}{{4.3}{27}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces cluster 1 avg relative absolute error of 4 classifiers}}{27}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces cluster 2 avg absolute error of 4 classifiers}}{28}}
-\newlabel{fig:cluster-2-predictors}{{4.5}{28}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces cluster 2 avg relative absolute error of 4 classifiers}}{28}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces cluster 3 avg absolute error of 4 classifiers}}{28}}
-\newlabel{fig:cluster-3-predictors}{{4.7}{28}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces cluster 3 avg relative absolute error of 4 classifiers}}{28}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Assigned cluster for each customer}}{29}}
-\newlabel{table:clusterAss}{{4.1}{29}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Best individual predictor for each customer}}{30}}
-\newlabel{table:1}{{4.2}{30}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces Performance of the best classifier for each customer type. Customer Medical center was excluded as it was showing huge error. }}{31}}
-\newlabel{fig:indiv-cutomer-best-predictor-error}{{4.9}{31}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces average absolute error}}{31}}
-\newlabel{fig:prediction-scheme-vs-error}{{4.10}{31}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces average percent relative absolute error}}{31}}
+\citation{witten2005data}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {3}{\ignorespaces extract information from transactionReport sent to broker after each time slot through TariffTransactionHandler call back method}}{25}}
+\newlabel{alg:ttxHandle}{{3}{25}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {4}{\ignorespaces write extracted data after timeSlot update message received from TimeSlotUpdateHandler call back method}}{25}}
+\newlabel{alg:writeSlotInfo}{{4}{25}}
+\citation{witten2005data}
+\citation{witten2005data}
+\citation{witten2005data}
+\citation{witten2005data}
+\citation{witten2005data}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {5}{\ignorespaces find a single best classifier}}{26}}
+\newlabel{alg:bestSingle}{{5}{26}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Individual Demand Predictor}{26}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}Cluster Based Demand Predictor}{26}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {6}{\ignorespaces find best classifiers created for each individual customer}}{27}}
+\newlabel{alg:bestClassifierIndiv}{{6}{27}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {7}{\ignorespaces write average electricity usage of the customers of each hour of the week}}{28}}
+\newlabel{alg:writeWeeklyAvg}{{7}{28}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {8}{\ignorespaces create kmeans cluster of size k from weekly usage training instance file}}{28}}
+\newlabel{alg:makeCluster}{{8}{28}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.6}Testing Performance}{28}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.7}Experimental Results}{28}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {9}{\ignorespaces find error of kmeans clusters of different size}}{29}}
+\newlabel{alg:errorOfCluster}{{9}{29}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {10}{\ignorespaces find best classifiers of each cluster of kmeans cluster of size k}}{29}}
+\newlabel{alg:bestClassifierForCluster}{{10}{29}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.8}Finding Individual Predictor for Each Customer}{29}}
+\citation{witten2005data}
+\citation{witten2005data}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {11}{\ignorespaces performance evalulation of each method}}{30}}
+\newlabel{alg:performanceEval}{{11}{30}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {12}{\ignorespaces calculate error from the predicted value and the true value}}{30}}
+\newlabel{alg:errorCalculation}{{12}{30}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.8.1}Finding number of clusters}{30}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Best individual predictor for each customer}}{31}}
+\newlabel{table:1}{{4.1}{31}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.8.2}Finding best predictor for each cluster}{31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Performance of the best classifier for each customer type. Customer Medical center was excluded as it was showing huge error. }}{32}}
+\newlabel{fig:indiv-cutomer-best-predictor-error}{{4.1}{32}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.8.3}Comparison Among the Three Prediction Schemes}{32}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces cluster 0}}{33}}
+\newlabel{fig:cluster-0-predictors}{{4.2}{33}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces cluster 1}}{33}}
+\newlabel{fig:cluster-1-predictors}{{4.3}{33}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces cluster 2}}{33}}
+\newlabel{fig:cluster-2-predictors}{{4.4}{33}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces cluster 3}}{33}}
+\newlabel{fig:cluster-3-predictors}{{4.5}{33}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Assigned cluster for each customer}}{34}}
+\newlabel{table:clusterAss}{{4.2}{34}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.8.4}Model Accuracy and Training Set Size}{34}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces comparison among three prediction schemes}}{35}}
+\newlabel{fig:prediction-scheme-vs-error}{{4.6}{35}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces comparison among three prediction schemes}}{35}}
+\newlabel{fig:trainset-vs-error}{{4.7}{35}}
 \@setckpt{chapter5}{
-\setcounter{page}{32}
+\setcounter{page}{36}
 \setcounter{equation}{0}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
@@ -73,12 +81,12 @@
 \setcounter{mpfootnote}{0}
 \setcounter{part}{0}
 \setcounter{chapter}{4}
-\setcounter{section}{3}
-\setcounter{subsection}{2}
+\setcounter{section}{8}
+\setcounter{subsection}{4}
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{11}
+\setcounter{figure}{7}
 \setcounter{table}{2}
 \setcounter{lstnumber}{1}
 \setcounter{definition}{0}
@@ -86,7 +94,7 @@
 \setcounter{corollary}{0}
 \setcounter{float@type}{16}
 \setcounter{algorithm}{12}
-\setcounter{ALC@unique}{71}
+\setcounter{ALC@unique}{68}
 \setcounter{ALC@line}{2}
 \setcounter{ALC@rem}{0}
 \setcounter{ALC@depth}{0}

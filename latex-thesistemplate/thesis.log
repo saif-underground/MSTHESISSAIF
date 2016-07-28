@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  12 JUL 2016 12:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  28 JUL 2016 09:07
 entering extended mode
 **C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
 (C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
@@ -110,75 +110,183 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \ALC@tlm=\skip43
 \algorithmicindent=\skip44
 )
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\base\textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\base\ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\csquotes\csquotes.sty
+Package: csquotes 2016/07/14 v5.1h context-sensitive quotations (JAW)
+
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\etoolbox\etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count106
+)
+\csq@reset=\count107
+\csq@gtype=\count108
+\csq@glevel=\count109
+\csq@qlevel=\count110
+\csq@maxlvl=\count111
+\csq@tshold=\count112
+\csq@ltx@everypar=\toks19
+
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\csquotes\csquotes.def
+File: csquotes.def 2016/07/14 v5.1h csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\csquotes\csquotes.cfg
+File: csquotes.cfg 
+))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... none found.
+
 (thesis.aux (acknowl.aux) (preface.aux) (abstract.aux) (null.aux) (chapter2.aux
 ) (chapter3.aux) (chapter4.aux) (chapter5.aux) (chapter6.aux) (vitae.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-\c@lstlisting=\count106
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 14.
+
+(C:\Users\Saif\Desktop\software\miktex\tex\latex\base\ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 14.
+\c@lstlisting=\count113
 
 (C:\Users\Saif\Desktop\software\miktex\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count107
+\scratchcounter=\count114
 \scratchdimen=\dimen109
 \scratchbox=\box30
-\nofMPsegments=\count108
-\nofMParguments=\count109
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count110
+\nofMPsegments=\count115
+\nofMParguments=\count116
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count117
 \MPscratchDim=\dimen110
-\MPnumerator=\count111
-\makeMPintoPDFobject=\count112
-\everyMPtoPDFconversion=\toks20
+\MPnumerator=\count118
+\makeMPintoPDFobject=\count119
+\everyMPtoPDFconversion=\toks21
 )
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 53.
+(Font)              <12> on input line 55.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 53.
+(Font)              <8> on input line 55.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 53.
+(Font)              <6> on input line 55.
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
 
  []
 
 [1
 
-{C:/Users/Saif/Desktop/software/miktex/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 57.
-
-(C:\Users\Saif\Desktop\software\miktex\tex\latex\base\omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 57.
- [2] [3]
-[4]
+{C:/Users/Saif/Desktop/software/miktex/pdftex/config/pdftex.map}] [2]
+[3] [4]
 \openout2 = `acknowl.aux'.
 
  (acknowl.tex [5
@@ -226,357 +334,319 @@ No file preface.tex.
 
 (chapter2.tex
 Chapter 1.
-
-Overfull \hbox (2.24815pt too wide) in paragraph at lines 7--7
-[]\OT1/cmr/bx/n/17.28 Traditional Elec-tric-ity Dis-tri-bu-tion and Con-sump-
- []
-
 [1
 
 
 
 
-] [2] [3] [4] <simulation-environment.png, id=56, 682.04813pt x 253.69781pt>
+] <traditional.png, id=47, 737.6358pt x 319.4334pt>
+File: traditional.png Graphic file (type png)
+ <use traditional.png>
+Package pdftex.def Info: traditional.png used on input line 12.
+(pdftex.def)             Requested size: 462.52756pt x 200.29851pt.
+
+[2 <./traditional.png>] <smart-grid.png, id=53, 740.0448pt x 432.1746pt>
+File: smart-grid.png Graphic file (type png)
+
+<use smart-grid.png>
+Package pdftex.def Info: smart-grid.png used on input line 20.
+(pdftex.def)             Requested size: 462.52756pt x 270.10846pt.
+ [3 <./smart-grid.png>] [4] [5] [6]
+<simulation-environment.png, id=67, 682.04813pt x 253.69781pt>
 File: simulation-environment.png Graphic file (type png)
 
 <use simulation-environment.png>
-Package pdftex.def Info: simulation-environment.png used on input line 76.
+Package pdftex.def Info: simulation-environment.png used on input line 81.
 (pdftex.def)             Requested size: 462.52756pt x 172.04768pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5]) [6 <./simulation-environment.png>]
+[7] [8 <./simulation-environment.png>] [9]) [10]
 \openout2 = `chapter3.aux'.
 
  (chapter3.tex
 Chapter 2.
-[7
+[11
 
 
 
-]
-Overfull \hbox (29.40623pt too wide) in paragraph at lines 16--16
-[]\OT1/cmr/bx/n/17.28 Electricity Load Fore-cast-ing Us-ing Sta-tis-ti-cal Meth
-od 
- []
-
-[8] [9]
+] [12] [13]
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-[10]) [11]
+[14]) [15]
 \openout2 = `chapter4.aux'.
 
  (chapter4.tex
 Chapter 3.
-[12
+[16
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-[13] <daily1.png, id=88, 463.7325pt x 180.675pt>
+[17] <daily1.png, id=104, 463.7325pt x 180.675pt>
 File: daily1.png Graphic file (type png)
  <use daily1.png>
-Package pdftex.def Info: daily1.png used on input line 58.
+Package pdftex.def Info: daily1.png used on input line 37.
 (pdftex.def)             Requested size: 417.35538pt x 162.60599pt.
 
-<daily2.png, id=89, 456.20438pt x 182.18062pt>
+<daily2.png, id=105, 456.20438pt x 182.18062pt>
 File: daily2.png Graphic file (type png)
  <use daily2.png>
-Package pdftex.def Info: daily2.png used on input line 61.
+Package pdftex.def Info: daily2.png used on input line 40.
 (pdftex.def)             Requested size: 410.58012pt x 163.96103pt.
 
-<daily3.png, id=90, 459.21562pt x 177.66376pt>
+<daily3.png, id=106, 459.21562pt x 177.66376pt>
 File: daily3.png Graphic file (type png)
  <use daily3.png>
-Package pdftex.def Info: daily3.png used on input line 64.
+Package pdftex.def Info: daily3.png used on input line 43.
 (pdftex.def)             Requested size: 413.29024pt x 159.89589pt.
 
-<weekly1.png, id=91, 411.03563pt x 200.24812pt>
+<weekly1.png, id=107, 603.0028pt x 169.38281pt>
 File: weekly1.png Graphic file (type png)
  <use weekly1.png>
-Package pdftex.def Info: weekly1.png used on input line 71.
-(pdftex.def)             Requested size: 349.38193pt x 170.2117pt.
+Package pdftex.def Info: weekly1.png used on input line 50.
+(pdftex.def)             Requested size: 512.5548pt x 143.97606pt.
 
-<weekly2.png, id=92, 411.03563pt x 200.24812pt>
+Overfull \hbox (50.02724pt too wide) in paragraph at lines 50--51
+ [][] 
+ []
+
+<weekly2.png, id=108, 603.0028pt x 169.38281pt>
 File: weekly2.png Graphic file (type png)
  <use weekly2.png>
-Package pdftex.def Info: weekly2.png used on input line 74.
-(pdftex.def)             Requested size: 349.38193pt x 170.2117pt.
+Package pdftex.def Info: weekly2.png used on input line 53.
+(pdftex.def)             Requested size: 512.5548pt x 143.97606pt.
 
-<weekly3.png, id=93, 411.03563pt x 200.24812pt>
+Overfull \hbox (50.02724pt too wide) in paragraph at lines 53--54
+ [][] 
+ []
+
+<weekly3.png, id=109, 603.0028pt x 169.38281pt>
 File: weekly3.png Graphic file (type png)
  <use weekly3.png>
-Package pdftex.def Info: weekly3.png used on input line 77.
-(pdftex.def)             Requested size: 349.38193pt x 170.2117pt.
+Package pdftex.def Info: weekly3.png used on input line 56.
+(pdftex.def)             Requested size: 512.5548pt x 143.97606pt.
 
+Overfull \hbox (50.02724pt too wide) in paragraph at lines 56--57
+ [][] 
+ []
 
-LaTeX Warning: Float too large for page by 7.81749pt on input line 80.
-
-[14] [15 <./daily1.png (PNG copy)> <./daily2.png (PNG copy)> <./daily3.png (PNG
- copy)>] [16 <./weekly1.png (PNG copy)> <./weekly2.png (PNG copy)> <./weekly3.p
+[18] [19 <./daily1.png (PNG copy)> <./daily2.png (PNG copy)> <./daily3.png (PNG
+ copy)>] [20 <./weekly1.png (PNG copy)> <./weekly2.png (PNG copy)> <./weekly3.p
 ng (PNG copy)>]
-<4-customer-vs-powertype.jpg, id=103, 280.04625pt x 196.48407pt>
-File: 4-customer-vs-powertype.jpg Graphic file (type jpg)
+<4-customer-vs-powertype.png, id=120, 280.04625pt x 196.48407pt>
+File: 4-customer-vs-powertype.png Graphic file (type png)
 
-<use 4-customer-vs-powertype.jpg>
-Package pdftex.def Info: 4-customer-vs-powertype.jpg used on input line 103.
+<use 4-customer-vs-powertype.png>
+Package pdftex.def Info: 4-customer-vs-powertype.png used on input line 82.
 (pdftex.def)             Requested size: 231.26378pt x 162.26324pt.
 
-Overfull \hbox (130.08621pt too wide) in paragraph at lines 104--104
+Overfull \hbox (130.08621pt too wide) in paragraph at lines 83--83
  [] 
  []
 
-<2-population-vs-powertype.jpg, id=104, 243.91125pt x 215.30438pt>
+<2-population-vs-powertype.jpg, id=121, 243.91125pt x 215.30438pt>
 File: 2-population-vs-powertype.jpg Graphic file (type jpg)
 
 <use 2-population-vs-powertype.jpg>
-Package pdftex.def Info: 2-population-vs-powertype.jpg used on input line 109.
+Package pdftex.def Info: 2-population-vs-powertype.jpg used on input line 88.
 (pdftex.def)             Requested size: 231.26378pt x 204.14375pt.
 
-<3-energy-vs-powertype.png, id=105, 249.93375pt x 210.03468pt>
+<3-energy-vs-powertype.png, id=122, 249.93375pt x 210.03468pt>
 File: 3-energy-vs-powertype.png Graphic file (type png)
 
 <use 3-energy-vs-powertype.png>
-Package pdftex.def Info: 3-energy-vs-powertype.png used on input line 116.
+Package pdftex.def Info: 3-energy-vs-powertype.png used on input line 95.
 (pdftex.def)             Requested size: 231.26378pt x 194.35274pt.
 
-<pie-energy-share.png, id=106, 319.1925pt x 271.0125pt>
+<pie-energy-share.png, id=123, 319.1925pt x 271.0125pt>
 File: pie-energy-share.png Graphic file (type png)
 
 <use pie-energy-share.png>
-Package pdftex.def Info: pie-energy-share.png used on input line 121.
+Package pdftex.def Info: pie-energy-share.png used on input line 100.
 (pdftex.def)             Requested size: 231.26378pt x 196.35703pt.
 
-Overfull \hbox (130.08621pt too wide) in paragraph at lines 122--122
+Overfull \hbox (130.08621pt too wide) in paragraph at lines 101--101
  [] 
  []
 
-) [17] [18 <./4-customer-vs-powertype.jpg (PNG copy)> <./2-population-vs-powert
+) [21] [22 <./4-customer-vs-powertype.png (PNG copy)> <./2-population-vs-powert
 ype.jpg (PNG copy)> <./3-energy-vs-powertype.png (PNG copy)> <./pie-energy-shar
 e.png (PNG copy)>]
 \openout2 = `chapter5.aux'.
 
  (chapter5.tex
 Chapter 4.
-[19
+[23
 
 
 
-] [20]
+]
+
+LaTeX Warning: Reference `algo:bestSingle' on page 24 undefined on input line 3
+3.
+
+[24]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[25]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[26]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[21] [22]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[27]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[28] [29]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[23] [24] [25]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<cluster-0-diff-classifier-avg-abs.png, id=139, 334.24875pt x 209.28188pt>
-File: cluster-0-diff-classifier-avg-abs.png Graphic file (type png)
-
-<use cluster-0-diff-classifier-avg-abs.png>
-Package pdftex.def Info: cluster-0-diff-classifier-avg-abs.png used on input li
-ne 266.
-(pdftex.def)             Requested size: 231.26378pt x 144.8038pt.
-
-Overfull \hbox (130.08621pt too wide) in paragraph at lines 267--267
- [] 
- []
-
-
-<cluster-0-diff-classifier-relative-abs.png, id=140, 324.46219pt x 238.64156pt>
-File: cluster-0-diff-classifier-relative-abs.png Graphic file (type png)
-<use cluster-0-diff-classifier-relative-abs.png>
-Package pdftex.def Info: cluster-0-diff-classifier-relative-abs.png used on inp
-ut line 272.
-(pdftex.def)             Requested size: 231.26378pt x 170.09576pt.
-
-Overfull \hbox (130.08621pt too wide) in paragraph at lines 273--273
- [] 
- []
-
-<cluster-1-diff-classifier-avg-abs.png, id=141, 334.24875pt x 209.28188pt>
-File: cluster-1-diff-classifier-avg-abs.png Graphic file (type png)
-
-<use cluster-1-diff-classifier-avg-abs.png>
-Package pdftex.def Info: cluster-1-diff-classifier-avg-abs.png used on input li
-ne 279.
-(pdftex.def)             Requested size: 231.26378pt x 144.8038pt.
-
-Overfull \hbox (130.08621pt too wide) in paragraph at lines 280--280
- [] 
- []
-
-
-<cluster-1-diff-classifier-relative-abs.png, id=142, 334.24875pt x 209.28188pt>
-File: cluster-1-diff-classifier-relative-abs.png Graphic file (type png)
-<use cluster-1-diff-classifier-relative-abs.png>
-Package pdftex.def Info: cluster-1-diff-classifier-relative-abs.png used on inp
-ut line 285.
-(pdftex.def)             Requested size: 231.26378pt x 144.8038pt.
-
-Overfull \hbox (130.08621pt too wide) in paragraph at lines 286--286
- [] 
- []
-
-<cluster-2-diff-classifier-avg-abs.png, id=143, 334.24875pt x 209.28188pt>
-File: cluster-2-diff-classifier-avg-abs.png Graphic file (type png)
-
-<use cluster-2-diff-classifier-avg-abs.png>
-Package pdftex.def Info: cluster-2-diff-classifier-avg-abs.png used on input li
-ne 298.
-(pdftex.def)             Requested size: 231.26378pt x 144.8038pt.
-
-Overfull \hbox (130.08621pt too wide) in paragraph at lines 299--299
- [] 
- []
-
-
-<cluster-2-diff-classifier-relative-abs.png, id=144, 334.24875pt x 209.28188pt>
-File: cluster-2-diff-classifier-relative-abs.png Graphic file (type png)
-<use cluster-2-diff-classifier-relative-abs.png>
-Package pdftex.def Info: cluster-2-diff-classifier-relative-abs.png used on inp
-ut line 304.
-(pdftex.def)             Requested size: 231.26378pt x 144.8038pt.
-
-Overfull \hbox (130.08621pt too wide) in paragraph at lines 305--305
- [] 
- []
-
-<cluster-3-diff-classifier-avg-abs.png, id=145, 334.24875pt x 209.28188pt>
-File: cluster-3-diff-classifier-avg-abs.png Graphic file (type png)
-
-<use cluster-3-diff-classifier-avg-abs.png>
-Package pdftex.def Info: cluster-3-diff-classifier-avg-abs.png used on input li
-ne 311.
-(pdftex.def)             Requested size: 231.26378pt x 144.8038pt.
-
-Overfull \hbox (130.08621pt too wide) in paragraph at lines 312--312
- [] 
- []
-
-
-<cluster-3-diff-classifier-relative-abs.png, id=146, 334.24875pt x 209.28188pt>
-File: cluster-3-diff-classifier-relative-abs.png Graphic file (type png)
-<use cluster-3-diff-classifier-relative-abs.png>
-Package pdftex.def Info: cluster-3-diff-classifier-relative-abs.png used on inp
-ut line 317.
-(pdftex.def)             Requested size: 231.26378pt x 144.8038pt.
-
-Overfull \hbox (130.08621pt too wide) in paragraph at lines 318--318
- [] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<relativeErrorIndivPredictor.png, id=147, 421.575pt x 316.18124pt>
+<relativeErrorIndivPredictor.png, id=156, 421.575pt x 316.18124pt>
 File: relativeErrorIndivPredictor.png Graphic file (type png)
 
 <use relativeErrorIndivPredictor.png>
-Package pdftex.def Info: relativeErrorIndivPredictor.png used on input line 358
+Package pdftex.def Info: relativeErrorIndivPredictor.png used on input line 233
 .
 (pdftex.def)             Requested size: 421.57396pt x 316.18047pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<final-avg-abs-error.png, id=148, 344.78813pt x 213.79875pt>
-File: final-avg-abs-error.png Graphic file (type png)
-
-<use final-avg-abs-error.png>
-Package pdftex.def Info: final-avg-abs-error.png used on input line 371.
-(pdftex.def)             Requested size: 231.26378pt x 143.40427pt.
-
-<final-relative-abs-error.png, id=149, 344.78813pt x 213.79875pt>
-File: final-relative-abs-error.png Graphic file (type png)
-
-<use final-relative-abs-error.png>
-Package pdftex.def Info: final-relative-abs-error.png used on input line 377.
-(pdftex.def)             Requested size: 231.26378pt x 143.40427pt.
-
-Overfull \hbox (130.08621pt too wide) in paragraph at lines 378--378
- [] 
- []
-
+[30]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [26] [27 <./cluster-0-diff-classifier-avg-abs.png (PNG copy)> <./cluster-0-di
-ff-classifier-relative-abs.png (PNG copy)> <./cluster-1-diff-classifier-avg-abs
-.png (PNG copy)> <./cluster-1-diff-classifier-relative-abs.png (PNG copy)>]
-[28 <./cluster-2-diff-classifier-avg-abs.png (PNG copy)> <./cluster-2-diff-clas
-sifier-relative-abs.png (PNG copy)> <./cluster-3-diff-classifier-avg-abs.png (P
-NG copy)> <./cluster-3-diff-classifier-relative-abs.png (PNG copy)>] [29]
-[30] [31 <./relativeErrorIndivPredictor.png (PNG copy)> <./final-avg-abs-error.
-png (PNG copy)> <./final-relative-abs-error.png (PNG copy)>]
+[31]
+<cluster-0-diff-classifier-relative-abs.png, id=164, 324.46219pt x 238.64156pt>
+File: cluster-0-diff-classifier-relative-abs.png Graphic file (type png)
+<use cluster-0-diff-classifier-relative-abs.png>
+Package pdftex.def Info: cluster-0-diff-classifier-relative-abs.png used on inp
+ut line 282.
+(pdftex.def)             Requested size: 231.26378pt x 170.09576pt.
+
+<cluster-1-diff-classifier-relative-abs.png, id=165, 334.24875pt x 209.28188pt>
+File: cluster-1-diff-classifier-relative-abs.png Graphic file (type png)
+<use cluster-1-diff-classifier-relative-abs.png>
+Package pdftex.def Info: cluster-1-diff-classifier-relative-abs.png used on inp
+ut line 288.
+(pdftex.def)             Requested size: 231.26378pt x 144.8038pt.
+
+<cluster-2-diff-classifier-relative-abs.png, id=166, 334.24875pt x 209.28188pt>
+File: cluster-2-diff-classifier-relative-abs.png Graphic file (type png)
+<use cluster-2-diff-classifier-relative-abs.png>
+Package pdftex.def Info: cluster-2-diff-classifier-relative-abs.png used on inp
+ut line 296.
+(pdftex.def)             Requested size: 231.26378pt x 144.8038pt.
+
+<cluster-3-diff-classifier-relative-abs.png, id=167, 334.24875pt x 209.28188pt>
+File: cluster-3-diff-classifier-relative-abs.png Graphic file (type png)
+<use cluster-3-diff-classifier-relative-abs.png>
+Package pdftex.def Info: cluster-3-diff-classifier-relative-abs.png used on inp
+ut line 302.
+(pdftex.def)             Requested size: 231.26378pt x 144.8038pt.
+
+<final-relative-abs-error.png, id=168, 344.78813pt x 213.79875pt>
+File: final-relative-abs-error.png Graphic file (type png)
+
+<use final-relative-abs-error.png>
+Package pdftex.def Info: final-relative-abs-error.png used on input line 319.
+(pdftex.def)             Requested size: 231.26378pt x 143.40427pt.
+
+Overfull \hbox (130.08621pt too wide) in paragraph at lines 320--320
+ [] 
+ []
+
+[32 <./relativeErrorIndivPredictor.png (PNG copy)>] [33 <./cluster-0-diff-class
+ifier-relative-abs.png (PNG copy)> <./cluster-1-diff-classifier-relative-abs.pn
+g (PNG copy)> <./cluster-2-diff-classifier-relative-abs.png (PNG copy)> <./clus
+ter-3-diff-classifier-relative-abs.png (PNG copy)>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<error-change-training-size.jpg, id=175, 534.99875pt x 316.18124pt>
+File: error-change-training-size.jpg Graphic file (type jpg)
+
+<use error-change-training-size.jpg>
+Package pdftex.def Info: error-change-training-size.jpg used on input line 333.
+
+(pdftex.def)             Requested size: 231.26378pt x 136.67413pt.
+
+Overfull \hbox (130.08621pt too wide) in paragraph at lines 334--334
+ [] 
+ []
+
+[34]) [35 <./final-relative-abs-error.png (PNG copy)> <./error-change-training-
+size.jpg>]
 \openout2 = `chapter6.aux'.
 
  (chapter6.tex
 Chapter 5.
-) [32
+) [36
 
 
 
-] (thesis.bbl
+] [37] (thesis.bbl
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
- [33
+ [38
 
 
-] [34]
+] [39]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [35]) [36]
+ [40] [41]) [42]
 \openout2 = `vitae.aux'.
 
- (vitae.tex) [37
+ (vitae.tex) [43
 
 
 ] (thesis.aux
 (acknowl.aux) (preface.aux) (abstract.aux) (null.aux) (chapter2.aux)
-(chapter3.aux) (chapter4.aux) (chapter5.aux) (chapter6.aux) (vitae.aux)) ) 
+(chapter3.aux) (chapter4.aux) (chapter5.aux) (chapter6.aux) (vitae.aux))
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2955 strings out of 493634
- 42926 string characters out of 3139732
- 112768 words of memory out of 3000000
- 6247 multiletter control sequences out of 15000+200000
- 8847 words of font info for 31 fonts, out of 3000000 for 9000
+ 4236 strings out of 493634
+ 61536 string characters out of 3139732
+ 134655 words of memory out of 3000000
+ 7511 multiletter control sequences out of 15000+200000
+ 9184 words of font info for 32 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 26i,7n,32p,1911b,558s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/U
-sers/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:
-/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
-<C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb
-><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmr12.pf
-b><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmti1
-2.pfb>
-Output written on thesis.pdf (49 pages, 476604 bytes).
+ 26i,7n,32p,2116b,563s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Saif\Desktop\software\miktex\fonts\pk\ljfour\jknappen\ec\dpi600\tc
+rm1200.pk><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm
+/cmbx12.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/
+cm/cmmi12.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfont
+s/cm/cmmi8.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/am
+sfonts/cm/cmti12.pfb>
+Output written on thesis.pdf (55 pages, 522702 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
+ 239 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

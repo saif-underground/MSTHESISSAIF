@@ -1,5 +1,9 @@
 \begin{thebibliography}{10}
 
+\bibitem{electricityStats}
+Matlab.
+\newblock http://www.iea.org/statistics/.
+
 \bibitem{al2004short}
 HM~Al-Hamadi and SA~Soliman.
 \newblock Short-term electric load forecasting based on kalman filtering
@@ -11,6 +15,13 @@ Nima Amjady.
 \newblock Short-term hourly load forecasting using time-series modeling with
   peak load estimation capability.
 \newblock {\em IEEE Transactions on Power Systems}, 16(3):498--505, 2001.
+
+\bibitem{andersson2005causes}
+G~Andersson, P~Donalek, R~Farmer, N~Hatziargyriou, I~Kamwa, P~Kundur,
+  N~Martins, J~Paserba, P~Pourbeik, J~Sanchez-Gasca, et~al.
+\newblock Causes of the 2003 major grid blackouts in north america and europe,
+  and recommended means to improve system dynamic performance.
+\newblock {\em IEEE transactions on Power Systems}, 20(4):1922--1928, 2005.
 
 \bibitem{chen2004load}
 Bo-Juen Chen, Ming-Wei Chang, and Chih-Jen Lin.
@@ -99,6 +110,18 @@ Bart Liefers, Jasper Hoogland, and Han La~Poutr{\'e}.
   Strategies and Mechanisms for Electronic Markets}, pages 99--113. Springer,
   2014.
 
+\bibitem{lodhi2013impact}
+Rab~Nawaz Lodhi and RK~Malik.
+\newblock Impact of electricity shortage on daily routines: A case study of
+  pakistan.
+\newblock {\em Energy \& Environment}, 24(5):701--709, 2013.
+
+\bibitem{mandal2006neural}
+Paras Mandal, Tomonobu Senjyu, and Toshihisa Funabashi.
+\newblock Neural networks approach to forecast several hour ahead electricity
+  prices and loads in deregulated market.
+\newblock {\em Energy Conversion and Management}, 47(15):2128--2142, 2006.
+
 \bibitem{mcloughlin2015clustering}
 Fintan McLoughlin, Aidan Duffy, and Michael Conlon.
 \newblock A clustering approach to domestic electricity load profile
@@ -163,10 +186,23 @@ Ina R{\"u}denauer and Carl-Otto Gensch.
   technology and ambient conditions.
 \newblock {\em {\"O}ko-institut, Freiburg}, 2004.
 
+\bibitem{sanghvi1982economic}
+Arun~P Sanghvi.
+\newblock Economic costs of electricity supply interruptions: Us and foreign
+  experience.
+\newblock {\em Energy Economics}, 4(3):180--198, 1982.
+
 \bibitem{sapankevych2009time}
 Nicholas~I Sapankevych and Ravi Sankar.
 \newblock Time series prediction using support vector machines: a survey.
 \newblock {\em IEEE Computational Intelligence Magazine}, 4(2):24--38, 2009.
+
+\bibitem{schreiber2009environmental}
+Andrea Schreiber, Petra Zapp, and Wilhelm Kuckshinrichs.
+\newblock Environmental assessment of german electricity generation from
+  coal-fired power plants with amine-based carbon capture.
+\newblock {\em The International Journal of Life Cycle Assessment},
+  14(6):547--559, 2009.
 
 \bibitem{serranofixing}
 Jonathan Serrano, Enrique~Munoz de~Cote, and Ansel~Y Rodr{\'\i}guez.
