@@ -27,7 +27,7 @@ The solar energy production customer's energy production depends on the cloud co
 \item \textbf{Electric Vehicle} An electric vehicle customer represents one electric vehicle. Their usage of energy is quite irregular and hard to predict. \\
 \end{itemize}
 
-Before diving into the problem of identifying good forecasting methods, I found it useful to take a look at how the customers of differnt power types behave. I wrote a log extractor program that extracts all the electricity consumption and production data by all the customer for all of the timeslots. At the end of the game, it makes a report on normalized usage of all the customers. Normalized values are useful because even if the amount of energy usage among the customers varies, the pattern of usage can be captured through it and normalized usages of different customers can be plotted on the same graph. Figures \ref{fig:daily1} to \ref{fig:daily3} show normalized electricity demand or supply for Mondays. 0 in the x axis means hour 12:00 am. From Figures \ref{fig:daily1} to \ref{fig:daily3}, it is clear that some customer's electricity usage is higly correlated with the hour of the day. The customers of type consumption and solar energy are example of these types. The other customer type demands did not have strong correlation with the hour of a day. In both consumption and solar energy customers the consumption or production curve grows fairly smoothly until it reaches a peak point. After the reaching the peak, the production or consumption drops smoothly. The customers with types interruptible consumption, wind production, thermal storage and electric vehicle had irregular demand/supply pattern. 
+Before diving into the problem of identifying good forecasting methods, I found it useful to take a look at how the customers of different power types behave. I wrote a log extractor program that extracts all the electricity consumption and production data by all the customer for all of the timeslots. At the end of the game, it makes a report on normalized usage of all the customers. Normalized values are useful because even if the amount of energy usage among the customers varies, the pattern of usage can be captured through it and normalized usages of different customers can be plotted on the same graph. Figures \ref{fig:daily1} to \ref{fig:daily3} show normalized electricity demand or supply for Mondays. 0 in the x axis means hour 12:00 am. From Figures \ref{fig:daily1} to \ref{fig:daily3}, it is clear that some customer's electricity usage is higly correlated with the hour of the day. The customers of type consumption and solar energy are example of these types. The other customer type demands did not have strong correlation with the hour of a day. In both consumption and solar energy customers the consumption or production curve grows fairly smoothly until it reaches a peak point. After the reaching the peak, the production or consumption drops smoothly. The customers with types interruptible consumption, wind production, thermal storage and electric vehicle had irregular demand/supply pattern. 
 
 In figure \ref{fig:weekly1} to \ref{fig:weekly3}, normalized electricity usages during the week are shown. Hour 0 to 23 represents all the hours of Monday from 12:00 am to 11:00 pm. It appears that the electricity demand for consumption customer, interruptible consumption, thermal storage had repetative demand patterns every day. The  solar energy production customer showed repetative production pattern. Moreover some customers such as the consumption type and the thermal storage type showed different pattern during the weekend. During the weekend they usually had lower energy demand than the weekdays. In the case of electric vehicle and wind energy production customers the demand/supply patterns were not regular. From these observations, I assume that the consumption customer and the solar energy type customers can be forecasted with the most accuracy. Due to the irregular patterns of other customers, it will be harder to make accurate demand forecasts about them.
  
@@ -38,23 +38,23 @@ In figure \ref{fig:weekly1} to \ref{fig:weekly3}, normalized electricity usages 
 \caption{energy usage z Score over Monday}
 \label{fig:daily1}
 \includegraphics[scale=0.9]{daily2.png}
-\caption{energy usage z Score over Monday}
+\caption{electricity usage z Score over Monday}
 \label{fig:daily2}
 \includegraphics[scale=0.9]{daily3.png}
-\caption{energy usage z Score over Monday}
+\caption{electricity usage z Score over Monday}
 \label{fig:daily3}
 \end{figure}
 
 \begin{figure}
 \centering
 \includegraphics[scale=0.85]{weekly1.png}
-\caption{energy usage z Score over week}
+\caption{electricity usage z Score over week}
 \label{fig:weekly1}
 \includegraphics[scale=0.85]{weekly2.png}
-\caption{energy usage z Score over week}
+\caption{electricity usage z Score over week}
 \label{fig:weekly2}
 \includegraphics[scale=0.85]{weekly3.png}
-\caption{energy usage z Score over week}
+\caption{electricity usage z Score over week}
 \label{fig:weekly3}
 \end{figure}
 

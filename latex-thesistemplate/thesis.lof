@@ -5,21 +5,24 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces energy usage z Score over Monday}}{19}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces energy usage z Score over Monday}}{19}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces energy usage z Score over Monday}}{19}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces energy usage z Score over week}}{20}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces energy usage z Score over week}}{20}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces energy usage z Score over week}}{20}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces electricity usage z Score over Monday}}{19}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces electricity usage z Score over Monday}}{19}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces electricity usage z Score over week}}{20}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces electricity usage z Score over week}}{20}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces electricity usage z Score over week}}{20}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Number of customers vs Powertype.}}{22}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Population vs Powertype}}{22}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Energy vs PowerType.}}{22}
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Energy share for each power type.}}{22}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Performance of the best classifier for each customer type. Customer Medical center was excluded as it was showing huge error. }}{32}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces cluster 0}}{33}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces cluster 1}}{33}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces cluster 2}}{33}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces cluster 3}}{33}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces comparison among three prediction schemes}}{35}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces comparison among three prediction schemes}}{35}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Clustering customers based on weekly average usage. }}{28}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Training prediction classifier for a cluster.}}{29}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Performance of the best classifier for each customer type. Customer Medical center was excluded as it was showing huge error. }}{34}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Kmeans cluster size vs MAPE. }}{35}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces cluster 0}}{36}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces cluster 1}}{36}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces cluster 2}}{36}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces cluster 3}}{36}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces comparison among three prediction schemes}}{38}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces comparison among three prediction schemes}}{38}
 \addvspace {10\p@ }

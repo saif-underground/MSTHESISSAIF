@@ -2,14 +2,14 @@
 
 \chapter{Methodology and Results}
 
-In this chapter, I describe the methodologies I have followed to find answers of the research questions I have described in Chapter 1.
+In this chapter, I describe the methodologies I followed to find answers to the research questions I have described in Chapter 1.
 
 
-\section{Learning Algorithms, Train and Test Set}
-I have tried several learning algorithms that are available in Weka \cite{witten2005data}. I was looking for learning algorithms that can be trained as quickly as possible with large amount of data and with limited resources. The learning algorithm also has to produce lower error rate and faster output during the time of competition. I have found that M5P, M5RULES, REP TREE, LINEAR REGRESSION \cite{witten2005data} met my requirements. For training the models, I have used 10 game log files. Each log files contain about 10,000 training instances. Training time was taking too long when I was using more than 10 log files. I separated 5 game log files to use as a test set.
+\section{Learning Algorithms, Training and Test Set}
+I have tried several learning algorithms that are available in Weka \cite{witten2005data}. I was looking for learning algorithms that can be trained as quickly as possible with a large amount of data and with limited computing resources. The learning algorithm also has to produce a lower error rate and fast output during the time of competition. I have found that M5P, M5RULES, REP TREE, LINEAR REGRESSION \cite{witten2005data} met my requirements. For training the models, I have used 10 game log files. Each log files contain about 10,000 training instances. A training instance contains the values of independent and dependent variables values. In the case of my thesis, example of independent variables would be temperature, cloud cover etc. and the dependent variable would be actual electricity usage of customers. Training time was getting more than 48 hours when I was using more than 10 log files. I separated 5  log files randomly from set of available game log files to use as a test set. The log files included in the test set were not used in training.
 
-\section{The Baseline Electricity Forecasting Mechanisms}
-The first baseline energy forecasting mechanism is the default prediction mechanism provided by the PowerTAC system. It exploits the fact that usage of a timeslot of a customer in a specific date is highly correlated with the day of a week and hour of a day. To make a prediction it stores the average energy usage of an hour of a week. So, for each customer, it uses $24*7 = 168$ values to remember average usages. As soon as it informed the new usage information of an hour of a week, it updates old average using the Algorithm \ref{alg:updateAvgMovingAvg}. To make demand forecasts about a customer it uses Algorithm \ref{alg:predictAvgMovingAvg}.
+\section{The Baseline Electricity Forecasting Mechanism}
+The first baseline energy forecasting mechanism is the default prediction mechanism provided by the Power TAC system. It exploits the fact that usage of a timeslot of a customer in a specific date is highly correlated with the day of a week and hour of a day. To make a prediction it stores the average energy usage of an hour of a week. So, for each customer, it uses $24*7 = 168$ values to remember average usages. As soon as it is informed of the new usage information of an hour of a week, it updates the old average using the Algorithm \ref{alg:updateAvgMovingAvg}. To make demand forecasts about a customer it uses Algorithm \ref{alg:predictAvgMovingAvg}.
 
 \begin{algorithm}
 \caption{Update average usage for $customer_i$ for day d and timeslot t, $newUsage$}
@@ -29,9 +29,8 @@ The first baseline energy forecasting mechanism is the default prediction mechan
  \label{alg:predictAvgMovingAvg}
 \end{algorithm}
 
-\section{Single Demand Predictor}
-All the activities that occurred in a game can be found in a game log.  Activities such as buying or selling electricity occur during a time slot. At the beginning of a time slot, the system notifies the broker that a new time slot is about to begin. The system also notifies the brokers with weather forecast about the future time slots. As a time slot ends, the broker receives information about its customer's energy usage which is called tariff transaction report. Algorithm \ref{alg:ttxHandle} specifies how the extraction program retrieves the necessary information from the tariff transaction report. As the broker gets notification of the beginning of a new time slot, the extraction program has all the information related to energy usage and weather data of the previous time slot available by this time. I started with a large number of features at the beginning. The features included time related features such as day of week, hour of day, month of year; weather related features such as cloud cover, wind speed, temperature; historical data such as last past 24 slot's electricity usage, last week's electricity usage and statistical features such as average and standard deviation of the weekly slot. Algorithm \ref{algo:bestSingle} shows how a single prediction model is created. It can be seen that the training set had information about all the customers of all types discussed in Chapter 3. For this scheme the baseline predictor produced on average 70\% root relative percentage error. And for all learning algorithms, the error rate was more than 80\%. The reason behind this poor perfomance is irregularity in training data. As we saw earlier, not all customers have regularity in their electricity usage pattern. As I have aggregated information about all the customers, which included irregularity, the training model might not be able to generalize knowledge from the training set properly. 
-
+\section{Feature Extraction}
+	All the activities that occurred in a game can be found in a game log.  Activities such as buying or selling electricity occur during a time slot. At the beginning of a time slot, the system notifies the broker that a new time slot is about to begin. The system also notifies the brokers with weather forecast about the future time slots. As a time slot ends, the broker receives information about its customer's energy usage which is called tariff transaction report. From game log file, a feature extractor program can extract features related to customer time related information, electricity usage and weather variables. By keeping the previous electricity usage  history for each customer, it is also possible to generate useful statistics such as mean and standard deviation usage for each hour of a week day. Algorithm \ref{alg:ttxHandle} specifies how the extraction program retrieves the necessary information from the tariff transaction report. As the broker gets notification of the beginning of a new time slot, the extraction program has all the information related to energy usage and weather data of the previous time slot. 
 %feature extraction
 \begin{algorithm}[!h]
 \caption{extract information from transactionReport sent to broker after each time slot through TariffTransactionHandler call back method}
@@ -62,6 +61,11 @@ All the activities that occurred in a game can be found in a game log.  Activiti
 \label{alg:writeSlotInfo}
 \end{algorithm}
 
+\section{Single Demand Predictor}
+The single demand predictor is designed to make a single aggregated load demand forecast for all the customer in a single shot. It is trained with 54 features. The features included time-related features such as day of week, hour of day, month of year; weather-related features such as cloud cover, wind speed, temperature; historical data such as past 24 slot's electricity usage, last week's electricity usage and statistical features such as average and standard deviation of the weekly slot. Algorithm \ref{alg:bestSingle} shows how a single prediction model is created. At first, features extracted from all types of customers are combined to make training set. Several classifiers are then trained based on the training set using 10 fold cross validation \ref{witten2005data}. It can be seen that the training set had information about all the customers of all types discussed in Chapter 3. For this scheme the baseline predictor produced on average 70\% root relative percentage error \ref{witten2005data}. And for all learning algorithms, the error rate was more than 80\%. The reason behind this poor perfomance is irregularity in training data. As we saw earlier, not all customers have regularity in their electricity usage pattern. As I have aggregated information about all the customers, which included irregularity, the training model is not able to generalize knowledge from the training set properly using the features and data available. 
+
+
+
 %find best performing single prediction model
 %find best classifier for individual customers
 \begin{algorithm}[!h]
@@ -77,7 +81,7 @@ All the activities that occurred in a game can be found in a game log.  Activiti
 
 \section{Individual Demand Predictor}
 
-From the experience of a single demand predictor, I included only information about consumption customer data in training set. So the training set no longer had information about interruptible consumption, thermal storage or electric vehicle. Also, this time the feature was reduced using Weka's attribute selection algorithm \cite{witten2005data}. Out of 54 features, only 5 were choosen. The features were temperature, wind speed, cloud cover, average of the weekly hour slot, standard deviation of the weekly hour slot. Features extracted for each customer served as a separated training data set. I trained an individual predictor model for each customer model. In general, if there are n customers in the system, we will need n electricity demand predictors each one trained on the data of a single customer. I went further by checking different machine learning algorithms such as M5Tree \cite{witten2005data}, Linear Regression \cite{witten2005data}, M5P rules \cite{witten2005data} and REP tree \cite{witten2005data} for each customer and picking the best performing one for each customer. The process of finding best prediction model for each customer is shown in Algorithm \ref{alg:bestClassifierForCluster}. Each prediction model will make electricity load demand prediction for each customer. Broker will know the electricity demand by summing over all the predictions.
+From the experience of a single demand predictor, I included only information about consumption customer data in training set and excluded information about interruptible consumption, thermal storage and electric vehicles power type customers. Also, this time I reduced the number of features using Weka's attribute selection algorithm \cite{witten2005data}. Out of 54 features, only 5 were choosen. The features selected were temperature, wind speed, cloud cover, average of the weekly hour slot, standard deviation of the weekly hour slot. Features extracted for each customer served as a separate training data set. I trained an individual predictor model for each customer model. In general, if there are \textit{n} customers in the system, we will need \textit{n} electricity demand predictors, each trained on the data of a single customer. I went further by checking different machine learning algorithms such as M5Tree \cite{witten2005data}, Linear Regression \cite{witten2005data}, M5P rules \cite{witten2005data} and REP tree \cite{witten2005data} for each customer and picking the best performing one for each customer. The process of finding best prediction model for each customer is shown in Algorithm \ref{alg:bestClassifierForCluster}. Each prediction model will make an electricity load demand prediction for each customer. The broker can calculate the total electricity demand by summing over all the predictions.
 
 \begin{algorithm}[!h]
 \caption{find best classifiers created for each individual customer}
@@ -94,9 +98,21 @@ From the experience of a single demand predictor, I included only information ab
 
 
 \section{Cluster Based Demand Predictor}
-One problem with the individual demand predictor is that it this system has a demand prediction model for each known customer. So, it cannot make demand forecasts for a novel customer. This is a serious problem because during a competition the system may introduce a new customer or change name of a customer. In those cases the individual demand prediction mechanism becomes unreliable. To mitigate this issue, I proposed a solution that groups the customer based on their weekly average usage. Algorithm \ref{alg:writeWeeklyAvg} shows the procedure for extracting average electricity usage of each hour of a week. Next, all the average weekly usages are combined together to make training set for the clustering algorithm. I have used k-means \cite{witten2005data} clustering algorithm to cluster the  training set. I have trained clusters of sizes 4, 5, 6, 7, 8, 9, 10 and 11. Algorithm \ref{alg:makeCluster} describes the procedure for making clusters from the training instances. Once a k-means of cluster size k is made, a program groups the hourly usages of the customers in the same cluster and combines them to make training set for  machine learning classifier. This training set is used to train linear regression classifier. Algorithm \ref{alg:errorOfCluster} describes how the cluster based predictor's performance was evaluated.
-%observe error of each cluster
-Based on the errors observed from different k-means cluster based forecasting mechanisms, I fixed the number of clusters. Once the number of the clusters was fixed, a program creates several machine learning predictors to see which one performs best for a given cluster. The machine learning classifiers that were tried out are linear regression \cite{witten2005data}, M5P rules \cite{witten2005data}, M5 Tree\cite{witten2005data}, REP tree\cite{witten2005data}. At runtime, a customer will be grouped in a cluster based on its weekly usage. Once the program knows the cluster assigned to a customer, the program will load the corresponding demand forecaster to make electricity demand forecast about the customers.
+One problem with the individual demand predictor is that this system has a demand prediction model for each known customer. So, it cannot make demand forecasts for a novel customer. This is a serious problem because during a competition the system may introduce a new customer or change the name of a customer. In those cases the individual demand prediction mechanism becomes unreliable. To mitigate this issue, I propose a solution that groups similar customers based on their weekly average usage pattern. The Figures \ref{fig:toy-clust-1} and \ref{fig:toy-clust-2} depicts the proposed method. Figure \ref{fig:toy-clust-1} shows that when clustering is applied on the weekly average usage data of customers, the customers are grouped in different clusters. Figure \ref{fig:toy-clust-2} shows that once the clustering is done, training instances related to the members of a cluster is combined to train classifier for that cluster. At runtime, a customer will be grouped in a cluster based on its weekly usage. Once the program knows the cluster assigned to a customer, the program will load the corresponding classifier to make electricity demand forecasts about the customers.
+
+\begin{figure}[h!]
+  \includegraphics[width=\linewidth]{cluster-toy-1.png}
+  \caption{Clustering customers based on weekly average usage. }
+  \label{fig:toy-clust-1}
+\end{figure}
+
+\begin{figure}[h!]
+  \includegraphics[width=\linewidth]{cluster-toy-2.png}
+  \caption{Training prediction classifier for a cluster.}
+  \label{fig:toy-clust-2}
+\end{figure}
+
+Algorithm \ref{alg:writeWeeklyAvg} shows the procedure for extracting average electricity usage of each hour of a week. Next, all the average weekly usages are combined together to make training set for the clustering algorithm. I have used k-means \cite{witten2005data} clustering algorithm to cluster the  training set. I have trained clusters of sizes 1 to 18. Algorithm \ref{alg:makeCluster} describes the procedure for making clusters from the training instances. Once a k-means of cluster size k is made, a program groups the hourly usages of the customers in the same cluster and combines them to make training set for  machine learning classifier. This training set is used to train a  linear regression classifier. Algorithm \ref{alg:errorOfCluster} describes how the cluster-based predictor's performance was evaluated. I fixed the optimal number of clusters from two observations. First, I used Expectation Maximizaion (EM) algorithm to see how many clusters might be present in the data. If number of clusters are unknown, EM algorithm can tell how many clusters are there. Secondly, I noticed the prediction error produced for each cluster of size k in kmeans clustering algoirhtm and observed for what size of cluster the error is minimum. The result is described in Section \ref{results}. Once the number of the clusters was fixed, a program creates several machine learning predictors to see which one performs best for a given cluster. The machine learning classifiers that were tried out are Linear Regression \cite{witten2005data}, M5P rules \cite{witten2005data}, M5 Tree\cite{witten2005data}, REP tree\cite{witten2005data}. 
 
 \begin{algorithm} [!h]
 \caption{write average electricity usage of the customers of each hour of the week}
@@ -164,7 +180,7 @@ Based on the errors observed from different k-means cluster based forecasting me
 \end{algorithm}
 
 \section{Testing Performance}
-Algorithm \ref{alg:performanceEval} shows how accuracy of each prediction model was tested. Each instance of the test set was tested against each demand prediction scheme. Average absoluate percentage error was calculated for each scheme. Algorithm \ref{alg:errorCalculation} shows the algorithm for computing error.
+Algorithm \ref{alg:performanceEval} shows how the accuracy of each prediction model was tested. Each instance of the test set was tested against each demand prediction scheme. The mean absolute percentage error (MAPE) \ref{witten2005data} was calculated for each scheme. Algorithm \ref{alg:errorCalculation} shows the algorithm for computing error.
  
 %Testing
 \begin{algorithm}
@@ -193,10 +209,10 @@ Algorithm \ref{alg:performanceEval} shows how accuracy of each prediction model 
 
 \section{Experimental Results}
 
-The following subsections describe the results at each stage of experiments. The stages are finding optimal number of clusters. Once the number of clusters has been fixed, different classifier needs to be made for each cluster to see which one makes the best forecast for a particular cluster. After that, the baseline predictor that needs a classifier for each customer needs to be built. At this point, for each customer several classifier has been tried out to see which classifier makes best demand forecast about that customer. After that, the proposed mechanism has been tested against the two baseline demand forecasting methods.
+The following subsections describe the results at each stage of the experiments. The stages are 1) finding optimal number of clusters. 2) Once the number of clusters has been fixed, a different classifier needs to be made for each cluster to see which one makes the best forecast for a particular cluster. 3) After that, the baseline predictor that needs a classifier for each customer needs to be trained. At this point, for each customer several classifier has been tried out to see which classifier makes best demand forecast about that customer. 4) Finally, the proposed mechanism is tested against the two baseline demand forecasting methods.
 
 \section{Finding Individual Predictor for Each Customer}
-Based on the data from each of the customers, the four types of classifiers described in previously were tried out. For each customer, the Table \ref{table:1} shows the best performing classifier for each customer. 
+Based on the data from each of the customers, the four types of classifiers described previously were tested. For each customer, the Table \ref{table:1} shows the best performing classifier for each customer. 
 
 \begin{table}[h!]
 \centering
@@ -237,10 +253,15 @@ The figure \ref{fig:indiv-cutomer-best-predictor-error} shows error percentage o
 
 %%%%%%%%%%%%%%%%%
 
-\subsection{Finding number of clusters}
+\subsection{Finding the optimal number of clusters} \label{results}
 
-At first, I have segmented the customer using KMeans clustering algorithm with cluster sizes = 4, 5, 6, 7, 8, 9, 10 and 11. For kMeans Eucleadian Distance \cite{witten2005data} was used for similarity metric, max number of iteration \cite{witten2005data} was set to 500. For KMeans with size k, we will have k clusters. For each of the k clusters, I had a linear regression predictor. I observed the relative percentage error and absolute average the above cluster sizes. It turned out that the size of the cluster does not have a big impact on the prediction performance. To keep things simple, I have decided to choose Kmeans cluster of size 4. When k = 4 was chosen, table \ref{table:clusterAss} shows the cluster assignment for each customer. It can be seen that, cluster-0 held most of the offices, cluster 2 held most of the village types, cluster 3 held the medical center, cluster 1 held large housing such as brooksidehomes, centerville homes and large offices such as downtown offices and centerville offices.
+First, I segmented the customer using KMeans clustering algorithm with cluster sizes from 1 to 18. I choose the number 18 because there are 17 consumption type customers in Power TAC. In worst case, each customer may be different and there will be 17 clusters. For kMeans Eucleadian Distance \cite{witten2005data} was used for similarity metric, max number of iteration \cite{witten2005data} was set to 500. For KMeans with size k, we will have k clusters. For each of the k clusters, I had a linear regression predictor. I observed the relative percentage error and absolute average the above cluster sizes. Figure \ref{fig:cluster-error} shows the cluster size vs MAPE. It shows that after cluster of size 4, the size of the cluster does not have a big impact on the prediction performance. The EM algorithm reports that there are 4 clusters present in the data when max iteration parameter \cite{witten2005data} was set to 100, minimum standard deviation parameter \cite{witten2005data} was set to 1.0E-06 and num clusters parameter \cite{witten2005data} was set to -1. To keep things simple, I have decided to choose Kmeans cluster of size 4.  When k = 4 was chosen, the Table \ref{table:clusterAss} shows the cluster assignment for each customer. The Table \ref{table:clusterAss} shows that, cluster 0 held most of the offices, cluster 2 held most of the village types, cluster 3 held the medical center, cluster 1 held large housing such as brooksidehomes, centerville homes and large offices such as downtown offices and centerville offices. This observation suggests that the office, village, large corporation customers have similar kind of electricity usage pattern in Power TAC.
 
+\begin{figure}[h!]
+  \includegraphics{cluster-error.png}
+  \caption{Kmeans cluster size vs MAPE. }
+  \label{fig:cluster-error}
+\end{figure}
 
 \begin{table}[h!]
 \centering
@@ -271,8 +292,8 @@ MedicalCenter@1	& 3 \\ [1ex]
 \label{table:clusterAss}
 \end{table}
 
-\subsection {Finding best predictor for each cluster}
-Once the features are extracted, I have tried out  M5Tree, Linear Regression, M5P rules and REP tree machine learning classifiers to see which one performs the best for each of the 4 clusters. Figure \ref{fig:cluster-0-predictors}, \ref{fig:cluster-1-predictors}, \ref{fig:cluster-2-predictors}, \ref{fig:cluster-3-predictors} the average relative percentage errors that each classifier produced for cluster 0, 1, 2, and 3 respectively. Figure \ref{fig:cluster-0-predictors} shows that among all the classifiers, M5P produces the minimum amount of error. So M5P will be used as the demand predictor for cluster 0. For cluster 1, 2 and 3 the M5P, REPTREE and M5RULES will be used respectively as demand predictors.
+\subsection {Finding the best predictor for each cluster}
+Once the features are extracted, I have tested  M5Tree, Linear Regression, M5P rules and REP tree machine learning classifiers to see which one performs the best for each of the 4 clusters. Figure \ref{fig:cluster-0-predictors}, \ref{fig:cluster-1-predictors}, \ref{fig:cluster-2-predictors}, \ref{fig:cluster-3-predictors} show the average relative percentage errors that each classifier produced for cluster 0, 1, 2, and 3 respectively. Figure \ref{fig:cluster-0-predictors} shows that among all the classifiers, M5P produces the minimum amount of error. So M5P will be used as the demand predictor for cluster 0. For cluster 1, 2 and 3 the M5P, REPTREE and M5RULES will be used respectively as demand predictors.
 
 %%trial 1
 \begin{figure}
@@ -310,7 +331,7 @@ Once the features are extracted, I have tried out  M5Tree, Linear Regression, M5
 
 \subsection{Comparison Among the Three Prediction Schemes}
 
-Finally, all three demand prediction schems were tested with test set. From Figure \ref{fig:prediction-scheme-vs-error}, we can see that cluster based prediction mechanism performed almost as good as the mechanism individual prediction scheme. And it did better than the default moving average prediction scheme.
+Finally, all three demand prediction schems were tested with test set. From Figure \ref{fig:prediction-scheme-vs-error}, we can see that cluster based prediction mechanism performed almost as good as the mechanism individual prediction scheme, and it did much better than the default moving average prediction scheme. Individual prediction mechanism can be considered as a cluster based prediction mechanism with cluster size n. The cluster based mechanism used only 4 clusters, yet its performance was almost as same as the individual prediction mechanism. This suggests the importance of the cluster based prediction mechanism; it will need less amount of memory, the system is simple and generalized yet it produces quality prediction.
 
 \begin{figure}[h!]
 \centering
@@ -324,15 +345,11 @@ Finally, all three demand prediction schems were tested with test set. From Figu
 \end{figure}
 
 \subsection{Model Accuracy and Training Set Size}
-Figure \ref{fig:trainset-vs-error} shows the error of all three models with increasing training set size. It appears that the accuracy of the models does not change much with increased training set size. The reason behind this reason may be because the models were trained based on past tournament data. May be during a tournament the customer behavior remains unchanged. So adding more data may be redundant. 
+Figure \ref{fig:trainset-vs-error} shows the error of all three models with increasing training set size. It appears that the accuracy of the models does not change much with increased training set size. The reason behind this reason may be because the models were trained based on past tournament data. During a tournament the customer behavior remains unchanged, so adding more data may be redundant. 
 
 \begin{figure}[h!]
-\centering
-\begin{minipage}{.5\textwidth}
   \centering
   \includegraphics[width=\linewidth]{error-change-training-size.jpg}
   \caption{comparison among three prediction schemes}
   \label{fig:trainset-vs-error}
-\end{minipage}
-  
 \end{figure}

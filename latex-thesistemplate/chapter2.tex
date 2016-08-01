@@ -53,7 +53,7 @@ At any moment in the simulation the brokers have the following information :
 \subsection{Customers}
 A customer represents an entity that buys or sells energy from or sells energy to the brokers. A customer tries to minimize its costs by subscribing to a broker that offers profitable tariff for the customer. The customers ocassionally evaluates the tariffs present in the market and switch to a profitable tariff if necessary. Customers decide the outcome of a competition as the customers are the only consumers present in the system. A customer has the following attributes :
 \begin{itemize}  
-\item An unique name. 
+\item A unique name. 
 \item Number of individuals the customer represents. This number can range from one to several thousands. 
 \item A power type that specifies which category of customers (producer or consumer) the model falls into. Producer and consumer categories have several subcategories. In Power TAC the categories of the customers are consumption, interruptible consumption, thermal storage, wind production, solar production and electric vehicle. Each customer type has its distinctive behavior. 
 \end{itemize}
@@ -87,19 +87,19 @@ The distribution utility has two main objectives. First, it supplies energy to t
 A broker has to make bids and asks in the wholesale market. The amount of electricity it asks depends on the demand forecast of its subscribed customers. If the broker fails to make accurate demand forecast, it will not be able to ask for proper amount of electricity. So it will end up asking more or less energy than the required amount in the wholesale market. In this case, the broker will have to buy energy from the balancing market in a higher price or has to sell surplus electricity in a lower rate. As a result, it will face monetary losses. This unwanted scenario can be avoided through demand forecasting as accurate as possible. This thesis investigates ways to find a better demand forecasting mechanism.
 
 \section{Main Research Questions}
-The brokers in the Power TAC gets only 5 seconds of time to communicate with the server. Within the 5 seconds, it has to decide how much electricity the customers are going to use, decide on a ask with a profitable bid and do other book keepings. It will be adventagaous if there is a way to have a single forecasting model that gives the aggregated demand prediction for all customers in a single shot. So the first research question will be - 
+The brokers in the Power TAC gets only 5 seconds of time to communicate with the server. Within the 5 seconds, it has to decide how much electricity the customers are going to use, decide on an ask with a profitable bid and do other book keepings. It will be adventagaous if there is a way to have a single forecasting model that gives the aggregated demand prediction for all customers in a single shot. So the first research question will be - 
 \begin{displayquote}
 How can we make a single demand forecasting model that make demand forecasting about all the customers in a single shot?
 \end{displayquote}
 
-As I will be training machine learning models, the accuracy of the model will depend on which features I choos. If we can find out the most predictive features, the system will show less error. The second research question is -
+As I will be training machine learning models, the accuracy of the model will depend on which features I choose. If we can find out the most predictive features, the system will show less error. The second research question is -
 \begin{displayquote}
 What are the relevant features of the demand forecasting model?
 \end{displayquote}
 
 Not all learning algorithms are suitable for a given scenario. I will be looking for learning algorithms that can be trained fast, that produces demand forecast as accurate as possible and makes predictions fast. The third research question is-
 \begin{displayquote}
-What are learning algorithm suitable for the Power TAC scenario?
+Which learning algorithms are suitable for the Power TAC scenario?
 \end{displayquote}
 
 The system should be robust enough to be able to make demand prediciton about a novel customer. The fourth research question is-
@@ -113,10 +113,10 @@ What is the impact of training set size on the accuracy of the prediction model?
 \end{displayquote}
  
 \section{Contribution}
-In previous works of Power TAC, all the customers were treated the same. This work shows that different customer should be treated differently. I showed a demand prediction scheme for consumption type customer might not be suitable for interruptible consumption customers. This work proposes a method to make demand forecasting about a novel customer. During the training phase, known customers are grouped based on their weekly average electricity usage. Data of the same group are combined together to make forecasting model for that group. A novel customer is assinged to one of the groups based on its weekly average electricity usage. The forecasting model of that group will be used to make forecasting about the new customer. This scheme produces better forecasting than a moving average baseline forecasting scheme. This work also found that there is a little correlation with the accuracy of the system and the size of the training data set. 
+In previous works of Power TAC, all the customers were treated the same. This work shows that different customer should be treated differently. I showed a demand prediction scheme for consumption type customer might not be suitable for interruptible consumption customers. This work proposes a method to make demand forecasting about a novel customer. During the training phase, known customers are grouped based on their weekly average electricity usage. Data of the same group are combined together to make forecasting model for that group. A novel customer is assigned to one of the groups based on its weekly average electricity usage. The forecasting model of that group will be used to make forecasting about the new customer. This scheme produces better forecasting than a moving average baseline forecasting scheme. This work also found that there is a little correlation with the accuracy of the system and the size of the training data set. 
 
 \section{Overview of the Thesis}
-In the second chapter of the thesis I present related work on electricity demand forecasting. In chapter 3, I present information about the customers present in Power TAC. The information include customer types, their behaviours and descriptive statistics about them. In chapter 4, I present the works I did to answer the research questions and show the result. In chapter 5, I present the significance of the results and future works.
+In the second chapter of the thesis I present related work on electricity demand forecasting. In chapter 3, I present information about the customers present in Power TAC. The information include customer types, their behaviors and descriptive statistics about them. In chapter 4, I present the works I did to answer the research questions and show the results. In chapter 5, I present the significance of the results and future works.
 
 
 %%% Local Variables: 

@@ -2,8 +2,7 @@
 \contentsline {chapter}{Acknowledgements}{v}
 \contentsline {chapter}{Abstract}{viii}
 \contentsline {chapter}{Table of Contents}{ix}
-\contentsline {chapter}{List of Tables}{xi}
-\contentsline {chapter}{List of Figures}{xii}
+\contentsline {chapter}{List of Figures}{xi}
 \noindent {\bf Chapter}
 \contentsline {chapter}{\numberline {1}Customer Load Forecasting in Power TAC}{1}
 \contentsline {section}{\numberline {1.1}Smart Grid}{1}
@@ -26,19 +25,20 @@
 \contentsline {section}{\numberline {3.1}Customer Categories}{16}
 \contentsline {section}{\numberline {3.2}Statistics}{18}
 \contentsline {chapter}{\numberline {4}Methodology and Results}{23}
-\contentsline {section}{\numberline {4.1}Learning Algorithms, Train and Test Set}{23}
-\contentsline {section}{\numberline {4.2}The Baseline Electricity Forecasting Mechanisms}{23}
-\contentsline {section}{\numberline {4.3}Single Demand Predictor}{24}
-\contentsline {section}{\numberline {4.4}Individual Demand Predictor}{26}
-\contentsline {section}{\numberline {4.5}Cluster Based Demand Predictor}{26}
-\contentsline {section}{\numberline {4.6}Testing Performance}{28}
-\contentsline {section}{\numberline {4.7}Experimental Results}{28}
-\contentsline {section}{\numberline {4.8}Finding Individual Predictor for Each Customer}{29}
-\contentsline {subsection}{\numberline {4.8.1}Finding number of clusters}{30}
-\contentsline {subsection}{\numberline {4.8.2}Finding best predictor for each cluster}{31}
-\contentsline {subsection}{\numberline {4.8.3}Comparison Among the Three Prediction Schemes}{32}
-\contentsline {subsection}{\numberline {4.8.4}Model Accuracy and Training Set Size}{34}
-\contentsline {chapter}{\numberline {5}Conclusions and Future Work}{36}
-\contentsline {section}{\numberline {5.1}Significance of the Result}{36}
-\contentsline {section}{\numberline {5.2}Future Work}{37}
-\contentsline {chapter}{Curriculum Vitae}{43}
+\contentsline {section}{\numberline {4.1}Learning Algorithms, Training and Test Set}{23}
+\contentsline {section}{\numberline {4.2}The Baseline Electricity Forecasting Mechanism}{23}
+\contentsline {section}{\numberline {4.3}Feature Extraction}{24}
+\contentsline {section}{\numberline {4.4}Single Demand Predictor}{25}
+\contentsline {section}{\numberline {4.5}Individual Demand Predictor}{26}
+\contentsline {section}{\numberline {4.6}Cluster Based Demand Predictor}{27}
+\contentsline {section}{\numberline {4.7}Testing Performance}{29}
+\contentsline {section}{\numberline {4.8}Experimental Results}{30}
+\contentsline {section}{\numberline {4.9}Finding Individual Predictor for Each Customer}{31}
+\contentsline {subsection}{\numberline {4.9.1}Finding the optimal number of clusters}{32}
+\contentsline {subsection}{\numberline {4.9.2}Finding the best predictor for each cluster}{34}
+\contentsline {subsection}{\numberline {4.9.3}Comparison Among the Three Prediction Schemes}{35}
+\contentsline {subsection}{\numberline {4.9.4}Model Accuracy and Training Set Size}{35}
+\contentsline {chapter}{\numberline {5}Conclusions and Future Work}{39}
+\contentsline {section}{\numberline {5.1}Significance of the Result}{39}
+\contentsline {section}{\numberline {5.2}Future Work}{40}
+\contentsline {chapter}{Curriculum Vitae}{46}
