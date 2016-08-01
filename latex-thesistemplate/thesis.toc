@@ -4,13 +4,13 @@
 \contentsline {chapter}{Table of Contents}{ix}
 \contentsline {chapter}{List of Figures}{xi}
 \noindent {\bf Chapter}
-\contentsline {chapter}{\numberline {1}Customer Load Forecasting in Power TAC}{1}
+\contentsline {chapter}{\numberline {1}Customer Load Forecasting in Power Trading Agent Competition}{1}
 \contentsline {section}{\numberline {1.1}Smart Grid}{1}
 \contentsline {section}{\numberline {1.2}The Power Trading Agent Competition}{4}
-\contentsline {subsection}{\numberline {1.2.1}Brokers}{4}
-\contentsline {subsection}{\numberline {1.2.2}Customers}{5}
-\contentsline {subsection}{\numberline {1.2.3}Weather Service}{6}
-\contentsline {subsection}{\numberline {1.2.4}Markets and Distribution Utility}{7}
+\contentsline {subsection}{\numberline {1.2.1}Markets and Distribution Utility}{4}
+\contentsline {subsection}{\numberline {1.2.2}Brokers}{5}
+\contentsline {subsection}{\numberline {1.2.3}Customers}{7}
+\contentsline {subsection}{\numberline {1.2.4}Weather Service}{8}
 \contentsline {section}{\numberline {1.3}Importance of Accurate Demand Forecasting in Power TAC}{8}
 \contentsline {section}{\numberline {1.4}Main Research Questions}{8}
 \contentsline {section}{\numberline {1.5}Contribution}{9}
@@ -39,6 +39,5 @@
 \contentsline {subsection}{\numberline {4.9.3}Comparison Among the Three Prediction Schemes}{35}
 \contentsline {subsection}{\numberline {4.9.4}Model Accuracy and Training Set Size}{35}
 \contentsline {chapter}{\numberline {5}Conclusions and Future Work}{39}
-\contentsline {section}{\numberline {5.1}Significance of the Result}{39}
-\contentsline {section}{\numberline {5.2}Future Work}{40}
+\contentsline {section}{\numberline {5.1}Future Work}{39}
 \contentsline {chapter}{Curriculum Vitae}{46}
