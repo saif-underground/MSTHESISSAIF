@@ -1,8 +1,8 @@
 \hfill {\bf Page}
 \contentsline {chapter}{Acknowledgements}{v}
-\contentsline {chapter}{Abstract}{viii}
-\contentsline {chapter}{Table of Contents}{ix}
-\contentsline {chapter}{List of Figures}{xi}
+\contentsline {chapter}{Abstract}{vii}
+\contentsline {chapter}{Table of Contents}{viii}
+\contentsline {chapter}{List of Figures}{x}
 \noindent {\bf Chapter}
 \contentsline {chapter}{\numberline {1}Customer Load Forecasting in Power Trading Agent Competition}{1}
 \contentsline {section}{\numberline {1.1}Smart Grid}{1}
@@ -25,7 +25,7 @@
 \contentsline {section}{\numberline {3.1}Customer Categories}{16}
 \contentsline {section}{\numberline {3.2}Statistics}{18}
 \contentsline {chapter}{\numberline {4}Methodology and Results}{23}
-\contentsline {section}{\numberline {4.1}Learning Algorithms, Training and Test Set}{23}
+\contentsline {section}{\numberline {4.1}Learning Algorithms, Training, and Test Set}{23}
 \contentsline {section}{\numberline {4.2}The Baseline Electricity Forecasting Mechanism}{23}
 \contentsline {section}{\numberline {4.3}Feature Extraction}{24}
 \contentsline {section}{\numberline {4.4}Single Demand Predictor}{25}
