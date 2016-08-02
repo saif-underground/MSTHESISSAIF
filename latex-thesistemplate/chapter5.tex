@@ -81,7 +81,7 @@ The single demand predictor is designed to make a single aggregated load demand 
 
 \section{Individual Demand Predictor}
 
-From the experience of a single demand predictor, I included only information about consumption customer data in training set and excluded information about interruptible consumption, thermal storage and electric vehicles power type customers. Also, this time I reduced the number of features using Weka's attribute selection algorithm \cite{witten2005data}. Out of 54 features, only 5 were choosen. The features selected were temperature, wind speed, cloud cover, average of the weekly hour slot, standard deviation of the weekly hour slot. Features extracted for each customer served as a separate training data set. I trained an individual predictor model for each customer model. In general, if there are \textit{n} customers in the system, we will need \textit{n} electricity demand predictors, each trained on the data of a single customer. I went further by checking different machine learning algorithms such as M5Tree \cite{witten2005data}, Linear Regression \cite{witten2005data}, M5P rules \cite{witten2005data} and REP tree \cite{witten2005data} for each customer and picking the best performing one for each customer. The process of finding best prediction model for each customer is shown in Algorithm \ref{alg:bestClassifierForCluster}. Each prediction model will make an electricity load demand prediction for each customer. The broker can calculate the total electricity demand by summing over all the predictions.
+From the experience of a single demand predictor, I included only information about consumption customer data in training set and excluded information about interruptible consumption, thermal storage and electric vehicles power type customers. Also, this time I reduced the number of features using Weka's attribute selection algorithm \cite{witten2005data}. Out of 54 features, only 5 were choosen. The features selected were temperature, wind speed, cloud cover, average of the weekly hour slot, standard deviation of the weekly hour slot. Features extracted for each customer served as a separate training data set. I trained an individual predictor model for each customer model. In general, if there are \textit{n} customers in the system, we will need \textit{n} electricity demand predictors, each trained on the data of a single customer. I went further by checking different machine learning algorithms such as M5Tree, Linear Regression, M5P rules and REP tree for each customer and picking the best performing one for each customer \cite{witten2005data}. The process of finding best prediction model for each customer is shown in Algorithm \ref{alg:bestClassifierForCluster}. Each prediction model will make an electricity load demand prediction for each customer. The broker can calculate the total electricity demand by summing over all the predictions.
 
 \begin{algorithm}[!h]
 \caption{find best classifiers created for each individual customer}
@@ -112,7 +112,7 @@ One problem with the individual demand predictor is that this system has a deman
   \label{fig:toy-clust-2}
 \end{figure}
 
-Algorithm \ref{alg:writeWeeklyAvg} shows the procedure for extracting average electricity usage of each hour of a week. Next, all the average weekly usages are combined together to make training set for the clustering algorithm. I have used k-means \cite{witten2005data} clustering algorithm to cluster the  training set. I have trained clusters of sizes 1 to 18. Algorithm \ref{alg:makeCluster} describes the procedure for making clusters from the training instances. Once a k-means of cluster size k is made, a program groups the hourly usages of the customers in the same cluster and combines them to make training set for  machine learning classifier. This training set is used to train a  linear regression classifier. Algorithm \ref{alg:errorOfCluster} describes how the cluster-based predictor's performance was evaluated. I fixed the optimal number of clusters from two observations. First, I used Expectation Maximizaion (EM) algorithm to see how many clusters might be present in the data. If number of clusters are unknown, EM algorithm can tell how many clusters are there. Secondly, I noticed the prediction error produced for each cluster of size k in kmeans clustering algorithm and observed for what size of cluster the error is minimum. The result is described in Section \ref{results}. Once the number of the clusters was fixed, a program creates several machine learning predictors to see which one performs best for a given cluster. The machine learning classifiers that were tried out are Linear Regression \cite{witten2005data}, M5P rules \cite{witten2005data}, M5 Tree\cite{witten2005data}, REP tree\cite{witten2005data}. 
+Algorithm \ref{alg:writeWeeklyAvg} shows the procedure for extracting average electricity usage of each hour of a week. Next, all the average weekly usages are combined together to make training set for the clustering algorithm. I have used k-means \cite{witten2005data} clustering algorithm to cluster the  training set. I have trained clusters of sizes 1 to 18. Algorithm \ref{alg:makeCluster} describes the procedure for making clusters from the training instances. Once a k-means of cluster size k is made, a program groups the hourly usages of the customers in the same cluster and combines them to make training set for  machine learning classifier. This training set is used to train a  linear regression classifier. Algorithm \ref{alg:errorOfCluster} describes how the cluster-based predictor's performance was evaluated. I fixed the optimal number of clusters from two observations. First, I used Expectation Maximizaion (EM) algorithm to see how many clusters might be present in the data. If number of clusters are unknown, EM algorithm can tell how many clusters are there. Secondly, I noticed the prediction error produced for each cluster of size k in kmeans clustering algorithm and observed for what size of cluster the error is minimum. The result is described in Section \ref{results}. Once the number of the clusters was fixed, a program creates several machine learning predictors to see which one performs best for a given cluster. The machine learning classifiers that were tried out are Linear Regression, M5P Rules, M5 Tree, REP tree\cite{witten2005data}. 
 
 \begin{algorithm} [!h]
 \caption{write average electricity usage of the customers of each hour of the week}
@@ -180,7 +180,7 @@ Algorithm \ref{alg:writeWeeklyAvg} shows the procedure for extracting average el
 \end{algorithm}
 
 \section{Testing Performance}
-Algorithm \ref{alg:performanceEval} shows how the accuracy of each prediction model was tested. Each instance of the test set was tested against each demand prediction scheme. The mean absolute percentage error (MAPE) \ref{witten2005data} was calculated for each scheme. Algorithm \ref{alg:errorCalculation} shows the algorithm for computing error.
+Algorithm \ref{alg:performanceEval} shows how the accuracy of each prediction model was tested. Each instance of the test set was tested against each demand prediction scheme. The Mean Absolute Percentage Error (MAPE) was calculated for each scheme \cite{witten2005data}. Algorithm \ref{alg:errorCalculation} shows the algorithm for computing error.
  
 %Testing
 \begin{algorithm}
@@ -243,7 +243,7 @@ MedicalCenter@1	& M5P \\ [1ex]
 \label{table:1}
 \end{table}
 
-The figure \ref{fig:indiv-cutomer-best-predictor-error} shows error percentage of each of the predictors type for each of the customer types.
+The Figure \ref{fig:indiv-cutomer-best-predictor-error} shows error percentage of each of the predictors type for each of the customer types.
 
 \begin{figure}[h!]
   \includegraphics{relativeErrorIndivPredictor.png}
@@ -301,13 +301,13 @@ Once the features are extracted, I have tested  M5Tree, Linear Regression, M5P r
 \begin{minipage}{.5\textwidth}
   \centering
   \includegraphics[width=\linewidth]{cluster-0-diff-classifier-relative-abs.png}
-  \caption{cluster 0}
+  \caption{Cluster 0}
   \label{fig:cluster-0-predictors}
 \end{minipage}%
 \begin{minipage}{.5\textwidth}
   \centering
   \includegraphics[width=\linewidth]{cluster-1-diff-classifier-relative-abs.png}
-  \caption{cluster 1}
+  \caption{Cluster 1}
 \label{fig:cluster-1-predictors}
 \end{minipage}
 
@@ -315,13 +315,13 @@ Once the features are extracted, I have tested  M5Tree, Linear Regression, M5P r
 \begin{minipage}{.5\textwidth}
   \centering
   \includegraphics[width=\linewidth]{cluster-2-diff-classifier-relative-abs.png}
-  \caption{cluster 2}
+  \caption{Cluster 2}
   \label{fig:cluster-2-predictors}
 \end{minipage}%
 \begin{minipage}{.5\textwidth}
   \centering
   \includegraphics[width=\linewidth]{cluster-3-diff-classifier-relative-abs.png}
-  \caption{cluster 3}
+  \caption{Cluster 3}
 \label{fig:cluster-3-predictors}
 \end{minipage}
 
@@ -338,7 +338,7 @@ Finally, all three demand prediction schemes were tested with test set. From Fig
 \begin{minipage}{.5\textwidth}
   \centering
   \includegraphics[width=\linewidth]{final-relative-abs-error.png}
-  \caption{comparison among three prediction schemes}
+  \caption{Comparison among three prediction schemes}
   \label{fig:prediction-scheme-vs-error}
 \end{minipage}
   
@@ -350,6 +350,6 @@ Figure \ref{fig:trainset-vs-error} shows the error of all three models with incr
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\linewidth]{error-change-training-size.jpg}
-  \caption{comparison among three prediction schemes}
+  \caption{Comparison among three prediction schemes}
   \label{fig:trainset-vs-error}
 \end{figure}

@@ -4,12 +4,12 @@
 \contentsline {figure}{\numberline {1.3}{\ignorespaces PowerTAC simulation environment.}}{4}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces energy usage z Score over Monday}}{19}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces electricity usage z Score over Monday}}{19}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces electricity usage z Score over Monday}}{19}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces electricity usage z Score over week}}{20}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces electricity usage z Score over week}}{20}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces electricity usage z Score over week}}{20}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Electricity usage z Score over Monday}}{19}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Electricity usage z Score over Monday}}{19}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Electricity usage z Score over Monday}}{19}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Electricity usage z Score over week}}{20}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Electricity usage z Score over week}}{20}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Electricity usage z Score over week}}{20}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Number of customers vs Powertype.}}{22}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Population vs Powertype}}{22}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Energy vs PowerType.}}{22}
@@ -19,10 +19,10 @@
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Training prediction classifier for a cluster.}}{29}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Performance of the best classifier for each customer type. Customer Medical center was excluded as it was showing huge error. }}{34}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Kmeans cluster size vs MAPE. }}{35}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces cluster 0}}{36}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces cluster 1}}{36}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces cluster 2}}{36}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces cluster 3}}{36}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces comparison among three prediction schemes}}{38}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces comparison among three prediction schemes}}{38}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Cluster 0}}{36}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Cluster 1}}{36}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Cluster 2}}{36}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Cluster 3}}{36}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Comparison among three prediction schemes}}{38}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Comparison among three prediction schemes}}{38}
 \addvspace {10\p@ }

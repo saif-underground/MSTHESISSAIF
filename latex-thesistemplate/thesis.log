@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  1 AUG 2016 22:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.28)  2 AUG 2016 13:01
 entering extended mode
 **C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
 (C:/Users/Saif/Desktop/MS-THESIS/MSTHESISSAIF/latex-thesistemplate/thesis.tex
@@ -515,10 +515,6 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `witten2005data' on page 29 undefined on input line 18
-3.
-
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [29 <./cluster-toy-2.png>] [30]
@@ -636,29 +632,26 @@ Missing character: There is no ™ in font cmr12!
 
 ] (thesis.aux
 (acknowl.aux) (preface.aux) (abstract.aux) (null.aux) (chapter2.aux)
-(chapter3.aux) (chapter4.aux) (chapter5.aux) (chapter6.aux) (vitae.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
+(chapter3.aux) (chapter4.aux) (chapter5.aux) (chapter6.aux) (vitae.aux)) ) 
 Here is how much of TeX's memory you used:
- 4253 strings out of 493634
- 61907 string characters out of 3139732
+ 4252 strings out of 493634
+ 61891 string characters out of 3139732
  136712 words of memory out of 3000000
- 7528 multiletter control sequences out of 15000+200000
+ 7527 multiletter control sequences out of 15000+200000
  9184 words of font info for 32 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 26i,7n,32p,2117b,561s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Saif\Desktop\software\miktex\fonts\pk\ljfour\jknappen\ec\dpi600\tc
-rm1200.pk><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm
-/cmbx12.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/
-cm/cmmi12.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfont
-s/cm/cmmi8.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfo
-nts/cm/cmr12.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/am
-sfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (57 pages, 598769 bytes).
+ 26i,7n,32p,2097b,561s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\
+Users\Saif\Desktop\software\miktex\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.
+pk><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmbx12
+.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cmmi
+12.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/cm
+mi8.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/c
+mr10.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm/
+cmr12.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><C:/Users/Saif/Desktop/software/miktex/fonts/type1/public/amsfonts/
+cm/cmti12.pfb>
+Output written on thesis.pdf (57 pages, 597827 bytes).
 PDF statistics:
  250 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
